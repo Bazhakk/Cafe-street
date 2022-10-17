@@ -33,13 +33,50 @@
             </div>
 
             <div class="search header__search">
-                    <input type="text" placeholder="Cappuccino">
-                    <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5.66667 6.33333H24.0533C24.4259 6.33334 24.7943 6.41142 25.1349 6.56254C25.4754 6.71365 25.7805 6.93444 26.0305 7.21068C26.2805 7.48692 26.4698 7.81248 26.5863 8.16636C26.7027 8.52025 26.7437 8.89462 26.7067 9.26533L25.9067 17.2653C25.8409 17.9233 25.5329 18.5334 25.0426 18.9772C24.5523 19.4209 23.9146 19.6666 23.2533 19.6667H10.52C9.9033 19.6669 9.30557 19.4534 8.82859 19.0625C8.35162 18.6716 8.02487 18.1274 7.904 17.5227L5.66667 6.33333Z" stroke="#1D1D1D" stroke-width="2" stroke-linejoin="round"/>
-                        <path d="M20.3333 25H23M5.66667 6.33333L4.58667 2.00933C4.51444 1.721 4.34794 1.46508 4.11361 1.28221C3.87928 1.09934 3.59057 1.00001 3.29333 1H1.66667L5.66667 6.33333ZM9.66667 25H12.3333H9.66667Z" stroke="#1D1D1D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
+                <form>
+                    <input class="search__link" type="text" placeholder="Cappuccino">
+                </form>
+
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.66667 9.33333H25.0533C25.4259 9.33334 25.7943 9.41142 26.1349 9.56254C26.4754 9.71365 26.7805 9.93444 27.0305 10.2107C27.2805 10.4869 27.4698 10.8125 27.5863 11.1664C27.7027 11.5203 27.7437 11.8946 27.7067 12.2653L26.9067 20.2653C26.8409 20.9233 26.5329 21.5334 26.0426 21.9772C25.5523 22.4209 24.9146 22.6666 24.2533 22.6667H11.52C10.9033 22.6669 10.3056 22.4534 9.82859 22.0625C9.35162 21.6716 9.02487 21.1274 8.904 20.5227L6.66667 9.33333Z" stroke="#1D1D1D" stroke-width="2" stroke-linejoin="round"/>
+                    <path d="M21.3333 28H24M6.66667 9.33333L5.58667 5.00933C5.51444 4.721 5.34794 4.46508 5.11361 4.28221C4.87928 4.09934 4.59057 4.00001 4.29333 4H2.66667L6.66667 9.33333ZM10.6667 28H13.3333H10.6667Z" stroke="#1D1D1D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="27" cy="9" r="4.5" fill="#FF912B" stroke="white"/>
+                </svg>
             </div>
         </div>
     </header>
+
+    <main class="home">
+        <!--HERO-->
+
+        <section class="hero">
+            <div class="hero__container container">
+                <div class="hero__col hero__col_left">
+                    <h1 class="hero__title">Enjoy your <span class="hero__title_color">coffee</span> before your activity</h1>
+                    <p class="hero__text">Boost your productivity and build your<br> mood with a glass of coffee in the morning </p>
+
+                <div class="hero__order order">
+                    <a href="#" title="Order" class="button button_dark">Order Now
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <circle cx="11" cy="11" r="11" fill="#FF912B"/>
+                            <rect x="5" y="5" width="12" height="12" fill="url(#pattern0)"/>
+                            <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_502_25" transform="scale(0.0166667)"/>
+                            </pattern>
+                            <image id="image0_502_25" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALZSURBVHgB7ZuBddowEIbPTMAGVSdoNqjZIJ0g7QRNJ4BMEDpByAbpBKETlE6AMgFkgusddvpoym9LwjxOjr/3ZL+cbcX/0+l0kgyRwMxTKRv+H7XdSXHUF0TMLYcxpT4AWhZRUu5ECv5FmTOS8j3i/gsRfUEZo4LnUnzEMyVlzKgoiq2cP0U884H6gLjqdWA/3lBfEDGPgaIdZcro1d9fpGwDnispU/4RLP3ZUyW6jY/UJ8Rl5y0uvaZMKQ4ZRdBYTppkOMoP7ZJLKQ/isfevLxboqTrBeJQypnzxUiZ1V90xQnfKTSs53VDeOClrabyrF0PR9oQOVZR5dkWVm2tLr0IEOzllG6T2WIrgSatgpc6ucu7LL0yC7mrIwD6TMfSdGE9570aB9fwGdnNTRXHbhZy+gctlqOAVsFudOT0Au6MQdEwGLmJ25gTel2MqQP3CkTH0ncC7rkNdWvHAbtGtHbD7GMEocL0ne8AhNEYwClwl2cMBu+9CsEWXRi381IVgDRDWsjAH7NtgwfXqpgeXrSUg74A9KkorP4E9l8X551jBufRjB+yeYpC+eokGdDIEH5tl7VU0ZoyJwNXwjrs0OMqlWwKXIxs4YPd6iO3DivUEBHnaboMhRfATsFsJXA7Yn/WQIngJ7FaGJgfsXg9durQjG3Tr0vWi9qENN42OFloZZVleDyktrKBWtiAYtbDXQ6pgNDe+ojNSr76U4HLINjCs+LIhAZnyGZZ95H+WmvFxSyYYtBB/oHJ1G60kl8X5hcSe3b53kkvXGVfM507n5u+mYGofVvRzpxXZ52Z/u/QouFoOXbNdZtQ1XIlesC10Df360PsmBS0kXE4zqnLqc4zHGle0i+mqzLyOMwMDAwMDbxMZlr5y888J9NotJXDKupPg6kOSUGZW6k6Gw7+zVqI+k+i67mMmD/ucMqvptO6uBP+IuPee4jhl3elo/+HmmdMmtY91Wfcfe0B48y7j/zUAAAAASUVORK5CYII="/>
+                            </defs>
+                        </svg>
+                    </a>
+                    <a href="#" title="More" class="hero__link">More menu</a>
+                </div>
+                </div>
+
+                <div class="hero__col hero__col_right">
+                    <img src="img/hero-img.png" alt="Hero image" class="hero__img"/>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

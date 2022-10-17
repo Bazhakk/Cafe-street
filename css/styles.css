@@ -68,8 +68,45 @@ ul {
   justify-content: space-between;
 }
 
+.search {
+  display: flex;
+  align-items: center;
+}
+.search__link {
+  max-width: 222px;
+  border-radius: 35px;
+  padding: 11px 18px;
+}
+.search svg {
+  margin-right: 24px;
+}
+
+.button {
+  padding: 12px 32px;
+  border-radius: 33px;
+}
+.button_dark {
+  max-width: 170px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  background: #2F2105;
+  box-shadow: 0px 4px 32px rgba(223, 195, 124, 0.25);
+}
+.button_dark svg {
+  margin: 10px;
+}
+
 .header {
   margin-top: 70px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background: transparent;
 }
 .header__container {
   display: flex;
@@ -103,18 +140,66 @@ ul {
   color: #000000;
 }
 .main-menu__link_about {
-  color: #FF902B;
+  color: #FF912B;
 }
 
-.search {
+.hero {
+  height: 100vh;
+  background-image: url("../img/bg-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero__container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
-.search input {
-  color: #FF902B;
+.hero__col_left {
+  max-width: 489px;
+  flex-basis: 50%;
+  padding: 140px 0 143px;
 }
-.search svg {
-  margin-right: 24px;
+.hero__col_right {
+  max-width: 527px;
+  flex-basis: 50%;
+  padding: 82px 0 85px;
+}
+.hero__order {
+  display: flex;
+}
+.hero__title {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  margin-bottom: 24px;
+  color: #2F2105;
+}
+.hero__title_color {
+  color: #FF912B;
+}
+.hero__text {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 32px;
+  color: #7E7D7A;
+}
+.hero__link {
+  max-width: 118px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 24px;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  align-items: center;
+  text-align: center;
+  color: #F4AE26;
 }
 
 /*# sourceMappingURL=styles.css.map */
