@@ -80,5 +80,22 @@ ul {
 .button_dark svg {
   margin: 10px;
 }
+.button_hot, .button_cold {
+  max-width: 64px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+}
+.button_hot {
+  margin: 12px 30px 24px;
+  border: 2px solid #FF912B;
+  color: #FF912B;
+}
+.button_cold {
+  border: 2px solid #FFD28F;
+  color: #FFD28F;
+}
 
 /*# sourceMappingURL=commons.css.map */

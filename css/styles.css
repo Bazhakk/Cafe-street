@@ -100,6 +100,23 @@ ul {
 .button_dark svg {
   margin: 10px;
 }
+.button_hot, .button_cold {
+  max-width: 64px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+}
+.button_hot {
+  margin: 12px 30px 24px;
+  border: 2px solid #FF912B;
+  color: #FF912B;
+}
+.button_cold {
+  border: 2px solid #FFD28F;
+  color: #FFD28F;
+}
 
 .header {
   margin-top: 70px;
@@ -144,7 +161,7 @@ ul {
 }
 
 .hero {
-  height: 100vh;
+  height: 150vh;
   background-image: url("../img/bg-image.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -200,6 +217,55 @@ ul {
   align-items: center;
   text-align: center;
   color: #F4AE26;
+}
+
+.popular__container {
+  max-width: 1268px;
+  margin: 0 86px 167px;
+}
+.popular__title {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+.popular__title_subtitle {
+  border-radius: 12px;
+  text-decoration: underline #FF912B;
+}
+.popular__box {
+  max-width: 343px;
+  border-radius: 12px;
+  background: #FFFFFF;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 100%);
+  backdrop-filter: blur(2px);
+  filter: drop-shadow(10px 10px 32px rgba(0, 0, 0, 0.25));
+}
+.popular__info {
+  display: flex;
+  margin: 19px 29px;
+}
+.popular__img {
+  max-width: 307px;
+  margin: 24px 18px 19px;
+}
+.popular__logo {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.04em;
+  color: #2F2105;
+}
+.popular__namber {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2F2105;
 }
 
 /*# sourceMappingURL=styles.css.map */

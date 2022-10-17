@@ -57,7 +57,7 @@
 //HERO
 
 .hero {
-    height: 100vh;
+    height: 150vh;
     background-image: url("../img/bg-image.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,4 +130,67 @@
 
 
 //POPULAR
+
+.popular {
+
+    &__container {
+        max-width: 1268px;
+        margin: 0 86px 167px;  
+    }
+
+    &__title {
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
+        align-items: center;
+        letter-spacing: 0.04em; 
+        color: $black-color;
+
+        &_subtitle {
+            border-radius: 12px;
+            text-decoration: underline $orange-color;
+        }
+    }
+
+    &__box {
+        max-width: 343px;
+        border-radius: 12px;
+        background: $white-color;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 100%);
+        backdrop-filter: blur(2px);
+        filter: drop-shadow(10px 10px 32px rgba(0, 0, 0, 0.25));
+}
+
+    &__info {
+        display: flex;
+        margin: 19px 29px;
+    }
+
+    &__img {
+        max-width: 307px;
+        margin: 24px 18px 19px;
+    }
+
+
+    &__logo {
+        //margin: 19px 29px 33px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.04em;
+        color: $title-color;
+    }
+
+    &__namber {
+        //padding-right: 33px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        color: $title-color;
+    }
+}
+
 

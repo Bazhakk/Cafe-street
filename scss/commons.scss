@@ -71,5 +71,24 @@ ul {
         }
       }
 
-      
+      &_hot,
+      &_cold {
+        max-width: 64px;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      &_hot {
+        margin: 12px 30px 24px;
+        border: 2px solid $orange-color;
+        color: $orange-color;
+      }
+
+      &_cold {
+        border: 2px solid $cold-color;
+        color: $cold-color;
+      }
     }
