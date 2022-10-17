@@ -1,0 +1,67 @@
+@import "variables";
+@import "fonts";
+@import "commons";
+
+//HEADER
+
+.header {
+    margin-top: 70px;
+    //position: absolute;
+    //top: 0;
+    //background: transparent;
+
+    &__container {
+        display: flex;
+    }
+
+    &__menu {
+        display: flex;
+        align-items: center;
+    }
+
+    &__search {
+        margin-left: auto;
+    }
+
+    .logo {
+        max-height: 30px;
+      
+        svg {
+          max-height: 30px;
+        }
+}
+}
+
+.main-menu {
+    display: flex;
+    margin-left: 269px;
+    margin-right: 142px;
+    align-items: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    &__link {
+        margin-left: 32px;
+        color: $black-color;
+
+        &_about {
+            color: $orange-color;
+        }
+    }
+}
+
+.search {
+    display: flex;
+    align-items: center;
+
+    input {
+        color: $orange-color;
+    }
+
+    svg {
+        margin-right: 24px;
+    }
+}
+

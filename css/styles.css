@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.eot") format("embedded-opentype"), url("../fonts/Poppins-Regular.svg") format("svg"), url("../fonts/Poppins-Regular.woff") format("woff"), url("../fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Medium.eot") format("embedded-opentype"), url("../fonts/Poppins-Medium.svg") format("svg"), url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-SemiBold.eot") format("embedded-opentype"), url("../fonts/Poppins-SemiBold.svg") format("svg"), url("../fonts/Poppins-SemiBold.woff") format("woff"), url("../fonts/Poppins-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Bold.eot") format("embedded-opentype"), url("../fonts/Poppins-Bold.svg") format("svg"), url("../fonts/Poppins-Bold.woff") format("woff"), url("../fonts/Poppins-Bold.woff2") format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.eot") format("embedded-opentype"), url("../fonts/Poppins-Regular.svg") format("svg"), url("../fonts/Poppins-Regular.woff") format("woff"), url("../fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Medium.eot") format("embedded-opentype"), url("../fonts/Poppins-Medium.svg") format("svg"), url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-SemiBold.eot") format("embedded-opentype"), url("../fonts/Poppins-SemiBold.svg") format("svg"), url("../fonts/Poppins-SemiBold.woff") format("woff"), url("../fonts/Poppins-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Bold.eot") format("embedded-opentype"), url("../fonts/Poppins-Bold.svg") format("svg"), url("../fonts/Poppins-Bold.woff") format("woff"), url("../fonts/Poppins-Bold.woff2") format("woff2");
+  font-weight: 500;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main,
+section {
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.header {
+  margin-top: 70px;
+}
+.header__container {
+  display: flex;
+}
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+.header__search {
+  margin-left: auto;
+}
+.header .logo {
+  max-height: 30px;
+}
+.header .logo svg {
+  max-height: 30px;
+}
+
+.main-menu {
+  display: flex;
+  margin-left: 269px;
+  margin-right: 142px;
+  align-items: center;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+.main-menu__link {
+  margin-left: 32px;
+  color: #000000;
+}
+.main-menu__link_about {
+  color: #FF902B;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  color: #FF902B;
+}
+.search svg {
+  margin-right: 24px;
+}
+
+/*# sourceMappingURL=styles.css.map */
