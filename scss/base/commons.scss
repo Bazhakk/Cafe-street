@@ -1,28 +1,6 @@
 @import "variables";
 @import "fonts";
 
-body {
-    margin: 0;
-    padding: 0;
-  }
-
-main,
-section {
- overflow-x: hidden;
-}
-
-img {
-  width: 100%;
-}
-
-a {
- text-decoration: none;
-  }
-  
-ul {
- list-style: none;
-  }
-
   .container {
     width: 100%;
     max-width: 1160px;
@@ -35,12 +13,22 @@ ul {
     .search {
       display: flex;
       align-items: center;
-      
   
-      &__link {
-          max-width: 222px;
-          border-radius: 35px;
-          padding: 11px 18px;
+      &__form {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 222px;
+        border-radius: 35px;
+        padding: 11px 18px;
+        background: #FFFFFF;
+      }
+
+      &__field {
+        background: transparent;
+        border: 0;
+        outline: 0;
+        font-size: 16px;
       }
   
       svg {
