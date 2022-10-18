@@ -1,0 +1,47 @@
+.header {
+    margin-top: 70px;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    background: transparent;
+    
+    &__container {
+        display: flex;
+    }
+
+    &__menu {
+        display: flex;
+        align-items: center;
+    }
+
+    &__search {
+        margin-left: auto;
+    }
+
+    .logo {
+        max-height: 30px;
+        
+        svg {
+            max-height: 30px;
+        }
+    }
+}
+
+.main-menu {
+    display: flex;
+    margin-left: 269px;
+    margin-right: 142px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    &__link {
+        margin-left: 32px;
+        color: $black-color;
+
+        &_about {
+            color: $orange-color;
+        }
+    }
+}

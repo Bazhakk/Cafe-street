@@ -3,122 +3,13 @@
 @import "../base/base";
 @import "../base/commons";
 @import "../sections/hero";
-
-//HEADER
-
-.header {
-    margin-top: 70px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    background: transparent;
-    
-    &__container {
-        display: flex;
-    }
-
-    &__menu {
-        display: flex;
-        align-items: center;
-    }
-
-    &__search {
-        margin-left: auto;
-    }
-
-    .logo {
-        max-height: 30px;
-      
-        svg {
-          max-height: 30px;
-        }
-    }
-}
-
-.main-menu {
-    display: flex;
-    margin-left: 269px;
-    margin-right: 142px;
-    align-items: center;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-
-    &__link {
-        margin-left: 32px;
-        color: $black-color;
-
-        &_about {
-            color: $orange-color;
-        }
-    }
-}
+@import "../sections/header";
+@import "../sections/popular";
 
 
 
-//POPULAR
-
-.popular {
-
-    &__container {
-        max-width: 1268px;
-        margin: 0 86px 167px;  
-    }
-
-    &__title {
-        font-family: 'Poppins';
-        font-weight: 600;
-        font-size: 32px;
-        line-height: 48px;
-        align-items: center;
-        letter-spacing: 0.04em; 
-        color: $black-color;
-
-        &_subtitle {
-            border-radius: 12px;
-            text-decoration: underline $orange-color;
-        }
-    }
-
-    &__box {
-        max-width: 343px;
-        border-radius: 12px;
-        background: $white-color;
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 100%);
-        backdrop-filter: blur(2px);
-        filter: drop-shadow(10px 10px 32px rgba(0, 0, 0, 0.25));
-  }
-
-    &__info {
-        display: flex;
-        margin: 19px 29px;
-    }
-
-    &__img {
-        max-width: 307px;
-        margin: 24px 18px 19px;
-    }
 
 
-    &__logo {
-        //margin: 19px 29px 33px;
-        font-family: 'Poppins';
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 36px;
-        letter-spacing: 0.04em;
-        color: $title-color;
-    }
 
-    &__namber {
-        //padding-right: 33px;
-        font-family: 'Poppins';
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 36px;
-        color: $title-color;
-    }
-}
 
 
