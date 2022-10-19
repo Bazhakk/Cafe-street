@@ -379,4 +379,65 @@ ul {
   background: #FF912B;
 }
 
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Regular.eot") format("embedded-opentype"), url("../../fonts/Poppins-Regular.svg") format("svg"), url("../../fonts/Poppins-Regular.woff") format("woff"), url("../../fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Medium.eot") format("embedded-opentype"), url("../../fonts/Poppins-Medium.svg") format("svg"), url("../../fonts/Poppins-Medium.woff") format("woff"), url("../../fonts/Poppins-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-SemiBold.eot") format("embedded-opentype"), url("../../fonts/Poppins-SemiBold.svg") format("svg"), url("../../fonts/Poppins-SemiBold.woff") format("woff"), url("../../fonts/Poppins-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Bold.eot") format("embedded-opentype"), url("../../fonts/Poppins-Bold.svg") format("svg"), url("../../fonts/Poppins-Bold.woff") format("woff"), url("../../fonts/Poppins-Bold.woff2") format("woff2");
+  font-weight: 500;
+}
+.delivery__container {
+  max-width: 1170px;
+  margin: 120px 135px;
+}
+.delivery__title {
+  margin-bottom: 32px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  align-items: center;
+  color: #000000;
+}
+.delivery__box {
+  display: flex;
+  text-align: center;
+  background-color: aqua;
+}
+.delivery__item {
+  max-width: 370px;
+  padding: 16px 24px;
+}
+.delivery__img {
+  max-width: 159px;
+}
+.delivery__subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #2F2105;
+}
+.delivery__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
 /*# sourceMappingURL=home.css.map */

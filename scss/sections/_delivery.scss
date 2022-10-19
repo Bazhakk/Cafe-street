@@ -1,0 +1,52 @@
+@import "../base/fonts";
+@import "../base/variables";
+
+.delivery {
+    
+    &__container {
+        max-width: 1170px;
+        margin: 120px 135px;
+    }
+
+    &__title {
+        margin-bottom: 32px;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
+        align-items: center;
+        color: $bl-color;
+    }
+
+    &__box {
+        display: flex;
+        text-align: center;
+        background-color: aqua;
+    }
+
+    &__item {
+        max-width: 370px;
+        padding: 16px 24px;
+    }
+
+    &__img {
+        max-width: 159px;
+    }
+
+    &__subtitle {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: $black-color;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: $bl-color;
+    }
+}
