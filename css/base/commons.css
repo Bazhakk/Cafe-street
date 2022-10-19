@@ -40,13 +40,14 @@
   background: #FFFFFF;
 }
 .search__field {
-  background: transparent;
   border: 0;
   outline: 0;
+  text-align: center;
   font-size: 16px;
+  background: transparent;
 }
-.search svg {
-  margin-right: 24px;
+.search__carts {
+  margin: 24px;
 }
 
 .button {
@@ -67,6 +68,16 @@
 }
 .button_dark svg {
   margin: 10px;
+}
+.button_more {
+  width: 70px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #F4AE26;
 }
 .button_hot, .button_cold {
   max-width: 64px;

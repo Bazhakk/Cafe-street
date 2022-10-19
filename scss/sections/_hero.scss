@@ -15,58 +15,45 @@
       padding-top: 180px;
   }
 
-  &__col {
-  
-      &_left {
-          max-width: 489px;
-          flex-basis: 50%;
-          // padding: 140px 0 143px;
-      }
-  
-      &_right {
-          max-width: 527px;
-          flex-basis: 50%;
-          // padding: 82px 0 85px;
-      }
+  &__enjoy {
+    display: flex;
+    padding-top: 50px;
+  }
+
+  &__box {
+    max-width: 490px;
+    margin-right: 167px;
+  }
+
+  &__img {
+    max-width: 527px;
+  }
+
+  &__button {
+    display: flex;
   }
 
   &__order {
-      display: flex;
+    display: flex;
   }
 
   &__title {
-      font-weight: 600;
-      font-size: 48px;
-      line-height: 72px;
-      margin-bottom: 24px;
-      color: $title-color;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 24px;
+    color: $black-color;
 
-      &_color {
-          color: $orange-color;
-      }
+    &_color {
+        color: $span-color;
+    }
   }
 
   &__text {
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 27px;
-      margin-bottom: 32px;
-      color: $text-color;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 32px;
+    color: $text-color;
   }
-
-  &__link {
-      max-width: 118px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 10px 24px;
-      
-      font-weight: 700;
-      font-size: 12px;
-      line-height: 18px;
-      align-items: center;
-      text-align: center;
-      color: $menu-color;
-  }
-
 }

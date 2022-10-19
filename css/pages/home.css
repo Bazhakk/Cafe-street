@@ -103,13 +103,14 @@ ul {
   background: #FFFFFF;
 }
 .search__field {
-  background: transparent;
   border: 0;
   outline: 0;
+  text-align: center;
   font-size: 16px;
+  background: transparent;
 }
-.search svg {
-  margin-right: 24px;
+.search__carts {
+  margin: 24px;
 }
 
 .button {
@@ -130,6 +131,16 @@ ul {
 }
 .button_dark svg {
   margin: 10px;
+}
+.button_more {
+  width: 70px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #F4AE26;
 }
 .button_hot, .button_cold {
   max-width: 64px;
@@ -182,13 +193,19 @@ ul {
   align-items: center;
   padding-top: 180px;
 }
-.hero__col_left {
-  max-width: 489px;
-  flex-basis: 50%;
+.hero__enjoy {
+  display: flex;
+  padding-top: 50px;
 }
-.hero__col_right {
+.hero__box {
+  max-width: 490px;
+  margin-right: 167px;
+}
+.hero__img {
   max-width: 527px;
-  flex-basis: 50%;
+}
+.hero__button {
+  display: flex;
 }
 .hero__order {
   display: flex;
@@ -210,20 +227,27 @@ ul {
   margin-bottom: 32px;
   color: #7E7D7A;
 }
-.hero__link {
-  max-width: 118px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 24px;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 18px;
-  align-items: center;
-  text-align: center;
-  color: #F4AE26;
-}
 
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Regular.eot") format("embedded-opentype"), url("../../fonts/Poppins-Regular.svg") format("svg"), url("../../fonts/Poppins-Regular.woff") format("woff"), url("../../fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Medium.eot") format("embedded-opentype"), url("../../fonts/Poppins-Medium.svg") format("svg"), url("../../fonts/Poppins-Medium.woff") format("woff"), url("../../fonts/Poppins-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-SemiBold.eot") format("embedded-opentype"), url("../../fonts/Poppins-SemiBold.svg") format("svg"), url("../../fonts/Poppins-SemiBold.woff") format("woff"), url("../../fonts/Poppins-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Bold.eot") format("embedded-opentype"), url("../../fonts/Poppins-Bold.svg") format("svg"), url("../../fonts/Poppins-Bold.woff") format("woff"), url("../../fonts/Poppins-Bold.woff2") format("woff2");
+  font-weight: 500;
+}
 .header {
   margin-top: 70px;
   width: 100%;
@@ -236,6 +260,7 @@ ul {
 }
 .header__menu {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .header__search {
@@ -250,8 +275,8 @@ ul {
 
 .main-menu {
   display: flex;
+  justify-content: space-between;
   margin-left: 269px;
-  margin-right: 142px;
   align-items: center;
   font-weight: 400;
   font-size: 18px;
@@ -259,12 +284,32 @@ ul {
 }
 .main-menu__link {
   margin-left: 32px;
-  color: #000000;
+  color: #2F2105;
 }
 .main-menu__link_about {
   color: #FF912B;
 }
 
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Regular.eot") format("embedded-opentype"), url("../../fonts/Poppins-Regular.svg") format("svg"), url("../../fonts/Poppins-Regular.woff") format("woff"), url("../../fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Medium.eot") format("embedded-opentype"), url("../../fonts/Poppins-Medium.svg") format("svg"), url("../../fonts/Poppins-Medium.woff") format("woff"), url("../../fonts/Poppins-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-SemiBold.eot") format("embedded-opentype"), url("../../fonts/Poppins-SemiBold.svg") format("svg"), url("../../fonts/Poppins-SemiBold.woff") format("woff"), url("../../fonts/Poppins-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Bold.eot") format("embedded-opentype"), url("../../fonts/Poppins-Bold.svg") format("svg"), url("../../fonts/Poppins-Bold.woff") format("woff"), url("../../fonts/Poppins-Bold.woff2") format("woff2");
+  font-weight: 500;
+}
 .popular__container {
   max-width: 1268px;
   margin: 0 86px 167px;
