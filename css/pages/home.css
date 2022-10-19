@@ -113,18 +113,16 @@ ul {
   margin: 24px;
 }
 
-.button {
-  padding: 12px 32px;
-  border-radius: 33px;
-}
 .button_dark {
   max-width: 170px;
-  font-family: "Poppins";
+  display: flex;
+  padding: 12px 32px;
+  margin-right: 26px;
+  align-items: center;
   font-weight: 600;
   font-size: 14px;
   line-height: 21px;
-  display: flex;
-  align-items: center;
+  border-radius: 33px;
   color: #FFFFFF;
   background: #2F2105;
   box-shadow: 0px 4px 32px rgba(223, 195, 124, 0.25);
@@ -133,29 +131,30 @@ ul {
   margin: 10px;
 }
 .button_more {
-  width: 70px;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 18px;
+  max-width: 70px;
   display: flex;
   align-items: center;
   text-align: center;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
   color: #F4AE26;
 }
 .button_hot, .button_cold {
   max-width: 64px;
-  box-sizing: border-box;
+  max-height: 32px;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 10px 10px;
   border-radius: 8px;
 }
 .button_hot {
-  margin: 12px 30px 24px;
+  margin-right: 24px;
   border: 2px solid #FF912B;
   color: #FF912B;
 }
 .button_cold {
+  margin-right: 82px;
   border: 2px solid #FFD28F;
   color: #FFD28F;
 }
@@ -315,8 +314,8 @@ ul {
   margin: 0 86px 167px;
 }
 .popular__title {
-  font-family: "Poppins";
   font-weight: 600;
+  margin-bottom: 32px;
   font-size: 32px;
   line-height: 48px;
   align-items: center;
@@ -327,36 +326,57 @@ ul {
   border-radius: 12px;
   text-decoration: underline #FF912B;
 }
-.popular__box {
-  max-width: 343px;
-  border-radius: 12px;
-  background: #FFFFFF;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 100%);
-  backdrop-filter: blur(2px);
+.popular .order {
+  display: flex;
+  position: relative;
+  margin: 32px 149px;
+  background: red;
+  margin: 44px;
+}
+.popular .order__item {
+  max-width: 355px;
   filter: drop-shadow(10px 10px 32px rgba(0, 0, 0, 0.25));
 }
-.popular__info {
-  display: flex;
-  margin: 19px 29px;
-}
-.popular__img {
+.popular .order__img {
   max-width: 307px;
   margin: 24px 18px 19px;
 }
-.popular__logo {
-  font-family: "Poppins";
-  font-weight: 600;
+.popular .order__box {
+  display: flex;
+  margin-bottom: 12px;
+}
+.popular .order__vanilla, .popular .order__latte, .popular .order__espresso, .popular .order__price {
   font-size: 24px;
   line-height: 36px;
+  display: flex;
+  align-items: center;
   letter-spacing: 0.04em;
   color: #2F2105;
 }
-.popular__namber {
-  font-family: "Poppins";
+.popular .order__vanilla {
+  font-weight: 600;
+  margin-right: 69px;
+}
+.popular .order__latte {
+  margin-right: 44px;
+}
+.popular .order__espresso {
+  margin-right: 118px;
+}
+.popular .order__price {
   font-weight: 700;
-  font-size: 24px;
-  line-height: 36px;
-  color: #2F2105;
+}
+.popular .order__choice {
+  display: flex;
+  margin-bottom: 19px;
+}
+.popular .order__cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 64px;
+  background: #FF912B;
 }
 
 /*# sourceMappingURL=home.css.map */

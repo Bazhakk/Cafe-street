@@ -40,17 +40,17 @@
 
   //BUTTON
     .button {
-      padding: 12px 32px;
-      border-radius: 33px;
-
+      
       &_dark {
         max-width: 170px;
-        font-family: 'Poppins';
+        display: flex;
+        padding: 12px 32px;
+        margin-right: 26px;
+        align-items: center;
         font-weight: 600;
         font-size: 14px;
         line-height: 21px;
-        display: flex;
-        align-items: center;
+        border-radius: 33px;
         color: $white-color;
         background: $black-color;
         box-shadow: 0px 4px 32px rgba(223, 195, 124, 0.25);
@@ -61,33 +61,34 @@
       }
 
       &_more {
-        width: 70px;
-        font-weight: 700;
-        font-size: 12px;
-        line-height: 18px;
+        max-width: 70px;
         display: flex;
         align-items: center;
         text-align: center;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 18px;
         color: $menu-color;
       }
 
       &_hot,
       &_cold {
         max-width: 64px;
-        box-sizing: border-box;
+        max-height: 32px;
         justify-content: center;
         align-items: center;
-        padding: 10px;
+        padding: 10px 10px;
         border-radius: 8px;
       }
 
       &_hot {
-        margin: 12px 30px 24px;
+        margin-right: 24px;
         border: 2px solid $span-color;
         color: $span-color;
       }
 
       &_cold {
+        margin-right: 82px;
         border: 2px solid $cold-color;
         color: $cold-color;
       }

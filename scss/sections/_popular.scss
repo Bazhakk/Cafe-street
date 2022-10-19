@@ -9,8 +9,8 @@
     }
 
     &__title {
-        font-family: 'Poppins';
         font-weight: 600;
+        margin-bottom: 32px;
         font-size: 32px;
         line-height: 48px;
         align-items: center;
@@ -23,42 +23,74 @@
         }
     }
 
-    &__box {
-        max-width: 343px;
-        border-radius: 12px;
-        background: $white-color;
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 100%);
-        backdrop-filter: blur(2px);
-        filter: drop-shadow(10px 10px 32px rgba(0, 0, 0, 0.25));
-  }
-
-    &__info {
+    .order {
         display: flex;
-        margin: 19px 29px;
-    }
+        position: relative;
+        margin: 32px 149px;
+        // background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 100%);
+        // backdrop-filter: blur(2px);
+        // border-radius: 12px;
+        // background: $white-color;
+        background: red;
+        margin: 44px;
 
-    &__img {
-        max-width: 307px;
-        margin: 24px 18px 19px;
-    }
+        &__item {
+            max-width: 355px;
+            filter: drop-shadow(10px 10px 32px rgba(0, 0, 0, 0.25));
+        }
 
+        &__img {
+            max-width: 307px;
+            margin: 24px 18px 19px;
+        }
 
-    &__logo {
-        //margin: 19px 29px 33px;
-        font-family: 'Poppins';
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 36px;
-        letter-spacing: 0.04em;
-        color: $black-color;
-    }
+        &__box {
+            display: flex;
+            margin-bottom: 12px;
+        }
 
-    &__namber {
-        //padding-right: 33px;
-        font-family: 'Poppins';
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 36px;
-        color: $black-color;
+        &__vanilla,
+        &__latte,
+        &__espresso,
+        &__price {
+            font-size: 24px;
+            line-height: 36px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.04em;
+            color: $black-color;
+        }
+
+        &__vanilla{
+            font-weight: 600;
+            margin-right: 69px;
+        }
+
+        &__latte {
+            margin-right: 44px;
+        }
+
+        &__espresso {
+            margin-right: 118px;
+        }
+
+        &__price {
+            font-weight: 700;
+        }
+
+        &__choice {
+            display: flex;
+            margin-bottom: 19px;
+        }
+
+        &__cart {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            border-radius: 64px;
+            background: $span-color;
+        }
     }
 }
+    
