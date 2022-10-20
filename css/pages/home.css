@@ -119,6 +119,7 @@ ul {
   padding: 12px 32px;
   margin-right: 26px;
   align-items: center;
+  text-align: center;
   font-weight: 600;
   font-size: 14px;
   line-height: 21px;
@@ -440,6 +441,77 @@ ul {
   text-align: center;
   letter-spacing: 0.04em;
   color: #000000;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Regular.eot") format("embedded-opentype"), url("../../fonts/Poppins-Regular.svg") format("svg"), url("../../fonts/Poppins-Regular.woff") format("woff"), url("../../fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Medium.eot") format("embedded-opentype"), url("../../fonts/Poppins-Medium.svg") format("svg"), url("../../fonts/Poppins-Medium.woff") format("woff"), url("../../fonts/Poppins-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-SemiBold.eot") format("embedded-opentype"), url("../../fonts/Poppins-SemiBold.svg") format("svg"), url("../../fonts/Poppins-SemiBold.woff") format("woff"), url("../../fonts/Poppins-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Bold.eot") format("embedded-opentype"), url("../../fonts/Poppins-Bold.svg") format("svg"), url("../../fonts/Poppins-Bold.woff") format("woff"), url("../../fonts/Poppins-Bold.woff2") format("woff2");
+  font-weight: 500;
+}
+.about__container {
+  max-width: 1490px;
+  margin-top: 208px;
+  background-image: url(../../img/background-image.png);
+}
+.about__box {
+  display: flex;
+}
+.about__img {
+  max-width: 360px;
+  margin-top: -88px;
+  margin-left: 270px;
+  margin-bottom: 63px;
+  filter: drop-shadow(0px 6px 16px rgba(0, 0, 0, 0.16));
+}
+.about__info {
+  max-width: 478px;
+  margin: 88px 110px 170px 84px;
+}
+.about__title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 24px;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+.about__title_span {
+  border-radius: 12px;
+  text-decoration: underline #FF912B;
+}
+.about__subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 16px;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+.about__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 32px;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #7E7D7A;
 }
 
 /*# sourceMappingURL=home.css.map */
