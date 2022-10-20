@@ -15,12 +15,16 @@
         line-height: 48px;
         align-items: center;
         color: $bl-color;
+
+        &_subtitle {
+            border-radius: 12px;
+            text-decoration: underline $span-color;
+        }
     }
 
     &__box {
         display: flex;
         text-align: center;
-        background-color: aqua;
     }
 
     &__item {

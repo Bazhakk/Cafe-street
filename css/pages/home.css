@@ -329,7 +329,6 @@ ul {
 .popular .order {
   display: flex;
   position: relative;
-  margin: 32px 149px;
   background: red;
   margin: 44px;
 }
@@ -411,10 +410,13 @@ ul {
   align-items: center;
   color: #000000;
 }
+.delivery__title_subtitle {
+  border-radius: 12px;
+  text-decoration: underline #FF912B;
+}
 .delivery__box {
   display: flex;
   text-align: center;
-  background-color: aqua;
 }
 .delivery__item {
   max-width: 370px;
