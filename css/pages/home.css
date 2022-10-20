@@ -514,4 +514,94 @@ ul {
   color: #7E7D7A;
 }
 
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Regular.eot") format("embedded-opentype"), url("../../fonts/Poppins-Regular.svg") format("svg"), url("../../fonts/Poppins-Regular.woff") format("woff"), url("../../fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Medium.eot") format("embedded-opentype"), url("../../fonts/Poppins-Medium.svg") format("svg"), url("../../fonts/Poppins-Medium.woff") format("woff"), url("../../fonts/Poppins-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-SemiBold.eot") format("embedded-opentype"), url("../../fonts/Poppins-SemiBold.svg") format("svg"), url("../../fonts/Poppins-SemiBold.woff") format("woff"), url("../../fonts/Poppins-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Bold.eot") format("embedded-opentype"), url("../../fonts/Poppins-Bold.svg") format("svg"), url("../../fonts/Poppins-Bold.woff") format("woff"), url("../../fonts/Poppins-Bold.woff2") format("woff2");
+  font-weight: 500;
+}
+.menu__container {
+  max-width: 1150px;
+  margin: 120px 146px;
+}
+.menu__title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+.menu__title_span {
+  border-radius: 12px;
+  text-decoration: underline #FF912B;
+}
+.menu .list-menu {
+  max-width: 343px;
+  background: aqua;
+  border-radius: 12px;
+}
+.menu .list-menu__item {
+  max-width: 282px;
+  padding: 19px 30px;
+}
+.menu .list-menu__img {
+  max-width: 308px;
+  padding: 24px 18px 19px;
+}
+.menu .list-menu__box {
+  display: flex;
+  margin-bottom: 6px;
+}
+.menu .list-menu__title {
+  margin-right: 106px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #2F2105;
+}
+.menu .list-menu__price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #2F2105;
+}
+.menu .list-menu__choice {
+  display: flex;
+}
+.menu .list-menu__characteristic {
+  margin-right: 75px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #7E7D7A;
+}
+.menu .list-menu__cart {
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=home.css.map */

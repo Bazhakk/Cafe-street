@@ -1,2 +1,89 @@
 @import "../base/fonts";
 @import "../base/variables";
+
+.menu {
+
+    &__container {
+        max-width: 1150px;
+        margin: 120px 146px;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
+        align-items: center;
+        letter-spacing: 0.04em;
+        color: $bl-color;
+
+        &_span {
+            border-radius: 12px;
+            text-decoration: underline $span-color;
+        }
+    }
+
+    .list-menu {
+        max-width: 343px;
+        //display: flex;
+        background: aqua;
+        border-radius: 12px;
+        //background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 100%);
+        //backdrop-filter: blur(2px);
+
+        &__item {
+            max-width: 282px;
+            padding: 19px 30px;
+        }
+
+        &__img {
+            max-width: 308px;
+            padding: 24px 18px 19px;
+        }
+
+        &__box {
+            display: flex;
+            margin-bottom: 6px;
+        }
+
+        &__title {
+            margin-right: 106px;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.04em;
+            color: $black-color;
+        }
+
+        &__price {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.04em;
+            color: $black-color;
+        }
+
+        &__choice {
+            display: flex;
+        }
+    
+        &__characteristic {
+            margin-right: 75px;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 21px;
+            align-items: center;
+            letter-spacing: 0.04em;
+            color: $text-color;
+        }
+
+        &__cart {
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
