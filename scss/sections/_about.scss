@@ -5,7 +5,8 @@
 
     &__container {
         max-width: 1490px;
-        margin-top: 208px;
+        max-height: 100vh;
+        //margin-top: 208px;
         background-image: url(../../img/background-image.png);
     }
 
@@ -15,7 +16,6 @@
 
     &__img {
         max-width: 360px;
-        margin-top: -88px;
         margin-left: 270px;
         margin-bottom: 63px;
         filter: drop-shadow(0px 6px 16px rgba(0, 0, 0, 0.16));
