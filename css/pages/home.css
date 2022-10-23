@@ -144,9 +144,8 @@ ul {
 .button_hot, .button_cold {
   max-width: 64px;
   max-height: 32px;
-  justify-content: center;
   align-items: center;
-  padding: 10px 10px;
+  padding: 5px;
   border-radius: 8px;
 }
 .button_hot {
@@ -155,7 +154,7 @@ ul {
   color: #FF912B;
 }
 .button_cold {
-  margin-right: 82px;
+  margin-right: 107px;
   border: 2px solid #FFD28F;
   color: #FFD28F;
 }
@@ -330,12 +329,20 @@ ul {
 .popular .order {
   display: flex;
   position: relative;
-  background: red;
-  margin: 44px;
+}
+.popular .order__icon {
+  position: absolute;
+  margin: 30px 28px;
 }
 .popular .order__item {
   max-width: 355px;
+  margin: 44px;
+  margin: 19px auto;
+  border-radius: 12px;
+  background: #FFFFFF;
   filter: drop-shadow(10px 10px 32px rgba(0, 0, 0, 0.25));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 100%);
+  backdrop-filter: blur(2px);
 }
 .popular .order__img {
   max-width: 307px;
@@ -343,38 +350,40 @@ ul {
 }
 .popular .order__box {
   display: flex;
-  margin-bottom: 12px;
+  margin: 0 24px;
 }
-.popular .order__vanilla, .popular .order__latte, .popular .order__espresso, .popular .order__price {
+.popular .order__name {
+  font-weight: 600px;
   font-size: 24px;
   line-height: 36px;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #2F2105;
 }
-.popular .order__vanilla {
+.popular .order__name_vanilla {
   font-weight: 600;
   margin-right: 69px;
 }
-.popular .order__latte {
+.popular .order__name_latte {
+  font-weight: 600;
   margin-right: 44px;
 }
-.popular .order__espresso {
+.popular .order__name_espresso {
+  font-weight: 600;
   margin-right: 118px;
 }
 .popular .order__price {
   font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #2F2105;
 }
 .popular .order__choice {
   display: flex;
-  margin-bottom: 19px;
+  margin: 0 24px 24px;
 }
 .popular .order__cart {
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 10px 10px;
   border-radius: 64px;
   background: #FF912B;
 }

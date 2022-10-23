@@ -81,9 +81,8 @@
 .button_hot, .button_cold {
   max-width: 64px;
   max-height: 32px;
-  justify-content: center;
   align-items: center;
-  padding: 10px 10px;
+  padding: 5px;
   border-radius: 8px;
 }
 .button_hot {
@@ -92,7 +91,7 @@
   color: #FF912B;
 }
 .button_cold {
-  margin-right: 82px;
+  margin-right: 107px;
   border: 2px solid #FFD28F;
   color: #FFD28F;
 }

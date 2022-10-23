@@ -26,17 +26,21 @@
     .order {
         display: flex;
         position: relative;
-        //margin: 32px 149px;
-        // background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 100%);
-        // backdrop-filter: blur(2px);
-        // border-radius: 12px;
-        // background: $white-color;
-        background: red;
-        margin: 44px;
+
+        &__icon {
+            position: absolute;
+            margin: 30px 28px;
+        }
 
         &__item {
             max-width: 355px;
+            margin: 44px;
+            margin: 19px auto;
+            border-radius: 12px;
+            background: $white-color;
             filter: drop-shadow(10px 10px 32px rgba(0, 0, 0, 0.25));
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 100%);
+            backdrop-filter: blur(2px);
         }
 
         &__img {
@@ -46,48 +50,47 @@
 
         &__box {
             display: flex;
-            margin-bottom: 12px;
+            margin: 0 24px;
         }
 
-        &__vanilla,
-        &__latte,
-        &__espresso,
-        &__price {
+        &__name {
+            font-weight: 600px;
             font-size: 24px;
             line-height: 36px;
-            display: flex;
-            align-items: center;
             letter-spacing: 0.04em;
             color: $black-color;
-        }
 
-        &__vanilla{
-            font-weight: 600;
-            margin-right: 69px;
-        }
+            &_vanilla{
+                font-weight: 600;
+                margin-right: 69px;
+            }
 
-        &__latte {
-            margin-right: 44px;
-        }
+            &_latte {
+                font-weight: 600;
+                margin-right: 44px;
+            }
 
-        &__espresso {
-            margin-right: 118px;
+            &_espresso {
+                font-weight: 600;
+                margin-right: 118px;
+            }
         }
 
         &__price {
             font-weight: 700;
+            letter-spacing: 0.04em;
+            color: $black-color;
         }
 
         &__choice {
             display: flex;
-            margin-bottom: 19px;
+            margin: 0 24px 24px;
         }
 
         &__cart {
             display: flex;
-            justify-content: center;
             align-items: center;
-            padding: 10px;
+            padding: 10px 10px;
             border-radius: 64px;
             background: $span-color;
         }
