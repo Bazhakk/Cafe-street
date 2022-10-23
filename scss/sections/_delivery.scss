@@ -30,6 +30,7 @@
     &__item {
         max-width: 370px;
         padding: 16px 24px;
+        margin: 30px;
     }
 
     &__img {
@@ -40,7 +41,6 @@
         font-weight: 600;
         font-size: 24px;
         line-height: 36px;
-        text-align: center;
         letter-spacing: 0.04em;
         color: $black-color;
     }
