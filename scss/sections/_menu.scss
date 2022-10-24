@@ -9,10 +9,10 @@
     }
 
     &__title {
+        margin-bottom: 38px;
         font-weight: 600;
         font-size: 32px;
         line-height: 48px;
-        align-items: center;
         letter-spacing: 0.04em;
         color: $bl-color;
 
@@ -23,52 +23,54 @@
     }
 
     .list-menu {
-        max-width: 343px;
-        //display: flex;
-        background: aqua;
-        border-radius: 12px;
-        //background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 100%);
-        //backdrop-filter: blur(2px);
+        display: flex;
 
         &__item {
-            max-width: 282px;
-            padding: 19px 30px;
+            max-width: 345px;
+
+            //margin: 44px;
+            //margin: 19px auto;
+            border-radius: 12px;
+            background: $white-color;
+            filter: drop-shadow(10px 10px 32px rgba(0, 0, 0, 0.25));
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 100%);
+            backdrop-filter: blur(2px);
         }
 
         &__img {
             max-width: 308px;
-            padding: 24px 18px 19px;
+            margin: 24px 18px 19px;
         }
 
         &__box {
             display: flex;
-            margin-bottom: 6px;
+            margin: 0 24px;
         }
 
-        &__title {
+        &__name {
             margin-right: 106px;
             font-weight: 600;
             font-size: 24px;
             line-height: 36px;
-            display: flex;
-            align-items: center;
             letter-spacing: 0.04em;
             color: $black-color;
+
+            &_ice-cream {
+                margin-right: 22px;
+            }
         }
 
         &__price {
             font-weight: 700;
             font-size: 24px;
             line-height: 36px;
-            display: flex;
-            align-items: center;
-            text-align: center;
             letter-spacing: 0.04em;
             color: $black-color;
         }
 
         &__choice {
             display: flex;
+            margin: 0 24px 21px;
         }
     
         &__characteristic {
@@ -76,14 +78,13 @@
             font-weight: 600;
             font-size: 14px;
             line-height: 21px;
-            align-items: center;
             letter-spacing: 0.04em;
             color: $text-color;
         }
 
         &__cart {
-            justify-content: center;
-            align-items: center;
+            padding: 10px;
+            gap: 10px;
         }
-    }
+     }
 }

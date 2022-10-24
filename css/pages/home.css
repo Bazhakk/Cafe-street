@@ -554,10 +554,10 @@ ul {
   margin: 120px 146px;
 }
 .menu__title {
+  margin-bottom: 38px;
   font-weight: 600;
   font-size: 32px;
   line-height: 48px;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #000000;
 }
@@ -566,57 +566,57 @@ ul {
   text-decoration: underline #FF912B;
 }
 .menu .list-menu {
-  max-width: 343px;
-  background: aqua;
-  border-radius: 12px;
+  display: flex;
 }
 .menu .list-menu__item {
-  max-width: 282px;
-  padding: 19px 30px;
+  max-width: 345px;
+  border-radius: 12px;
+  background: #FFFFFF;
+  filter: drop-shadow(10px 10px 32px rgba(0, 0, 0, 0.25));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 100%);
+  backdrop-filter: blur(2px);
 }
 .menu .list-menu__img {
   max-width: 308px;
-  padding: 24px 18px 19px;
+  margin: 24px 18px 19px;
 }
 .menu .list-menu__box {
   display: flex;
-  margin-bottom: 6px;
+  margin: 0 24px;
 }
-.menu .list-menu__title {
+.menu .list-menu__name {
   margin-right: 106px;
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #2F2105;
+}
+.menu .list-menu__name_ice-cream {
+  margin-right: 22px;
 }
 .menu .list-menu__price {
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   color: #2F2105;
 }
 .menu .list-menu__choice {
   display: flex;
+  margin: 0 24px 21px;
 }
 .menu .list-menu__characteristic {
   margin-right: 75px;
   font-weight: 600;
   font-size: 14px;
   line-height: 21px;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #7E7D7A;
 }
 .menu .list-menu__cart {
-  justify-content: center;
-  align-items: center;
+  padding: 10px;
+  gap: 10px;
 }
 
 /*# sourceMappingURL=home.css.map */
