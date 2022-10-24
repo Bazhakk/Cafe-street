@@ -180,7 +180,8 @@ ul {
   font-weight: 500;
 }
 .hero {
-  height: 150vh;
+  height: 100%;
+  top: 0;
   background-image: url("../../img/bg-image.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -248,8 +249,8 @@ ul {
   font-weight: 500;
 }
 .header {
-  margin-top: 70px;
   width: 100%;
+  margin-top: 70px;
   top: 0;
   position: absolute;
   background: transparent;
@@ -308,6 +309,12 @@ ul {
   font-family: "Poppins";
   src: url("../../fonts/Poppins-Bold.eot") format("embedded-opentype"), url("../../fonts/Poppins-Bold.svg") format("svg"), url("../../fonts/Poppins-Bold.woff") format("woff"), url("../../fonts/Poppins-Bold.woff2") format("woff2");
   font-weight: 500;
+}
+.popular {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background: transparent;
 }
 .popular__container {
   max-width: 1268px;
