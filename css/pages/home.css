@@ -567,6 +567,8 @@ ul {
 }
 .menu .list-menu__item {
   max-width: 345px;
+  margin: 44px;
+  margin: 19px auto;
   border-radius: 12px;
   background: #FFFFFF;
   filter: drop-shadow(10px 10px 32px rgba(0, 0, 0, 0.25));
@@ -589,8 +591,20 @@ ul {
   letter-spacing: 0.04em;
   color: #2F2105;
 }
+.menu .list-menu__name_sandwich {
+  margin-right: 120px;
+}
+.menu .list-menu__name_hot-milk {
+  margin-right: 140px;
+}
 .menu .list-menu__name_ice-cream {
-  margin-right: 22px;
+  margin-right: 48px;
+}
+.menu .list-menu__name_cappuccino {
+  margin-right: 88px;
+}
+.menu .list-menu__name_moccacinno {
+  margin-right: 88px;
 }
 .menu .list-menu__price {
   font-weight: 700;
@@ -610,6 +624,15 @@ ul {
   line-height: 21px;
   letter-spacing: 0.04em;
   color: #7E7D7A;
+}
+.menu .list-menu__characteristic_cappuccino {
+  margin-right: 110px;
+}
+.menu .list-menu__characteristic_moccacinno {
+  margin-right: 110px;
+}
+.menu .list-menu__characteristic_wafle {
+  margin-right: 75px;
 }
 .menu .list-menu__cart {
   padding: 10px;
