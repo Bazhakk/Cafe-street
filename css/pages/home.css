@@ -479,16 +479,16 @@ ul {
 .about__container {
   max-width: 1490px;
   max-height: 100vh;
+  margin-top: 208px;
   background-image: url(../../img/background-image.png);
 }
 .about__box {
   display: flex;
 }
 .about__img {
-  max-width: 360px;
+  max-width: 370px;
   margin-left: 270px;
   margin-bottom: 63px;
-  filter: drop-shadow(0px 6px 16px rgba(0, 0, 0, 0.16));
 }
 .about__info {
   max-width: 478px;
