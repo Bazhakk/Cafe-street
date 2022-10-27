@@ -661,11 +661,9 @@ ul {
 }
 .tagline__container {
   max-width: 1460px;
-  background-image: url(../../img/background-image.png);
 }
 .tagline__box {
   max-width: 414px;
-  display: flex;
   margin-top: 170px;
   margin-left: 136px;
 }
@@ -688,14 +686,11 @@ ul {
   max-width: 850px;
 }
 .tagline__img {
-  display: flex;
   max-width: 260px;
 }
 .tagline__client {
-  position: relative;
   max-width: 227px;
-  max-height: 87px;
-  margin: 12px 12px;
+  margin: 9px 9px;
   background: #FFCB7C;
   border: 6px solid rgba(255, 211, 145, 0.62);
   border-radius: 8px;
