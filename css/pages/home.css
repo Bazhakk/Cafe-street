@@ -180,9 +180,9 @@ ul {
   font-weight: 500;
 }
 .hero {
-  height: 100%;
+  height: 155vh;
   top: 0;
-  background-image: url("../../img/bg-image.png");
+  background-image: url("../../img/fon.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -312,7 +312,7 @@ ul {
 }
 .popular {
   width: 100%;
-  margin-top: 232px;
+  margin-top: 660px;
   position: absolute;
   top: 0;
   background: transparent;
@@ -326,7 +326,6 @@ ul {
   margin-bottom: 32px;
   font-size: 32px;
   line-height: 48px;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #000000;
 }
@@ -368,15 +367,12 @@ ul {
   color: #2F2105;
 }
 .popular .order__name_vanilla {
-  font-weight: 600;
   margin-right: 69px;
 }
 .popular .order__name_latte {
-  font-weight: 600;
   margin-right: 44px;
 }
 .popular .order__name_espresso {
-  font-weight: 600;
   margin-right: 118px;
 }
 .popular .order__price {

@@ -3,10 +3,21 @@
 
 .popular {
     width: 100%;
-    margin-top: 232px;
+    margin-top: 660px;
     position: absolute;
     top: 0;
     background: transparent;
+
+    // &__block {
+    //     position: absolute;
+    //     max-width: 1268px;
+    //     max-height: 367px;
+    //     margin-left: 86px;
+    //     margin-top: 850px;
+
+    //     background: #F9D9AA;
+    //     border-radius: 64px;
+    // }
 
     &__container {
         max-width: 1268px;
@@ -18,7 +29,6 @@
         margin-bottom: 32px;
         font-size: 32px;
         line-height: 48px;
-        align-items: center;
         letter-spacing: 0.04em; 
         color: $bl-color;
 
@@ -65,18 +75,15 @@
             letter-spacing: 0.04em;
             color: $black-color;
 
-            &_vanilla{
-                font-weight: 600;
+            &_vanilla {
                 margin-right: 69px;
             }
 
             &_latte {
-                font-weight: 600;
                 margin-right: 44px;
             }
 
             &_espresso {
-                font-weight: 600;
                 margin-right: 118px;
             }
         }
