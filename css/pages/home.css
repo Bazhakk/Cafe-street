@@ -697,9 +697,14 @@ ul {
   max-width: 1460px;
 }
 .tagline__box {
+  flex-basis: 30%;
+  display: flex;
   max-width: 414px;
   margin-top: 170px;
   margin-left: 136px;
+  background-image: url(../../img/background-image.png);
+  border-radius: 0px 24px 24px 0px;
+  background: #F7EBDA;
 }
 .tagline__title {
   font-weight: 600;
@@ -716,14 +721,20 @@ ul {
   line-height: 27px;
   color: #7E7D7A;
 }
+.tagline__block {
+  display: flex;
+}
 .tagline__clients {
+  flex-basis: 70%;
   max-width: 850px;
+  max-height: 312px;
 }
 .tagline__img {
   max-width: 260px;
 }
-.tagline__client {
+.tagline__recall {
   max-width: 227px;
+  max-height: 87px;
   margin: 9px 9px;
   background: #FFCB7C;
   border: 6px solid rgba(255, 211, 145, 0.62);
