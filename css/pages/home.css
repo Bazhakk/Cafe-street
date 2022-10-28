@@ -113,6 +113,28 @@ ul {
   margin: 24px;
 }
 
+.search__form {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  max-width: 490px;
+  height: 4vh;
+  border-radius: 35px;
+  background: #FFFFFF;
+}
+.search__adress {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  background: transparent;
+  margin: 17px 16px 19px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #7E7D7A;
+}
+
 .button_dark {
   max-width: 170px;
   display: flex;
@@ -130,6 +152,18 @@ ul {
 }
 .button_dark svg {
   margin: 10px;
+}
+.button_dark-footer {
+  margin-left: 100px;
+  max-width: 140px;
+  padding: 12px 32px;
+  background: #2F2105;
+  box-shadow: 0px 4px 32px rgba(223, 195, 124, 0.25);
+  border-radius: 33px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
 }
 .button_more {
   max-width: 70px;
@@ -707,6 +741,48 @@ ul {
   line-height: 21px;
   letter-spacing: 0.04em;
   color: #2F2105;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Regular.eot") format("embedded-opentype"), url("../../fonts/Poppins-Regular.svg") format("svg"), url("../../fonts/Poppins-Regular.woff") format("woff"), url("../../fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Medium.eot") format("embedded-opentype"), url("../../fonts/Poppins-Medium.svg") format("svg"), url("../../fonts/Poppins-Medium.woff") format("woff"), url("../../fonts/Poppins-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-SemiBold.eot") format("embedded-opentype"), url("../../fonts/Poppins-SemiBold.svg") format("svg"), url("../../fonts/Poppins-SemiBold.woff") format("woff"), url("../../fonts/Poppins-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Bold.eot") format("embedded-opentype"), url("../../fonts/Poppins-Bold.svg") format("svg"), url("../../fonts/Poppins-Bold.woff") format("woff"), url("../../fonts/Poppins-Bold.woff2") format("woff2");
+  font-weight: 500;
+}
+.footer {
+  height: 50vh;
+  margin: 120px 135px;
+  border-radius: 24px;
+  background-image: url("../../img/footer-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.footer__container {
+  padding-top: 8%;
+  text-align: center;
+}
+.footer__title {
+  margin-bottom: 26px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=home.css.map */
