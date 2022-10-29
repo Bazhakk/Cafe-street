@@ -214,7 +214,7 @@ ul {
   font-weight: 500;
 }
 .hero {
-  height: 155vh;
+  min-height: 1100px;
   top: 0;
   background-image: url("../../img/fon.png");
   background-repeat: no-repeat;
@@ -223,7 +223,6 @@ ul {
 }
 .hero__container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding-top: 180px;
 }

@@ -2,7 +2,7 @@
 @import "../base/variables";
 
 .hero {
-  max-height: 1200px;
+  min-height: 1100px;
   top: 0;
   background-image: url("../../img/fon.png");
   background-repeat: no-repeat;
@@ -11,7 +11,7 @@
 
   &__container {
     display: flex;
-    justify-content: space-between;
+    //justify-content: space-between;
     align-items: center;
     padding-top: 180px;
   }
