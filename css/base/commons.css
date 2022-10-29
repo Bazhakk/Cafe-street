@@ -113,7 +113,6 @@
   color: #F4AE26;
 }
 .button_hot, .button_cold {
-  max-width: 64px;
   max-height: 32px;
   align-items: center;
   padding: 5px;
