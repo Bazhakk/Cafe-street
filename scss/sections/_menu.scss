@@ -2,10 +2,14 @@
 @import "../base/variables";
 
 .menu {
+    //width: 100%;
+    margin: 120px auto;
+    padding: 0 20px;
+    //top: 0;
+    background: transparent;
 
     &__container {
-        max-width: 1150px;
-        margin: 120px 146px;
+        justify-content: space-between;
     }
 
     &__title {
@@ -22,13 +26,15 @@
         }
     }
 
-    .list-menu {
+    .order {
         display: flex;
+        padding: 0;
+        justify-content: space-between;
 
         &__item {
             max-width: 345px;
-            margin: 44px;
-            margin: 19px auto;
+            padding: 24px 19px;
+            justify-content: space-between;
             border-radius: 12px;
             background: $white-color;
             filter: drop-shadow(10px 10px 32px rgba(0, 0, 0, 0.25));
@@ -36,84 +42,61 @@
             backdrop-filter: blur(2px);
         }
 
+        &__icon {
+            position: absolute;
+            margin: 11px 10px;
+        }
+
         &__img {
-            max-width: 308px;
-            margin: 24px 18px 19px;
+            max-width: 307px;
+            margin: 19px 18px auto;
         }
 
         &__box {
             display: flex;
-            margin: 0 24px;
+            justify-content: space-between;
+            padding: 0 10px;
         }
 
         &__name {
-            margin-right: 106px;
-            font-weight: 600;
+            font-weight: 600px;
             font-size: 24px;
             line-height: 36px;
             letter-spacing: 0.04em;
             color: $black-color;
-
-            &_sandwich {
-                margin-right: 120px;
-            }
-
-            &_hot-milk {
-                margin-right: 140px;
-            }
-
-            &_ice-cream {
-                margin-right: 48px;
-            }
-
-            &_cappuccino {
-                margin-right: 88px;
-            }
-
-            &_moccacinno {
-                margin-right: 88px;
-            }
-
-
         }
 
         &__price {
             font-weight: 700;
-            font-size: 24px;
-            line-height: 36px;
             letter-spacing: 0.04em;
             color: $black-color;
         }
 
+        &__pick {
+            padding: 0 10px;
+            justify-content: space-between;
+        }
+
         &__choice {
             display: flex;
-            margin: 0 24px 21px;
+            margin-bottom: 5px;
         }
-    
-        &__characteristic {
+
+        &__text {
             margin-right: 75px;
             font-weight: 600;
             font-size: 14px;
             line-height: 21px;
             letter-spacing: 0.04em;
             color: $text-color;
-
-            &_cappuccino {
-                margin-right: 110px;
-            }
-
-            &_moccacinno {
-                margin-right: 110px;
-            }
-
-            &_wafle {
-                margin-right: 75px;
-            }
         }
 
         &__cart {
-            padding: 10px;
-            gap: 10px;
+            max-height: 44px;
+            padding: 10px 10px;
+            border-radius: 64px;
+            background: $span-color;
         }
-     }
+    }
+
 }

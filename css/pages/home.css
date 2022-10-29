@@ -406,7 +406,6 @@ ul {
 }
 .popular .order__name {
   font-weight: 600px;
-  font-weight: bold;
   font-size: 24px;
   line-height: 36px;
   letter-spacing: 0.04em;
@@ -594,9 +593,13 @@ ul {
   src: url("../../fonts/Poppins-Bold.eot") format("embedded-opentype"), url("../../fonts/Poppins-Bold.svg") format("svg"), url("../../fonts/Poppins-Bold.woff") format("woff"), url("../../fonts/Poppins-Bold.woff2") format("woff2");
   font-weight: 500;
 }
+.menu {
+  margin: 120px auto;
+  padding: 0 20px;
+  background: transparent;
+}
 .menu__container {
-  max-width: 1150px;
-  margin: 120px 146px;
+  justify-content: space-between;
 }
 .menu__title {
   margin-bottom: 38px;
@@ -610,62 +613,55 @@ ul {
   border-radius: 12px;
   text-decoration: underline #FF912B;
 }
-.menu .list-menu {
+.menu .order {
   display: flex;
+  padding: 0;
+  justify-content: space-between;
 }
-.menu .list-menu__item {
+.menu .order__item {
   max-width: 345px;
-  margin: 44px;
-  margin: 19px auto;
+  padding: 24px 19px;
+  justify-content: space-between;
   border-radius: 12px;
   background: #FFFFFF;
   filter: drop-shadow(10px 10px 32px rgba(0, 0, 0, 0.25));
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 100%);
   backdrop-filter: blur(2px);
 }
-.menu .list-menu__img {
-  max-width: 308px;
-  margin: 24px 18px 19px;
+.menu .order__icon {
+  position: absolute;
+  margin: 11px 10px;
 }
-.menu .list-menu__box {
+.menu .order__img {
+  max-width: 307px;
+  margin: 19px 18px auto;
+}
+.menu .order__box {
   display: flex;
-  margin: 0 24px;
+  justify-content: space-between;
+  padding: 0 10px;
 }
-.menu .list-menu__name {
-  margin-right: 106px;
-  font-weight: 600;
+.menu .order__name {
+  font-weight: 600px;
   font-size: 24px;
   line-height: 36px;
   letter-spacing: 0.04em;
   color: #2F2105;
 }
-.menu .list-menu__name_sandwich {
-  margin-right: 120px;
-}
-.menu .list-menu__name_hot-milk {
-  margin-right: 140px;
-}
-.menu .list-menu__name_ice-cream {
-  margin-right: 48px;
-}
-.menu .list-menu__name_cappuccino {
-  margin-right: 88px;
-}
-.menu .list-menu__name_moccacinno {
-  margin-right: 88px;
-}
-.menu .list-menu__price {
+.menu .order__price {
   font-weight: 700;
-  font-size: 24px;
-  line-height: 36px;
   letter-spacing: 0.04em;
   color: #2F2105;
 }
-.menu .list-menu__choice {
-  display: flex;
-  margin: 0 24px 21px;
+.menu .order__pick {
+  padding: 0 10px;
+  justify-content: space-between;
 }
-.menu .list-menu__characteristic {
+.menu .order__choice {
+  display: flex;
+  margin-bottom: 5px;
+}
+.menu .order__text {
   margin-right: 75px;
   font-weight: 600;
   font-size: 14px;
@@ -673,18 +669,11 @@ ul {
   letter-spacing: 0.04em;
   color: #7E7D7A;
 }
-.menu .list-menu__characteristic_cappuccino {
-  margin-right: 110px;
-}
-.menu .list-menu__characteristic_moccacinno {
-  margin-right: 110px;
-}
-.menu .list-menu__characteristic_wafle {
-  margin-right: 75px;
-}
-.menu .list-menu__cart {
-  padding: 10px;
-  gap: 10px;
+.menu .order__cart {
+  max-height: 44px;
+  padding: 10px 10px;
+  border-radius: 64px;
+  background: #FF912B;
 }
 
 @font-face {
