@@ -5,8 +5,7 @@
     margin: 120px 135px;
 
     &__container {
-        max-width: 1170px;
-        margin: 0 auto;
+        justify-content: space-between;
     }
 
     &__title {
@@ -32,7 +31,6 @@
             max-width: 370px;
             padding: 27px 45px;
             text-align: center;
-            background-color: aqua;
         }
 
         &__img {

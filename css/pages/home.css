@@ -442,8 +442,7 @@ ul {
   margin: 120px 135px;
 }
 .delivery__container {
-  max-width: 1170px;
-  margin: 0 auto;
+  justify-content: space-between;
 }
 .delivery__title {
   margin-bottom: 32px;
@@ -466,7 +465,6 @@ ul {
   max-width: 370px;
   padding: 27px 45px;
   text-align: center;
-  background-color: aqua;
 }
 .delivery .box__img {
   max-width: 159px;
