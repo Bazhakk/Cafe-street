@@ -88,6 +88,18 @@
         }
       }
 
+      &_dark-about {
+        max-width: 140px;
+        padding: 10px 24px;
+        background: $black-color;
+        border-radius: 33px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 18px;
+        color: $menu-color;
+      
+      }
+
       &_dark-footer {
         margin-left: 100px;
         max-width: 140px;
@@ -114,9 +126,8 @@
 
       &_hot,
       &_cold {
-        //max-width: 64px;
+        max-width: 64px;
         max-height: 32px;
-        align-items: center;
         padding: 5px;
         border-radius: 8px;
       }

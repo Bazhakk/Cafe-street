@@ -5,7 +5,7 @@
     min-height: 485px;
     padding-top: 85px;
     padding-bottom: 60px;
-    background-image: url(../../img/background-image.png);
+    background-image: url(../../img/bg-about.png);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: visible;
@@ -17,7 +17,8 @@
 
     &__img {
         max-width: 370px;
-        margin-top: -130px;
+        margin-top: -170px;
+        margin-left: 93px;
         border: 6px solid $white-color;
         border-radius: 20px;
         filter: drop-shadow(0px 6px 16px rgba(0, 0, 0, 0.16));

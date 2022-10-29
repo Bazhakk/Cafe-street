@@ -90,6 +90,16 @@
 .button_dark svg {
   margin: 10px;
 }
+.button_dark-about {
+  max-width: 140px;
+  padding: 10px 24px;
+  background: #2F2105;
+  border-radius: 33px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #F4AE26;
+}
 .button_dark-footer {
   margin-left: 100px;
   max-width: 140px;
@@ -113,8 +123,8 @@
   color: #F4AE26;
 }
 .button_hot, .button_cold {
+  max-width: 64px;
   max-height: 32px;
-  align-items: center;
   padding: 5px;
   border-radius: 8px;
 }
