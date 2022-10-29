@@ -2,20 +2,12 @@
 @import "../base/variables";
 
 .hero {
-  height: 155vh;
+  max-height: 1200px;
   top: 0;
   background-image: url("../../img/fon.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
-  // &__icon-left{
-  //   position: absolute;
-  //   // margin-left: 7px;
-  //   // margin-top: 600px;
-  //   margin-left: 922px;
-  //   margin-top: -34px;
-  // }
 
   &__container {
     display: flex;
