@@ -439,9 +439,12 @@ ul {
   src: url("../../fonts/Poppins-Bold.eot") format("embedded-opentype"), url("../../fonts/Poppins-Bold.svg") format("svg"), url("../../fonts/Poppins-Bold.woff") format("woff"), url("../../fonts/Poppins-Bold.woff2") format("woff2");
   font-weight: 500;
 }
+.delivery {
+  margin: 120px 135px;
+}
 .delivery__container {
   max-width: 1170px;
-  margin: 120px 135px;
+  margin: 0 auto;
 }
 .delivery__title {
   margin-bottom: 32px;
@@ -455,26 +458,31 @@ ul {
   border-radius: 12px;
   text-decoration: underline #FF912B;
 }
-.delivery__box {
+.delivery .box {
   display: flex;
-  text-align: center;
+  padding: 0;
+  justify-content: space-between;
 }
-.delivery__item {
+.delivery .box__item {
   max-width: 370px;
-  padding: 16px 24px;
-  margin: 30px;
+  padding: 27px 45px;
+  text-align: center;
+  background-color: aqua;
 }
-.delivery__img {
+.delivery .box__img {
   max-width: 159px;
 }
-.delivery__subtitle {
+.delivery .box__info {
+  margin: 0 auto;
+}
+.delivery .box__subtitle {
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
   letter-spacing: 0.04em;
   color: #2F2105;
 }
-.delivery__text {
+.delivery .box__text {
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
