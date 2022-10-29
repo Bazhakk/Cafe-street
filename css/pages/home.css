@@ -345,14 +345,13 @@ ul {
 }
 .popular {
   width: 100%;
-  margin-top: 660px;
-  position: absolute;
+  margin: 0 auto;
+  padding: 0 20px;
   top: 0;
   background: transparent;
 }
 .popular__container {
-  max-width: 1268px;
-  margin: 0 86px 120px;
+  justify-content: space-between;
 }
 .popular__title {
   font-weight: 600;
@@ -368,7 +367,8 @@ ul {
 }
 .popular .order {
   display: flex;
-  position: relative;
+  padding: 0;
+  justify-content: space-between;
 }
 .popular .order__icon {
   position: absolute;
@@ -376,8 +376,7 @@ ul {
 }
 .popular .order__item {
   max-width: 355px;
-  margin: 44px;
-  margin: 19px auto;
+  justify-content: space-between;
   border-radius: 12px;
   background: #FFFFFF;
   filter: drop-shadow(10px 10px 32px rgba(0, 0, 0, 0.25));
@@ -386,36 +385,31 @@ ul {
 }
 .popular .order__img {
   max-width: 307px;
-  margin: 24px 18px 19px;
+  margin: 19px 18px auto;
 }
-.popular .order__box {
+.popular .order__box, .popular .order__choice {
   display: flex;
-  margin: 0 24px;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.popular .order__choice {
+  margin-bottom: 19px;
 }
 .popular .order__name {
   font-weight: 600px;
+  font-weight: bold;
   font-size: 24px;
   line-height: 36px;
   letter-spacing: 0.04em;
   color: #2F2105;
-}
-.popular .order__name_vanilla {
-  margin-right: 69px;
-}
-.popular .order__name_latte {
-  margin-right: 44px;
-}
-.popular .order__name_espresso {
-  margin-right: 118px;
 }
 .popular .order__price {
   font-weight: 700;
   letter-spacing: 0.04em;
   color: #2F2105;
 }
-.popular .order__choice {
-  display: flex;
-  margin: 0 24px 24px;
+.popular .order__button {
+  justify-content: space-between;
 }
 .popular .order__cart {
   display: flex;
