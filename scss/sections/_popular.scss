@@ -3,25 +3,13 @@
 
 .popular {
     width: 100%;
-    margin-top: 660px;
-    position: absolute;
+    margin: 0 auto;
+    padding: 0 20px;
     top: 0;
     background: transparent;
 
-    // &__block {
-    //     position: absolute;
-    //     max-width: 1268px;
-    //     max-height: 367px;
-    //     margin-left: 86px;
-    //     margin-top: 850px;
-
-    //     background: #F9D9AA;
-    //     border-radius: 64px;
-    // }
-
-    &__container {
-        max-width: 1268px;
-        margin: 0 86px 120px;  
+    &__container { 
+        justify-content: space-between;
     }
 
     &__title {
@@ -40,7 +28,8 @@
 
     .order {
         display: flex;
-        position: relative;
+        padding: 0;
+        justify-content: space-between;
 
         &__icon {
             position: absolute;
@@ -49,8 +38,7 @@
 
         &__item {
             max-width: 355px;
-            margin: 44px;
-            margin: 19px auto;
+            justify-content: space-between;
             border-radius: 12px;
             background: $white-color;
             filter: drop-shadow(10px 10px 32px rgba(0, 0, 0, 0.25));
@@ -60,32 +48,27 @@
 
         &__img {
             max-width: 307px;
-            margin: 24px 18px 19px;
+            margin: 19px 18px auto;
         }
 
-        &__box {
+        &__box, 
+        &__choice {
             display: flex;
-            margin: 0 24px;
+            justify-content: space-between;
+            padding: 0 30px;
+        }
+
+        &__choice {
+            margin-bottom: 19px;
         }
 
         &__name {
             font-weight: 600px;
+            font-weight: bold;
             font-size: 24px;
             line-height: 36px;
             letter-spacing: 0.04em;
             color: $black-color;
-
-            &_vanilla {
-                margin-right: 69px;
-            }
-
-            &_latte {
-                margin-right: 44px;
-            }
-
-            &_espresso {
-                margin-right: 118px;
-            }
         }
 
         &__price {
@@ -94,9 +77,8 @@
             color: $black-color;
         }
 
-        &__choice {
-            display: flex;
-            margin: 0 24px 24px;
+        &__button {
+            justify-content: space-between;
         }
 
         &__cart {

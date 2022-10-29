@@ -2,10 +2,11 @@
 @import "../base/variables";
 
 .delivery {
-    
+    margin: 120px 135px;
+
     &__container {
         max-width: 1170px;
-        margin: 120px 135px;
+        margin: 0 auto;
     }
 
     &__title {
@@ -22,35 +23,41 @@
         }
     }
 
-    &__box {
+    .box {
         display: flex;
-        text-align: center;
-    }
+        padding: 0;
+        justify-content: space-between;
 
-    &__item {
-        max-width: 370px;
-        padding: 16px 24px;
-        margin: 30px;
-    }
+        &__item {
+            max-width: 370px;
+            padding: 27px 45px;
+            text-align: center;
+            background-color: aqua;
+        }
 
-    &__img {
-        max-width: 159px;
-    }
+        &__img {
+            max-width: 159px;
+        }
 
-    &__subtitle {
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 36px;
-        letter-spacing: 0.04em;
-        color: $black-color;
-    }
+        &__info {
+            margin: 0 auto;
+        }
 
-    &__text {
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 27px;
-        text-align: center;
-        letter-spacing: 0.04em;
-        color: $bl-color;
+        &__subtitle {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            letter-spacing: 0.04em;
+            color: $black-color;
+        }
+    
+        &__text {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            text-align: center;
+            letter-spacing: 0.04em;
+            color: $bl-color;
+        }
     }
 }

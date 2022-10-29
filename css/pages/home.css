@@ -214,7 +214,7 @@ ul {
   font-weight: 500;
 }
 .hero {
-  height: 155vh;
+  min-height: 1100px;
   top: 0;
   background-image: url("../../img/fon.png");
   background-repeat: no-repeat;
@@ -223,7 +223,6 @@ ul {
 }
 .hero__container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding-top: 180px;
 }
@@ -346,14 +345,13 @@ ul {
 }
 .popular {
   width: 100%;
-  margin-top: 660px;
-  position: absolute;
+  margin: 0 auto;
+  padding: 0 20px;
   top: 0;
   background: transparent;
 }
 .popular__container {
-  max-width: 1268px;
-  margin: 0 86px 120px;
+  justify-content: space-between;
 }
 .popular__title {
   font-weight: 600;
@@ -369,7 +367,8 @@ ul {
 }
 .popular .order {
   display: flex;
-  position: relative;
+  padding: 0;
+  justify-content: space-between;
 }
 .popular .order__icon {
   position: absolute;
@@ -377,8 +376,7 @@ ul {
 }
 .popular .order__item {
   max-width: 355px;
-  margin: 44px;
-  margin: 19px auto;
+  justify-content: space-between;
   border-radius: 12px;
   background: #FFFFFF;
   filter: drop-shadow(10px 10px 32px rgba(0, 0, 0, 0.25));
@@ -387,36 +385,31 @@ ul {
 }
 .popular .order__img {
   max-width: 307px;
-  margin: 24px 18px 19px;
+  margin: 19px 18px auto;
 }
-.popular .order__box {
+.popular .order__box, .popular .order__choice {
   display: flex;
-  margin: 0 24px;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.popular .order__choice {
+  margin-bottom: 19px;
 }
 .popular .order__name {
   font-weight: 600px;
+  font-weight: bold;
   font-size: 24px;
   line-height: 36px;
   letter-spacing: 0.04em;
   color: #2F2105;
-}
-.popular .order__name_vanilla {
-  margin-right: 69px;
-}
-.popular .order__name_latte {
-  margin-right: 44px;
-}
-.popular .order__name_espresso {
-  margin-right: 118px;
 }
 .popular .order__price {
   font-weight: 700;
   letter-spacing: 0.04em;
   color: #2F2105;
 }
-.popular .order__choice {
-  display: flex;
-  margin: 0 24px 24px;
+.popular .order__button {
+  justify-content: space-between;
 }
 .popular .order__cart {
   display: flex;
@@ -446,9 +439,12 @@ ul {
   src: url("../../fonts/Poppins-Bold.eot") format("embedded-opentype"), url("../../fonts/Poppins-Bold.svg") format("svg"), url("../../fonts/Poppins-Bold.woff") format("woff"), url("../../fonts/Poppins-Bold.woff2") format("woff2");
   font-weight: 500;
 }
+.delivery {
+  margin: 120px 135px;
+}
 .delivery__container {
   max-width: 1170px;
-  margin: 120px 135px;
+  margin: 0 auto;
 }
 .delivery__title {
   margin-bottom: 32px;
@@ -462,26 +458,31 @@ ul {
   border-radius: 12px;
   text-decoration: underline #FF912B;
 }
-.delivery__box {
+.delivery .box {
   display: flex;
-  text-align: center;
+  padding: 0;
+  justify-content: space-between;
 }
-.delivery__item {
+.delivery .box__item {
   max-width: 370px;
-  padding: 16px 24px;
-  margin: 30px;
+  padding: 27px 45px;
+  text-align: center;
+  background-color: aqua;
 }
-.delivery__img {
+.delivery .box__img {
   max-width: 159px;
 }
-.delivery__subtitle {
+.delivery .box__info {
+  margin: 0 auto;
+}
+.delivery .box__subtitle {
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
   letter-spacing: 0.04em;
   color: #2F2105;
 }
-.delivery__text {
+.delivery .box__text {
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
@@ -510,23 +511,28 @@ ul {
   src: url("../../fonts/Poppins-Bold.eot") format("embedded-opentype"), url("../../fonts/Poppins-Bold.svg") format("svg"), url("../../fonts/Poppins-Bold.woff") format("woff"), url("../../fonts/Poppins-Bold.woff2") format("woff2");
   font-weight: 500;
 }
-.about__container {
-  max-width: 1490px;
-  max-height: 100vh;
-  margin-top: 208px;
+.about {
+  min-height: 485px;
+  padding-top: 85px;
+  padding-bottom: 60px;
   background-image: url(../../img/background-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: visible;
 }
-.about__box {
+.about__container {
   display: flex;
+  justify-content: space-around;
 }
 .about__img {
   max-width: 370px;
-  margin-left: 270px;
-  margin-bottom: 63px;
+  margin-top: -130px;
+  border: 6px solid #FFFFFF;
+  border-radius: 20px;
+  filter: drop-shadow(0px 6px 16px rgba(0, 0, 0, 0.16));
 }
 .about__info {
-  max-width: 478px;
-  margin: 88px 110px 170px 84px;
+  max-width: 480px;
 }
 .about__title {
   font-weight: 600;
@@ -702,6 +708,9 @@ ul {
   max-width: 414px;
   margin-top: 170px;
   margin-left: 136px;
+  background-image: url(../../img/background-image.png);
+  border-radius: 0px 24px 24px 0px;
+  background: #F7EBDA;
 }
 .tagline__title {
   font-weight: 600;

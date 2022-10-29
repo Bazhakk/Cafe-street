@@ -2,30 +2,29 @@
 @import "../base/variables";
 
 .about {
+    min-height: 485px;
+    padding-top: 85px;
+    padding-bottom: 60px;
+    background-image: url(../../img/background-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: visible;
 
     &__container {
-        max-width: 1490px;
-        max-height: 100vh;
-        margin-top: 208px;
-        background-image: url(../../img/background-image.png);
-    }
-
-    &__box {
         display: flex;
+        justify-content: space-around;
     }
 
     &__img {
         max-width: 370px;
-        margin-left: 270px;
-        margin-bottom: 63px;
-        // filter: drop-shadow(10px 10px 32px rgba(0, 0, 0, 0.25));
-        // background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 100%);
-        // backdrop-filter: blur(2px);
+        margin-top: -130px;
+        border: 6px solid $white-color;
+        border-radius: 20px;
+        filter: drop-shadow(0px 6px 16px rgba(0, 0, 0, 0.16));
     }
 
     &__info {
-        max-width: 478px;
-        margin: 88px 110px 170px 84px;
+        max-width: 480px;
     }
 
     &__title {

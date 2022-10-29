@@ -5,7 +5,6 @@
 
     &__container {
         max-width: 1460px;
-       // background-image: url(../../img/background-image.png);
     }
 
     &__box {
@@ -14,6 +13,9 @@
         max-width: 414px;
         margin-top: 170px;
         margin-left: 136px;
+        background-image: url(../../img/background-image.png);
+        border-radius: 0px 24px 24px 0px;
+        background: $bg-color;
     }
 
     &__title {
@@ -37,7 +39,11 @@
     &__block {
         display: flex;
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> master
     &__clients {
         //position: relative;
         flex-basis: 70%;
@@ -47,10 +53,23 @@
 
     &__img {
         max-width: 260px;
+
+        // &_box {
+        //     //position: absolute;
+        //     max-width: 945px;
+        //     max-height: 484px;
+        //     margin-left: -1px;
+        //     border-radius: 0px 24px 24px 0px;
+        //     background: $bg-color;
+        //}
     }
 
     &__recall {
+<<<<<<< HEAD
         // position: absolute;
+=======
+        //position: absolute;
+>>>>>>> master
         max-width: 227px;
         max-height: 87px;
         margin: 9px 9px;
