@@ -2,11 +2,9 @@
 @import "../base/variables";
 
 .menu {
-    //width: 100%;
-    margin: 120px auto;
+    width: 100%;
+    margin: 0 auto;
     padding: 0 20px;
-    //top: 0;
-    background: transparent;
 
     &__container {
         justify-content: space-between;
@@ -24,6 +22,10 @@
             border-radius: 12px;
             text-decoration: underline $span-color;
         }
+
+        &__top {
+            margin-bottom: 40px;
+        }
     }
 
     .order {
@@ -34,6 +36,7 @@
         &__item {
             max-width: 345px;
             padding: 24px 19px;
+            //margin: 40px;
             justify-content: space-between;
             border-radius: 12px;
             background: $white-color;
@@ -50,6 +53,7 @@
         &__img {
             max-width: 307px;
             margin: 19px 18px auto;
+            border-radius: 112px;
         }
 
         &__box {
@@ -92,8 +96,9 @@
         }
 
         &__cart {
-            max-height: 44px;
+            display: flex;
             padding: 10px 10px;
+            align-items: center;
             border-radius: 64px;
             background: $span-color;
         }

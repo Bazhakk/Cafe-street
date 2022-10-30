@@ -519,6 +519,7 @@ ul {
 }
 .about {
   min-height: 485px;
+  margin-bottom: 120px;
   padding-top: 85px;
   padding-bottom: 60px;
   background-image: url(../../img/bg-about.png);
@@ -594,9 +595,9 @@ ul {
   font-weight: 500;
 }
 .menu {
-  margin: 120px auto;
+  width: 100%;
+  margin: 0 auto;
   padding: 0 20px;
-  background: transparent;
 }
 .menu__container {
   justify-content: space-between;
@@ -612,6 +613,9 @@ ul {
 .menu__title_span {
   border-radius: 12px;
   text-decoration: underline #FF912B;
+}
+.menu__title__top {
+  margin-bottom: 40px;
 }
 .menu .order {
   display: flex;
@@ -635,6 +639,7 @@ ul {
 .menu .order__img {
   max-width: 307px;
   margin: 19px 18px auto;
+  border-radius: 112px;
 }
 .menu .order__box {
   display: flex;
@@ -670,8 +675,9 @@ ul {
   color: #7E7D7A;
 }
 .menu .order__cart {
-  max-height: 44px;
+  display: flex;
   padding: 10px 10px;
+  align-items: center;
   border-radius: 64px;
   background: #FF912B;
 }
