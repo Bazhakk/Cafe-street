@@ -699,11 +699,6 @@ ul {
 }
 .tagline {
   margin-top: 120px;
-  border-radius: 0px 24px 24px 0px;
-  background-image: url(../../img/bg-about.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: visible;
 }
 .tagline__container {
   display: flex;
@@ -711,9 +706,15 @@ ul {
 }
 .tagline__box {
   max-width: 945px;
-  max-height: 485px;
-  padding-top: 170px;
-  padding-left: 136px;
+  border-radius: 0px 24px 24px 0px;
+  background-image: url(../../img/bg-about.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: visible;
+}
+.tagline__block {
+  max-width: 415px;
+  padding: 170px 136px;
 }
 .tagline__title {
   font-weight: 600;
@@ -730,34 +731,38 @@ ul {
   line-height: 27px;
   color: #7E7D7A;
 }
-.tagline__clients {
+.tagline .clients {
   display: flex;
   justify-content: space-between;
-  max-width: 850px;
-  max-height: 312px;
+  padding-top: 102px;
 }
-.tagline__img {
+.tagline .clients__img {
   max-width: 260px;
 }
-.tagline__recall {
+.tagline .clients__item {
+  max-width: 850px;
+  max-height: 312px;
+  justify-content: space-between;
+}
+.tagline .clients__recall {
   position: absolute;
   max-width: 227px;
   max-height: 87px;
   margin-left: 30px;
-  margin-top: -125px;
+  margin-top: -130px;
   background: #FFCB7C;
-  border: 6px solid rgba(255, 211, 145, 0.62);
+  border: 6px solid rgba(255, 211, 144, 0.6196078431);
   border-radius: 8px;
   overflow: hidden;
 }
-.tagline__name {
+.tagline .clients__name {
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
   letter-spacing: 0.04em;
   color: #2F2105;
 }
-.tagline__text {
+.tagline .clients__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
