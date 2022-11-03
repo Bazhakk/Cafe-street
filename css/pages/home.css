@@ -328,6 +328,48 @@ ul {
   color: #FF912B;
 }
 
+.mobile-menu {
+  height: 90vh;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  top: 20;
+  right: 0;
+  left: 0;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24px;
+  line-height: 28px;
+  background-color: #FFFFFF;
+}
+.mobile-menu:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+.mobile-menu__menu {
+  margin: 0 auto;
+  margin: 20px;
+  color: #2F2105;
+}
+
+.burger {
+  display: none;
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  background-image: url("../../img/burger-menu.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.burger-active {
+  background-image: url("../../img/close-menu.svg");
+}
+@media (max-width: 1024px) {
+  .burger {
+    display: block;
+  }
+}
+
 @font-face {
   font-family: "Poppins";
   src: url("../../fonts/Poppins-Regular.eot") format("embedded-opentype"), url("../../fonts/Poppins-Regular.svg") format("svg"), url("../../fonts/Poppins-Regular.woff") format("woff"), url("../../fonts/Poppins-Regular.woff2") format("woff2");
