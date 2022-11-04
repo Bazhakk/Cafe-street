@@ -9,21 +9,40 @@
   background-size: cover;
   background-position: center;
 
+  @media (max-width: 1024px) {
+    padding-top: 15%;
+    text-align: center;
+  }
+
   &__container {
     display: flex;
-    //justify-content: space-between;
     align-items: center;
     padding-top: 180px;
+
+    @media (max-width: 1024px) {
+      flex-direction: column;
+      padding-top: 90px;
+    }
   }
 
   &__enjoy {
     display: flex;
     padding-top: 50px;
+
+    @media (max-width: 1024px) {
+      flex-direction: column;
+      padding-top: 25px;
+    }
   }
 
   &__box {
     max-width: 490px;
     margin-right: 167px;
+
+    @media (max-width: 1024px) {
+      max-width: 245px;
+      margin-right: 70px;
+    }
   }
 
   &__img {

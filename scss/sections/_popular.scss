@@ -8,8 +8,18 @@
     top: 0;
     background: transparent;
 
+    @media screen and (max-width: 1024px) {
+        width: 50%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
     &__container { 
         justify-content: space-between;
+
+        @media screen and (max-width: 1024px) {
+            margin: 0 auto;
+        }
     }
 
     &__title {
@@ -30,6 +40,12 @@
         display: flex;
         padding: 0;
         justify-content: space-between;
+
+        @media screen and (max-width: 1024px) {
+            flex-direction: column;
+            margin: 0 auto;
+            justify-content: space-between;
+        }
 
         &__icon {
             position: absolute;
@@ -60,6 +76,10 @@
 
         &__choice {
             margin-bottom: 19px;
+
+        @media screen and (max-width: 1024px) {
+            flex-direction: column;
+        }  
         }
 
         &__name {
@@ -78,6 +98,10 @@
 
         &__button {
             justify-content: space-between;
+
+            @media screen and (max-width: 1024px) {
+                margin: 20px;
+            }
         }
 
         &__cart {
@@ -86,6 +110,11 @@
             padding: 10px 10px;
             border-radius: 64px;
             background: $span-color;
+
+            // @media screen and (max-width: 1024px) {
+            //     border-radius: 32px;
+            //     align-items: center;
+            // }
         }
     }
 }
