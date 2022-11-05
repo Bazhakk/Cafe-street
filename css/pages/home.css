@@ -86,7 +86,6 @@ ul {
   max-width: 1160px;
   margin: 0 auto;
   padding: 0 20px;
-  justify-content: space-between;
 }
 
 .search {
@@ -95,7 +94,6 @@ ul {
 }
 .search__form {
   display: flex;
-  align-items: center;
   width: 100%;
   max-width: 222px;
   border-radius: 35px;
@@ -105,9 +103,17 @@ ul {
 .search__field {
   border: 0;
   outline: 0;
-  text-align: center;
   font-size: 16px;
   background: transparent;
+  padding-left: 5px;
+}
+@media (max-width: 1024px) {
+  .search__field {
+    width: 0;
+  }
+}
+.search__icon {
+  width: 24px;
 }
 .search__carts {
   margin: 24px;
@@ -351,17 +357,21 @@ ul {
 .main-menu__link_about {
   color: #FF912B;
 }
+@media (max-width: 1024px) {
+  .main-menu {
+    display: none;
+  }
+}
 
 .mobile-menu {
   height: 90vh;
-  display: flex;
-  position: fixed;
+  display: none;
   flex-direction: column;
+  align-items: center;
+  position: fixed;
   top: 20;
   right: 0;
   left: 0;
-  align-items: center;
-  justify-content: space-between;
   font-size: 24px;
   line-height: 28px;
   background-color: #FFFFFF;
@@ -825,22 +835,17 @@ ul {
 }
 .tagline {
   margin-top: 120px;
+  background-image: url(../../img/bg-about.png);
+  background-size: 60% 100%;
+  background-repeat: no-repeat;
+  position: relative;
 }
 .tagline__container {
-  display: flex;
-  justify-content: space-around;
-}
-.tagline__box {
-  max-width: 945px;
-  border-radius: 0px 24px 24px 0px;
-  background-image: url(../../img/bg-about.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: visible;
+  padding-top: 170px;
+  padding-bottom: 170px;
 }
 .tagline__block {
   max-width: 415px;
-  padding: 170px 136px;
 }
 .tagline__title {
   font-weight: 600;
@@ -858,9 +863,13 @@ ul {
   color: #7E7D7A;
 }
 .tagline .clients {
+  position: absolute;
+  right: 0;
+  top: 20px;
   display: flex;
   justify-content: space-between;
-  padding-top: 102px;
+  padding: 0;
+  margin: 0;
 }
 .tagline .clients__img {
   max-width: 260px;
@@ -868,7 +877,6 @@ ul {
 .tagline .clients__item {
   max-width: 850px;
   max-height: 312px;
-  justify-content: space-between;
 }
 .tagline .clients__recall {
   position: absolute;

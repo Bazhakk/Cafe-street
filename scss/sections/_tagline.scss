@@ -3,24 +3,18 @@
 
 .tagline {
     margin-top: 120px;
+    background-image: url(../../img/bg-about.png);
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+    position: relative;
 
     &__container {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    &__box {
-        max-width: 945px;
-        border-radius: 0px 24px 24px 0px;
-        background-image: url(../../img/bg-about.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        overflow: visible;
+        padding-top: 170px;
+        padding-bottom: 170px;
     }
 
     &__block {
         max-width: 415px;
-        padding: 170px 136px;
     }
 
     &__title {
@@ -41,9 +35,13 @@
     }
 
     .clients {
+        position: absolute;
+        right: 0;
+        top: 20px;
         display: flex;
         justify-content: space-between;
-        padding-top: 102px;
+        padding: 0;
+        margin: 0;
 
         &__img {
             max-width: 260px;
@@ -52,8 +50,6 @@
         &__item {
             max-width: 850px;
             max-height: 312px;
-
-            justify-content: space-between;
         }
 
         &__recall {

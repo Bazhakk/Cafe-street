@@ -23,7 +23,6 @@
   max-width: 1160px;
   margin: 0 auto;
   padding: 0 20px;
-  justify-content: space-between;
 }
 
 .search {
@@ -32,7 +31,6 @@
 }
 .search__form {
   display: flex;
-  align-items: center;
   width: 100%;
   max-width: 222px;
   border-radius: 35px;
@@ -42,9 +40,17 @@
 .search__field {
   border: 0;
   outline: 0;
-  text-align: center;
   font-size: 16px;
   background: transparent;
+  padding-left: 5px;
+}
+@media (max-width: 1024px) {
+  .search__field {
+    width: 0;
+  }
+}
+.search__icon {
+  width: 24px;
 }
 .search__carts {
   margin: 24px;
