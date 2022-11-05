@@ -1,8 +1,8 @@
 jQuery(document).ready(function ( $ ) {
   
-  $(document).on('click', '#burger', ()=>{
+  $(document).on('click', '#burger', function() {
     $('#burger').toggleClass('burger-active');
-    $('#mobile-menu').slideToggle();
+    $('#mobile-menu').slideToggle().css('display', 'flex');
   });
 
   $(document).on('click', function(e) {

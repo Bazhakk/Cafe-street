@@ -48,18 +48,21 @@
             color: $span-color;
         }
     }
+
+    @media (max-width: 1024px) {
+        display: none;
+    }
 }
 
 .mobile-menu {
     height: 90vh;
-    display: flex;
-    position: fixed;
+    display: none;
     flex-direction: column;
+    align-items: center;
+    position: fixed;
     top: 20;
     right: 0;
     left: 0;
-    align-items: center;
-    justify-content: space-between;
     font-size: 24px;
     line-height: 28px;
     background-color: $white-color;
@@ -92,4 +95,4 @@
     @media (max-width: 1024px) {
       display: block;
     }
-  }
+}

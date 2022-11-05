@@ -33,10 +33,10 @@
 
             <div class="search header__search">
                 <form class="search__form">
-                    <svg class="search__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="search__icon" id="search-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M21 21L16.514 16.506L21 21ZM19 10.5C19 12.7543 18.1045 14.9163 16.5104 16.5104C14.9163 18.1045 12.7543 19 10.5 19C8.24566 19 6.08365 18.1045 4.48959 16.5104C2.89553 14.9163 2 12.7543 2 10.5C2 8.24566 2.89553 6.08365 4.48959 4.48959C6.08365 2.89553 8.24566 2 10.5 2C12.7543 2 14.9163 2.89553 16.5104 4.48959C18.1045 6.08365 19 8.24566 19 10.5V10.5Z" stroke="#1D1D1D" stroke-width="2" stroke-linecap="round"/>
                     </svg>   
-                    <input class="search__field" type="search" placeholder="Cappuccino">                    
+                    <input type="search" class="search__field" id="search-field" placeholder="Cappuccino">           
                 </form>
                 <a href="" class="search__cart">
                     <svg class="search__carts" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -49,11 +49,10 @@
 
             <div class="burger" id="burger"></div>
             <nav class="mobile-menu" id="mobile-menu">
-            <a class="mobile-menu__menu" href="#" title="About us" class="mobile-menu__link link-anima">About us</a>
-            <a class="mobile-menu__menu" href="#" title="Our Product" class="mobile-menu__link link-anima">Our Product</a>
-            <a class="mobile-menu__menu" href="#" title="Delivery" class="mobile-menu__link link-anima">Delivery</a>
-        
-        </nav>
+                <a class="mobile-menu__menu" href="#" title="About us" class="mobile-menu__link link-anima">About us</a>
+                <a class="mobile-menu__menu" href="#" title="Our Product" class="mobile-menu__link link-anima">Our Product</a>
+                <a class="mobile-menu__menu" href="#" title="Delivery" class="mobile-menu__link link-anima">Delivery</a>
+            </nav>
       </div>
         </div>
 
@@ -578,41 +577,37 @@
 
     <!--TAGLINE-->
     <section class="tagline">
-        <div class="tagline__container">
-            <div class="tagline__box">
-                <div class="tagline__block">
-                    <h2 class="tagline__title">What they say about us</h2>
-                    <p class="tagline__subtitle">We always provide the best service and always maintain the quality of coffee</p>
-                </div>
+        <div class="tagline__container container">
+            <div class="tagline__block">
+                <h2 class="tagline__title">What they say about us</h2>
+                <p class="tagline__subtitle">We always provide the best service and always maintain the quality of coffee</p>
             </div>
 
-            <div class="tagline__clients">
-                <ul class="clients">
-                    <li class="clients__item">
-                        <img src="img/tagline-img_1.png" alt="Clients" class="clients__img"/>
-                        <div class="clients__recall">
-                            <p class="clients__name">Naura <br>
-                            <span class="clients__text">I really love the cappucino, the coffee was very smooth</span></p>
-                        </div>
-                    </li>
+            <ul class="clients">
+                <li class="clients__item">
+                    <img src="img/tagline-img_1.png" alt="Clients" class="clients__img"/>
+                    <div class="clients__recall">
+                        <p class="clients__name">Naura <br>
+                        <span class="clients__text">I really love the cappucino, the coffee was very smooth</span></p>
+                    </div>
+                </li>
 
-                    <li class="clients__item">
-                        <img src="img/tagline-img_2.png" alt="Clients" class="clients__img"/>
-                        <div class="clients__recall">
-                            <p class="clients__name">John <br>
-                            <span class="clients__text">this coffee shop is very convenient</span></p>
-                        </div>
-                    </li>
+                <li class="clients__item">
+                    <img src="img/tagline-img_2.png" alt="Clients" class="clients__img"/>
+                    <div class="clients__recall">
+                        <p class="clients__name">John <br>
+                        <span class="clients__text">this coffee shop is very convenient</span></p>
+                    </div>
+                </li>
 
-                    <li class="clients__item">
-                        <img src="img/tagline-img_3.png" alt="Clients" class="clients__img"/>
-                        <div class="clients__recall">
-                            <p class="clients__name">Azura <br>
-                            <span class="clients__text">the coffee menu here is very much</span></p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+                <li class="clients__item">
+                    <img src="img/tagline-img_3.png" alt="Clients" class="clients__img"/>
+                    <div class="clients__recall">
+                        <p class="clients__name">Azura <br>
+                        <span class="clients__text">the coffee menu here is very much</span></p>
+                    </div>
+                </li>
+            </ul>
         
         </div>
     </section>
@@ -636,8 +631,8 @@
 
 </main>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/index.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/index.js"></script>
 
 </body>
 </html>
