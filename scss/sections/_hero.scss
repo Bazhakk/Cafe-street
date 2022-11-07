@@ -9,19 +9,14 @@
   background-size: cover;
   background-position: center;
 
-  @media (max-width: 1024px) {
-    padding-top: 15%;
-    text-align: center;
-  }
-
   &__container {
     display: flex;
     align-items: center;
     padding-top: 180px;
 
     @media (max-width: 1024px) {
-      flex-direction: column;
       padding-top: 90px;
+      flex-direction: column;
     }
   }
 
@@ -40,17 +35,25 @@
     margin-right: 167px;
 
     @media (max-width: 1024px) {
-      max-width: 245px;
-      margin-right: 70px;
+      margin: 0 auto;
+      padding: 10px 10px;
     }
   }
 
   &__img {
     max-width: 527px;
+
+    @media (max-width: 1024px) {
+      margin: 0 auto;
+    }
   }
 
   &__button {
     display: flex;
+
+    @media (max-width: 1024px) {
+     padding-bottom: 30px;
+    }
   }
 
   &__order {

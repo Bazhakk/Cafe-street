@@ -22,7 +22,6 @@
   width: 100%;
   max-width: 1160px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 .search {
@@ -77,7 +76,6 @@
 }
 
 .button_dark {
-  max-width: 170px;
   display: flex;
   padding: 12px 32px;
   margin-right: 26px;
@@ -95,7 +93,6 @@
   margin: 10px;
 }
 .button_dark-about {
-  max-width: 140px;
   padding: 10px 24px;
   background: #2F2105;
   border-radius: 33px;
@@ -106,13 +103,13 @@
 }
 .button_dark-footer {
   padding: 12px 32px;
-  background: #2F2105;
-  box-shadow: 0px 4px 32px rgba(223, 195, 124, 0.25);
   border-radius: 33px;
   font-weight: 600;
   font-size: 14px;
   line-height: 21px;
   color: #FFFFFF;
+  background: #2F2105;
+  box-shadow: 0px 4px 32px rgba(223, 195, 124, 0.25);
 }
 .button_more {
   max-width: 70px;
