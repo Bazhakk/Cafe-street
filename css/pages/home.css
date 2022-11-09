@@ -256,8 +256,9 @@ ul {
 }
 @media (max-width: 1024px) {
   .hero__enjoy {
+    margin: 0 auto;
+    padding: 25px 20px;
     flex-direction: column;
-    padding-top: 25px;
   }
 }
 .hero__box {
@@ -283,6 +284,8 @@ ul {
 }
 @media (max-width: 1024px) {
   .hero__button {
+    display: flex;
+    margin: 0 auto;
     padding-bottom: 30px;
   }
 }
@@ -522,8 +525,8 @@ ul {
 }
 @media screen and (max-width: 1024px) {
   .popular .order__choice {
-    margin-bottom: 10px;
-    flex-direction: column;
+    margin: 10px auto;
+    display: flex;
   }
 }
 .popular .order__name {

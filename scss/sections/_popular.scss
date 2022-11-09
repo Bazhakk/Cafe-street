@@ -90,8 +90,8 @@
             margin-bottom: 19px;
 
         @media screen and (max-width: 1024px) {
-            margin-bottom: 10px;
-            flex-direction: column;
+            margin: 10px auto;
+            display: flex;
         }  
         }
 
