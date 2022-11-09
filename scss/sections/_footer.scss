@@ -9,10 +9,18 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    @media screen and (max-width: 1024px) {
+        margin: 60px 65px;
+    }
     
     &__container {
         padding-top: 8%;
         text-align: center;
+
+        @media screen and (max-width: 1024px) {
+            margin: 0 auto;
+        }
     }
 
     &__title {
