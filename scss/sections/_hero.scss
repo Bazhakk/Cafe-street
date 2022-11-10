@@ -9,6 +9,11 @@
   background-size: cover;
   background-position: center;
 
+  &__bg-img {
+    position: absolute;
+    max-width: 600px;
+  }
+
   &__container {
     display: flex;
     align-items: center;
@@ -46,6 +51,10 @@
 
     @media (max-width: 1024px) {
       margin: 0 auto;
+    }
+
+    &_right {
+      align-items: flex-end;
     }
   }
 

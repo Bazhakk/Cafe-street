@@ -206,7 +206,6 @@ ul {
   color: #FF912B;
 }
 .button_cold {
-  margin-right: 107px;
   border: 2px solid #FFD28F;
   color: #FFD28F;
 }
@@ -238,6 +237,10 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.hero__bg-img {
+  position: absolute;
+  max-width: 600px;
 }
 .hero__container {
   display: flex;
@@ -278,6 +281,9 @@ ul {
   .hero__img {
     margin: 0 auto;
   }
+}
+.hero__img_right {
+  align-items: flex-end;
 }
 .hero__button {
   display: flex;
@@ -481,14 +487,13 @@ ul {
 @media screen and (max-width: 1024px) {
   .popular .order {
     margin: 0 auto;
-    padding: 20px 20px;
     flex-direction: column;
     justify-content: center;
   }
 }
 .popular .order__icon {
   position: absolute;
-  margin: 30px 28px;
+  padding: 30px 28px;
 }
 .popular .order__item {
   max-width: 355px;
@@ -935,12 +940,27 @@ ul {
   background-repeat: no-repeat;
   position: relative;
 }
+@media screen and (max-width: 1024px) {
+  .tagline {
+    margin: 60px auto 0;
+  }
+}
 .tagline__container {
   padding-top: 170px;
   padding-bottom: 170px;
 }
+@media screen and (max-width: 1024px) {
+  .tagline__container {
+    flex-direction: column;
+  }
+}
 .tagline__block {
   max-width: 415px;
+}
+@media screen and (max-width: 1024px) {
+  .tagline__block {
+    margin: 0 auto;
+  }
 }
 .tagline__title {
   font-weight: 600;
@@ -958,6 +978,7 @@ ul {
   color: #7E7D7A;
 }
 .tagline .clients {
+  width: 100%;
   max-width: 850px;
   position: absolute;
   right: 0;
@@ -967,12 +988,23 @@ ul {
   padding: 0;
   margin: 0;
 }
+@media screen and (max-width: 1024px) {
+  .tagline .clients {
+    padding-top: 300px;
+    flex-direction: column;
+  }
+}
 .tagline .clients__img {
   max-width: 200px;
 }
 .tagline .clients__item {
   max-width: 260px;
   padding-top: 100px;
+}
+@media screen and (max-width: 1024px) {
+  .tagline .clients__item {
+    padding-top: 50px;
+  }
 }
 .tagline .clients__recall {
   position: absolute;
@@ -986,6 +1018,7 @@ ul {
   overflow: hidden;
 }
 .tagline .clients__name {
+  padding: 0;
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
