@@ -9,6 +9,10 @@
   background-size: cover;
   background-position: center;
 
+  @media (max-width: 1024px) {
+    margin: 0 auto;
+  }
+
   &__bg-img {
     position: absolute;
     max-width: 600px;
@@ -22,6 +26,7 @@
     @media (max-width: 1024px) {
       padding-top: 90px;
       flex-direction: column;
+      align-items: center;
     }
   }
 
