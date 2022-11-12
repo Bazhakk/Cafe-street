@@ -7,6 +7,7 @@
     top: 0;
     position: absolute;
     background: transparent;
+    z-index: 2;
     
     &__container {
         display: flex;
