@@ -65,11 +65,6 @@
   border-radius: 35px;
   background: #FFFFFF;
 }
-@media screen and (max-width: 1024px) {
-  .search__form {
-    max-width: 300px;
-  }
-}
 .search__adress {
   border: 0;
   outline: 0;
@@ -80,6 +75,12 @@
   line-height: 24px;
   letter-spacing: 0.04em;
   color: #7E7D7A;
+}
+@media screen and (max-width: 1024px) {
+  .search__adress {
+    max-width: 100px;
+    margin: 0 auto;
+  }
 }
 
 .button_dark {
@@ -119,11 +120,6 @@
   color: #FFFFFF;
   background: #2F2105;
   box-shadow: 0px 4px 32px rgba(223, 195, 124, 0.25);
-}
-@media screen and (max-width: 1024px) {
-  .button_dark-footer {
-    padding: 6px 16px;
-  }
 }
 .button_more {
   max-width: 70px;

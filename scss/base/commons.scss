@@ -55,9 +55,10 @@
       border-radius: 35px;
       background: $white-color;
 
-      @media screen and (max-width: 1024px) {
-        max-width: 300px;
-      }
+      // @media screen and (max-width: 1024px) {
+      //   max-width: 300px;
+      //   margin: 0 auto;
+      // }
     }
 
     &__adress {
@@ -70,6 +71,11 @@
       line-height: 24px;
       letter-spacing: 0.04em;
       color: $text-color;
+
+      @media screen and (max-width: 1024px) {
+        max-width: 100px;
+        margin: 0 auto;
+      }
     }
   }
 
@@ -119,9 +125,11 @@
         background: $black-color;
         box-shadow: 0px 4px 32px rgba(223, 195, 124, 0.25);
 
-        @media screen and (max-width: 1024px) {
-          padding: 6px 16px;
-      }
+      //   @media screen and (max-width: 1024px) {
+      //     display: flex;
+      //     align-items: center;
+      //     padding: 6px 16px;
+      // }
       }
 
       &_more {

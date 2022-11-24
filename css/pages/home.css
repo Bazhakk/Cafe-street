@@ -128,11 +128,6 @@ ul {
   border-radius: 35px;
   background: #FFFFFF;
 }
-@media screen and (max-width: 1024px) {
-  .search__form {
-    max-width: 300px;
-  }
-}
 .search__adress {
   border: 0;
   outline: 0;
@@ -143,6 +138,12 @@ ul {
   line-height: 24px;
   letter-spacing: 0.04em;
   color: #7E7D7A;
+}
+@media screen and (max-width: 1024px) {
+  .search__adress {
+    max-width: 100px;
+    margin: 0 auto;
+  }
 }
 
 .button_dark {
@@ -182,11 +183,6 @@ ul {
   color: #FFFFFF;
   background: #2F2105;
   box-shadow: 0px 4px 32px rgba(223, 195, 124, 0.25);
-}
-@media screen and (max-width: 1024px) {
-  .button_dark-footer {
-    padding: 6px 16px;
-  }
 }
 .button_more {
   max-width: 70px;
@@ -931,6 +927,7 @@ ul {
 @media screen and (max-width: 1024px) {
   .tagline {
     margin: 60px auto 0;
+    background-size: 60% 100%;
   }
 }
 .tagline__container {
@@ -939,6 +936,8 @@ ul {
 }
 @media screen and (max-width: 1024px) {
   .tagline__container {
+    padding-top: 85px;
+    padding-bottom: 85px;
     flex-direction: column;
   }
 }
@@ -979,8 +978,11 @@ ul {
 }
 @media screen and (max-width: 1024px) {
   .tagline .clients {
+    width: 50%;
+    max-width: 400px;
     padding-top: 300px;
     flex-direction: column;
+    margin: 0 auto;
   }
 }
 .tagline .clients__img {
@@ -1001,10 +1003,17 @@ ul {
   max-height: 87px;
   margin-left: 30px;
   margin-top: -130px;
-  background: #FFCB7C;
-  border: 6px solid rgba(255, 211, 144, 0.6196078431);
-  border-radius: 8px;
   overflow: hidden;
+  border-radius: 8px;
+  border: 6px solid rgba(255, 211, 144, 0.6196078431);
+  background: #FFCB7C;
+}
+@media screen and (max-width: 1024px) {
+  .tagline .clients__recall {
+    max-width: 120px;
+    max-height: 45px;
+    margin-top: -75px;
+  }
 }
 .tagline .clients__name {
   margin: 0;
@@ -1015,12 +1024,27 @@ ul {
   letter-spacing: 0.04em;
   color: #2F2105;
 }
+@media screen and (max-width: 1024px) {
+  .tagline .clients__name {
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 15px;
+    letter-spacing: 0.04em;
+  }
+}
 .tagline .clients__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0.04em;
   color: #2F2105;
+}
+@media screen and (max-width: 1024px) {
+  .tagline .clients__text {
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 11px;
+  }
 }
 
 @font-face {
@@ -1055,6 +1079,7 @@ ul {
 }
 @media screen and (max-width: 1024px) {
   .footer {
+    max-width: 600px;
     margin: 60px 65px;
   }
 }
