@@ -790,11 +790,6 @@ ul {
   margin: 0 auto;
 }
 @media screen and (max-width: 1024px) {
-  .menu {
-    margin: 0 auto;
-  }
-}
-@media screen and (max-width: 1024px) {
   .menu__container {
     margin: 0 auto;
   }
@@ -822,7 +817,6 @@ ul {
 @media screen and (max-width: 1024px) {
   .menu .order {
     margin: 0 auto;
-    padding: 20px 20px;
     flex-direction: column;
     justify-content: center;
   }
@@ -840,13 +834,13 @@ ul {
 @media screen and (max-width: 1024px) {
   .menu .order__item {
     margin: 20px auto;
-    padding: 20px;
     justify-content: center;
   }
 }
 .menu .order__icon {
   position: absolute;
-  margin: 11px 10px;
+  top: 30px;
+  left: 30px;
 }
 .menu .order__img {
   max-width: 307px;
@@ -877,7 +871,6 @@ ul {
 }
 .menu .order__pick {
   padding: 0 10px;
-  justify-content: space-between;
 }
 .menu .order__choice {
   display: flex;
@@ -892,8 +885,8 @@ ul {
   color: #7E7D7A;
 }
 .menu .order__cart {
-  width: 40px;
-  height: 28px;
+  max-width: 40px;
+  max-height: 28px;
   display: flex;
   align-items: center;
   padding: 10px 10px;
@@ -904,6 +897,7 @@ ul {
   .menu .order__cart {
     margin: 20px auto;
     border-radius: 32px;
+    align-items: center;
   }
 }
 
