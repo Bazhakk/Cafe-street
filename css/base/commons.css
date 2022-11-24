@@ -109,6 +109,8 @@
   color: #F4AE26;
 }
 .button_dark-footer {
+  display: flex;
+  align-items: center;
   padding: 12px 32px;
   border-radius: 33px;
   font-weight: 600;

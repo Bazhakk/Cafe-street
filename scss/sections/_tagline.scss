@@ -2,11 +2,12 @@
 @import "../base/variables";
 
 .tagline {
+    position: relative;
     margin-top: 120px;
     background-image: url(../../img/bg-about.png);
     background-size: 60% 100%;
     background-repeat: no-repeat;
-    position: relative;
+    border-radius: 0px 24px 24px 0px;
 
     @media screen and (max-width: 1024px) {
         margin: 60px auto 0;
@@ -49,13 +50,14 @@
     .clients {
         width: 100%;
         max-width: 850px;
-        position: absolute;
-        right: 0;
-        top: 20px;
         display: flex;
+        position: absolute;
         justify-content: space-between;
-        padding: 0;
         margin: 0;
+        padding: 0;
+        padding: 0 20px 0 0;
+        top: 20px;
+        right: 0;
 
         @media screen and (max-width: 1024px) {
             padding-top: 300px;
@@ -88,6 +90,7 @@
         }
 
         &__name {
+            margin: 0;
             padding: 0;
             font-weight: 500;
             font-size: 18px;
