@@ -55,10 +55,10 @@
       border-radius: 35px;
       background: $white-color;
 
-      // @media screen and (max-width: 1024px) {
-      //   max-width: 300px;
-      //   margin: 0 auto;
-      // }
+      @media screen and (max-width: 1024px) {
+        max-width: 300px;
+        margin: 20px auto;
+      }
     }
 
     &__adress {
@@ -110,7 +110,6 @@
         font-size: 12px;
         line-height: 18px;
         color: $menu-color;
-      
       }
 
       &_dark-footer {

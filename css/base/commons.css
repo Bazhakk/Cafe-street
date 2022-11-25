@@ -65,6 +65,12 @@
   border-radius: 35px;
   background: #FFFFFF;
 }
+@media screen and (max-width: 1024px) {
+  .search__form {
+    max-width: 300px;
+    margin: 20px auto;
+  }
+}
 .search__adress {
   border: 0;
   outline: 0;

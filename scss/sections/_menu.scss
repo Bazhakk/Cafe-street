@@ -65,10 +65,10 @@
 
         &__img {
             max-width: 307px;
-            margin: 19px 18px auto;
+            padding: 19px 18px;
 
-            @media screen and (max-width: 1024px) {
-                margin: 10px 9px auto;
+            @media screen and (max-width: 380px) {
+                padding: 10px 9px;
                 justify-content: center;
               }
         }

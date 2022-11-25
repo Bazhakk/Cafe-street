@@ -7,14 +7,13 @@
     padding: 0 0 120px;
     background: transparent;
 
+    @media screen and (max-width: 1024px) {
+        margin-top: -160px;
+    }
+
     &__container {
         position: relative;
         z-index: 2;
-
-        @media screen and (max-width: 1024px) {
-            margin: 0 auto;
-            padding-top: -50px;
-        }
     }
 
     &__title {
@@ -64,10 +63,10 @@
 
         &__img {
             max-width: 307px;
-            margin: 19px 18px auto;
+            padding: 19px 18px;
 
-            @media screen and (max-width: 1024px) {
-                margin: 10px 9px auto;
+            @media screen and (max-width: 380px) {
+                padding: 10px 9px;
                 justify-content: center;
               }
         }
@@ -83,8 +82,7 @@
             margin-bottom: 19px;
 
         @media screen and (max-width: 1024px) {
-            margin: 10px auto;
-            display: flex;
+            flex-direction: column;
         }  
         }
 
@@ -117,9 +115,8 @@
             background: $span-color;
 
             @media screen and (max-width: 1024px) {
+                display: flex;
                 margin: 20px auto;
-                border-radius: 32px;
-                align-items: center;
             }
         }
     }

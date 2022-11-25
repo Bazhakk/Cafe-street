@@ -128,6 +128,12 @@ ul {
   border-radius: 35px;
   background: #FFFFFF;
 }
+@media screen and (max-width: 1024px) {
+  .search__form {
+    max-width: 300px;
+    margin: 20px auto;
+  }
+}
 .search__adress {
   border: 0;
   outline: 0;
@@ -470,15 +476,14 @@ ul {
   padding: 0 0 120px;
   background: transparent;
 }
+@media screen and (max-width: 1024px) {
+  .popular {
+    margin-top: -160px;
+  }
+}
 .popular__container {
   position: relative;
   z-index: 2;
-}
-@media screen and (max-width: 1024px) {
-  .popular__container {
-    margin: 0 auto;
-    padding-top: -50px;
-  }
 }
 .popular__title {
   font-weight: 600;
@@ -525,11 +530,11 @@ ul {
 }
 .popular .order__img {
   max-width: 307px;
-  margin: 19px 18px auto;
+  padding: 19px 18px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 380px) {
   .popular .order__img {
-    margin: 10px 9px auto;
+    padding: 10px 9px;
     justify-content: center;
   }
 }
@@ -543,8 +548,7 @@ ul {
 }
 @media screen and (max-width: 1024px) {
   .popular .order__choice {
-    margin: 10px auto;
-    display: flex;
+    flex-direction: column;
   }
 }
 .popular .order__name {
@@ -573,9 +577,8 @@ ul {
 }
 @media screen and (max-width: 1024px) {
   .popular .order__cart {
+    display: flex;
     margin: 20px auto;
-    border-radius: 32px;
-    align-items: center;
   }
 }
 
@@ -692,7 +695,7 @@ ul {
   .about {
     min-height: 240px;
     margin: 0 auto 60px;
-    padding: 42px 20px 30px;
+    padding: 42px 0 30px;
   }
 }
 .about__container {
@@ -714,7 +717,7 @@ ul {
 }
 @media screen and (max-width: 1024px) {
   .about__img {
-    margin: -80px auto;
+    margin: -85px auto;
   }
 }
 .about__info {
@@ -839,11 +842,11 @@ ul {
 }
 .menu .order__img {
   max-width: 307px;
-  margin: 19px 18px auto;
+  padding: 19px 18px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 380px) {
   .menu .order__img {
-    margin: 10px 9px auto;
+    padding: 10px 9px;
     justify-content: center;
   }
 }
@@ -927,7 +930,6 @@ ul {
 @media screen and (max-width: 1024px) {
   .tagline {
     margin: 60px auto 0;
-    background-size: 60% 100%;
   }
 }
 .tagline__container {
@@ -936,8 +938,6 @@ ul {
 }
 @media screen and (max-width: 1024px) {
   .tagline__container {
-    padding-top: 85px;
-    padding-bottom: 85px;
     flex-direction: column;
   }
 }
@@ -978,11 +978,10 @@ ul {
 }
 @media screen and (max-width: 1024px) {
   .tagline .clients {
-    width: 50%;
     max-width: 400px;
-    padding-top: 300px;
-    flex-direction: column;
     margin: 0 auto;
+    padding: 300px 10px 0;
+    flex-direction: column;
   }
 }
 .tagline .clients__img {
