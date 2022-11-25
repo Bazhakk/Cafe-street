@@ -60,6 +60,13 @@
     @media (max-width: 1024px) {
       display: flex;
       margin: 0 auto;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+
+    @media (max-width: 268px) {
+      flex-direction: column;
+      margin: 0 auto;
       padding-bottom: 30px;
     }
   }

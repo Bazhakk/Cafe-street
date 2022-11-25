@@ -200,6 +200,12 @@ ul {
   line-height: 18px;
   color: #F4AE26;
 }
+@media (max-width: 1024px) {
+  .button_more {
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+}
 .button_hot, .button_cold {
   max-width: 64px;
   max-height: 32px;
@@ -294,6 +300,14 @@ ul {
 @media (max-width: 1024px) {
   .hero__button {
     display: flex;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 268px) {
+  .hero__button {
+    flex-direction: column;
     margin: 0 auto;
     padding-bottom: 30px;
   }
@@ -475,12 +489,17 @@ ul {
 }
 @media screen and (max-width: 1024px) {
   .popular {
-    margin-top: -160px;
+    margin: -160px auto 0;
   }
 }
 .popular__container {
   position: relative;
   z-index: 2;
+}
+@media screen and (max-width: 1024px) {
+  .popular__container {
+    margin: 0 auto;
+  }
 }
 .popular__title {
   font-weight: 600;
@@ -503,7 +522,6 @@ ul {
   .popular .order {
     margin: 0 auto;
     flex-direction: column;
-    justify-content: center;
   }
 }
 .popular .order__icon {
@@ -522,7 +540,6 @@ ul {
 @media screen and (max-width: 1024px) {
   .popular .order__item {
     margin: 20px auto;
-    justify-content: center;
   }
 }
 .popular .order__img {
@@ -531,8 +548,8 @@ ul {
 }
 @media screen and (max-width: 380px) {
   .popular .order__img {
-    padding: 10px 9px;
-    justify-content: center;
+    max-width: 160px;
+    margin: 0 auto;
   }
 }
 .popular .order__box, .popular .order__choice {
@@ -782,7 +799,6 @@ ul {
 }
 .menu {
   width: 100%;
-  margin: 0 auto;
 }
 @media screen and (max-width: 1024px) {
   .menu__container {
@@ -813,7 +829,6 @@ ul {
   .menu .order {
     margin: 0 auto;
     flex-direction: column;
-    justify-content: center;
   }
 }
 .menu .order__item {
@@ -829,7 +844,6 @@ ul {
 @media screen and (max-width: 1024px) {
   .menu .order__item {
     margin: 20px auto;
-    justify-content: center;
   }
 }
 .menu .order__icon {
@@ -843,8 +857,8 @@ ul {
 }
 @media screen and (max-width: 380px) {
   .menu .order__img {
-    padding: 10px 9px;
-    justify-content: center;
+    max-width: 160px;
+    margin: 0 auto;
   }
 }
 .menu .order__box {
@@ -890,9 +904,8 @@ ul {
 }
 @media screen and (max-width: 1024px) {
   .menu .order__cart {
+    display: flex;
     margin: 20px auto;
-    border-radius: 32px;
-    align-items: center;
   }
 }
 

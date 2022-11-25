@@ -137,6 +137,12 @@
   line-height: 18px;
   color: #F4AE26;
 }
+@media (max-width: 1024px) {
+  .button_more {
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+}
 .button_hot, .button_cold {
   max-width: 64px;
   max-height: 32px;

@@ -8,12 +8,16 @@
     background: transparent;
 
     @media screen and (max-width: 1024px) {
-        margin-top: -160px;
+        margin: -160px auto 0;
     }
 
     &__container {
         position: relative;
         z-index: 2;
+
+        @media screen and (max-width: 1024px) {
+            margin: 0 auto;
+        }
     }
 
     &__title {
@@ -38,7 +42,6 @@
         @media screen and (max-width: 1024px) {
             margin: 0 auto;
             flex-direction: column;
-            justify-content: center;
         }
 
         &__icon {
@@ -57,7 +60,6 @@
 
             @media screen and (max-width: 1024px) {
                 margin: 20px auto;
-                justify-content: center;
             }
         }
 
@@ -66,8 +68,8 @@
             padding: 19px 18px;
 
             @media screen and (max-width: 380px) {
-                padding: 10px 9px;
-                justify-content: center;
+                max-width: 160px;
+                margin: 0 auto;
               }
         }
 
