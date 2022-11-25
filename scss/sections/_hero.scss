@@ -10,10 +10,6 @@
   background-size: cover;
   background-position: center;
 
-  @media (max-width: 1024px) {
-    margin: 0 auto;
-  }
-
   &__container {
     position: relative;
     display: flex;
@@ -22,9 +18,7 @@
     z-index: 2;
 
     @media (max-width: 1024px) {
-      padding-top: 90px;
-      flex-direction: column;
-      align-items: center;
+      margin: 0 auto 100px;
     }
   }
 
@@ -45,7 +39,6 @@
 
     @media (max-width: 1024px) {
       margin: 0 auto;
-      padding: 10px 10px;
     }
   }
 

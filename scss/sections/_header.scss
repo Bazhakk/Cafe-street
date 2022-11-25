@@ -21,6 +21,10 @@
 
     &__search {
         margin-left: auto;
+
+        @media screen and (max-width: 1024px) {
+            margin-left: 10px;
+        }
     }
 
     .logo {
@@ -69,8 +73,8 @@
     background-color: $white-color;
   
     &:hover {
-      color: $bl-color;
-      text-decoration: underline;
+        text-decoration: underline;
+        color: $bl-color;
     }
   
     &__menu {

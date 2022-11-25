@@ -245,11 +245,6 @@ ul {
   background-size: cover;
   background-position: center;
 }
-@media (max-width: 1024px) {
-  .hero {
-    margin: 0 auto;
-  }
-}
 .hero__container {
   position: relative;
   display: flex;
@@ -259,9 +254,7 @@ ul {
 }
 @media (max-width: 1024px) {
   .hero__container {
-    padding-top: 90px;
-    flex-direction: column;
-    align-items: center;
+    margin: 0 auto 100px;
   }
 }
 .hero__enjoy {
@@ -282,7 +275,6 @@ ul {
 @media (max-width: 1024px) {
   .hero__box {
     margin: 0 auto;
-    padding: 10px 10px;
   }
 }
 .hero__img {
@@ -380,6 +372,11 @@ ul {
 .header__search {
   margin-left: auto;
 }
+@media screen and (max-width: 1024px) {
+  .header__search {
+    margin-left: 10px;
+  }
+}
 .header .logo {
   max-height: 30px;
 }
@@ -423,8 +420,8 @@ ul {
   background-color: #FFFFFF;
 }
 .mobile-menu:hover {
-  color: #000000;
   text-decoration: underline;
+  color: #000000;
 }
 .mobile-menu__menu {
   margin: 0 auto;
