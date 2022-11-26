@@ -3,14 +3,14 @@
 
 .tagline {
     position: relative;
-    margin-top: 120px;
     background-image: url(../../img/bg-about.png);
     background-size: 60% 100%;
     background-repeat: no-repeat;
-    border-radius: 0px 24px 24px 0px;//???
+    border-radius: 0px 24px 24px 0px;
 
     @media screen and (max-width: 1024px) {
         margin: 60px auto 0;
+        background-size: 100%;
     }
 
     &__container {

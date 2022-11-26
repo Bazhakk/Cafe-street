@@ -3,6 +3,7 @@
 
 .menu {
     width: 100%;
+    padding-bottom: 120px;
 
     &__container {
         
@@ -113,7 +114,7 @@
             max-height: 28px;
             display: flex;
             align-items: center;
-            padding: 10px 10px;
+            padding: 10px 14px;
             border-radius: 64px;
             background: $span-color;
 

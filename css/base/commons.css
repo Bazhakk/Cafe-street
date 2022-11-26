@@ -58,8 +58,8 @@
 }
 
 .search__form {
+  width: 100%;
   max-width: 490px;
-  height: 4vh;
   margin: 0 auto;
   justify-content: space-between;
   border-radius: 35px;
