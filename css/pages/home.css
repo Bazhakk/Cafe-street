@@ -131,7 +131,12 @@ ul {
 @media screen and (max-width: 1024px) {
   .search__form {
     max-width: 300px;
-    margin: 20px auto;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 522px) {
+  .search__form {
+    flex-direction: column;
   }
 }
 .search__adress {
@@ -164,18 +169,18 @@ ul {
   border-radius: 33px;
   color: #FFFFFF;
   background: #2F2105;
-  box-shadow: 0px 4px 32px rgba(223, 195, 124, 0.25);
+  box-shadow: 0 4px 32px rgba(223, 195, 124, 0.25);
 }
 .button_dark svg {
   margin: 10px;
 }
 .button_dark-about {
   padding: 10px 24px;
-  background: #2F2105;
   border-radius: 33px;
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
+  background: #2F2105;
   color: #F4AE26;
 }
 .button_dark-footer {
@@ -188,7 +193,12 @@ ul {
   line-height: 21px;
   color: #FFFFFF;
   background: #2F2105;
-  box-shadow: 0px 4px 32px rgba(223, 195, 124, 0.25);
+  box-shadow: 0 4px 32px rgba(223, 195, 124, 0.25);
+}
+@media screen and (max-width: 1024px) {
+  .button_dark-footer {
+    padding: 6px 16px;
+  }
 }
 .button_more {
   max-width: 70px;
@@ -616,8 +626,8 @@ ul {
   src: url("../../fonts/Poppins-Bold.eot") format("embedded-opentype"), url("../../fonts/Poppins-Bold.svg") format("svg"), url("../../fonts/Poppins-Bold.woff") format("woff"), url("../../fonts/Poppins-Bold.woff2") format("woff2");
   font-weight: 500;
 }
-.delivery__container {
-  padding-bottom: 120px;
+.delivery {
+  margin-bottom: 120px;
 }
 .delivery__title {
   margin-bottom: 32px;
@@ -935,7 +945,6 @@ ul {
   background-image: url(../../img/bg-about.png);
   background-size: 60% 100%;
   background-repeat: no-repeat;
-  border-radius: 0px 24px 24px 0px;
 }
 @media screen and (max-width: 1024px) {
   .tagline {
@@ -1090,8 +1099,9 @@ ul {
 }
 @media screen and (max-width: 1024px) {
   .footer {
+    width: 50%;
     max-width: 600px;
-    margin: 60px 65px;
+    margin: 60px auto;
   }
 }
 .footer__title {

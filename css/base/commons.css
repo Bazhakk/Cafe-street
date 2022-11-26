@@ -68,7 +68,12 @@
 @media screen and (max-width: 1024px) {
   .search__form {
     max-width: 300px;
-    margin: 20px auto;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 522px) {
+  .search__form {
+    flex-direction: column;
   }
 }
 .search__adress {
@@ -101,18 +106,18 @@
   border-radius: 33px;
   color: #FFFFFF;
   background: #2F2105;
-  box-shadow: 0px 4px 32px rgba(223, 195, 124, 0.25);
+  box-shadow: 0 4px 32px rgba(223, 195, 124, 0.25);
 }
 .button_dark svg {
   margin: 10px;
 }
 .button_dark-about {
   padding: 10px 24px;
-  background: #2F2105;
   border-radius: 33px;
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
+  background: #2F2105;
   color: #F4AE26;
 }
 .button_dark-footer {
@@ -125,7 +130,12 @@
   line-height: 21px;
   color: #FFFFFF;
   background: #2F2105;
-  box-shadow: 0px 4px 32px rgba(223, 195, 124, 0.25);
+  box-shadow: 0 4px 32px rgba(223, 195, 124, 0.25);
+}
+@media screen and (max-width: 1024px) {
+  .button_dark-footer {
+    padding: 6px 16px;
+  }
 }
 .button_more {
   max-width: 70px;
