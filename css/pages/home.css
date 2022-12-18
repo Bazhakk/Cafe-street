@@ -297,131 +297,6 @@ ul {
   src: url("../../fonts/Poppins-Bold.eot") format("embedded-opentype"), url("../../fonts/Poppins-Bold.svg") format("svg"), url("../../fonts/Poppins-Bold.woff") format("woff"), url("../../fonts/Poppins-Bold.woff2") format("woff2");
   font-weight: 500;
 }
-.hero {
-  position: relative;
-  min-height: 1100px;
-  top: 0;
-  background-image: url("../../img/fon.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.hero__container {
-  position: relative;
-  display: flex;
-  align-items: center;
-  padding-top: 180px;
-  z-index: 2;
-}
-@media (max-width: 1024px) {
-  .hero__container {
-    margin: 0 auto 100px;
-  }
-}
-.hero__enjoy {
-  display: flex;
-  padding-top: 50px;
-}
-@media (max-width: 1024px) {
-  .hero__enjoy {
-    margin: 0 auto;
-    padding: 25px 20px;
-    flex-direction: column;
-  }
-}
-.hero__box {
-  max-width: 490px;
-  margin-right: 167px;
-}
-@media (max-width: 1024px) {
-  .hero__box {
-    margin: 0 auto;
-  }
-}
-.hero__img {
-  max-width: 527px;
-}
-@media (max-width: 1024px) {
-  .hero__img {
-    margin: 0 auto;
-  }
-}
-.hero__img_right {
-  align-items: flex-end;
-}
-.hero__button {
-  display: flex;
-}
-@media (max-width: 1024px) {
-  .hero__button {
-    display: flex;
-    margin: 0 auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-}
-@media (max-width: 268px) {
-  .hero__button {
-    flex-direction: column;
-    margin: 0 auto;
-    padding-bottom: 30px;
-  }
-}
-.hero__order {
-  display: flex;
-}
-.hero__title {
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 72px;
-  margin-bottom: 24px;
-  color: #2F2105;
-}
-.hero__title_color {
-  color: #FF912B;
-}
-.hero__text {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 27px;
-  margin-bottom: 32px;
-  color: #7E7D7A;
-}
-
-.coffee {
-  position: absolute;
-  max-width: 600px;
-  z-index: 1;
-}
-.coffee_left {
-  left: 0;
-  bottom: 0;
-}
-.coffee_right {
-  right: 0;
-  top: 0;
-}
-
-@font-face {
-  font-family: "Poppins";
-  src: url("../../fonts/Poppins-Regular.eot") format("embedded-opentype"), url("../../fonts/Poppins-Regular.svg") format("svg"), url("../../fonts/Poppins-Regular.woff") format("woff"), url("../../fonts/Poppins-Regular.woff2") format("woff2");
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Poppins";
-  src: url("../../fonts/Poppins-Medium.eot") format("embedded-opentype"), url("../../fonts/Poppins-Medium.svg") format("svg"), url("../../fonts/Poppins-Medium.woff") format("woff"), url("../../fonts/Poppins-Medium.woff2") format("woff2");
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Poppins";
-  src: url("../../fonts/Poppins-SemiBold.eot") format("embedded-opentype"), url("../../fonts/Poppins-SemiBold.svg") format("svg"), url("../../fonts/Poppins-SemiBold.woff") format("woff"), url("../../fonts/Poppins-SemiBold.woff2") format("woff2");
-  font-weight: 600;
-}
-@font-face {
-  font-family: "Poppins";
-  src: url("../../fonts/Poppins-Bold.eot") format("embedded-opentype"), url("../../fonts/Poppins-Bold.svg") format("svg"), url("../../fonts/Poppins-Bold.woff") format("woff"), url("../../fonts/Poppins-Bold.woff2") format("woff2");
-  font-weight: 500;
-}
 .header {
   width: 100%;
   margin-top: 70px;
@@ -518,6 +393,130 @@ ul {
   .burger {
     display: block;
   }
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Regular.eot") format("embedded-opentype"), url("../../fonts/Poppins-Regular.svg") format("svg"), url("../../fonts/Poppins-Regular.woff") format("woff"), url("../../fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Medium.eot") format("embedded-opentype"), url("../../fonts/Poppins-Medium.svg") format("svg"), url("../../fonts/Poppins-Medium.woff") format("woff"), url("../../fonts/Poppins-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-SemiBold.eot") format("embedded-opentype"), url("../../fonts/Poppins-SemiBold.svg") format("svg"), url("../../fonts/Poppins-SemiBold.woff") format("woff"), url("../../fonts/Poppins-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Bold.eot") format("embedded-opentype"), url("../../fonts/Poppins-Bold.svg") format("svg"), url("../../fonts/Poppins-Bold.woff") format("woff"), url("../../fonts/Poppins-Bold.woff2") format("woff2");
+  font-weight: 500;
+}
+.hero {
+  position: relative;
+  min-height: 1100px;
+  top: 0;
+  background-image: url("../../img/fon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero__container {
+  display: flex;
+  align-items: center;
+  padding-top: 180px;
+  z-index: 2;
+}
+@media (max-width: 1024px) {
+  .hero__container {
+    margin: 0 auto 100px;
+  }
+}
+.hero__enjoy {
+  display: flex;
+  padding-top: 50px;
+}
+@media (max-width: 1024px) {
+  .hero__enjoy {
+    margin: 0 auto;
+    padding: 25px 20px;
+    flex-direction: column;
+  }
+}
+.hero__box {
+  max-width: 490px;
+  margin-right: 167px;
+}
+@media (max-width: 1024px) {
+  .hero__box {
+    margin: 0 auto;
+  }
+}
+.hero__img {
+  max-width: 527px;
+}
+@media (max-width: 1024px) {
+  .hero__img {
+    margin: 0 auto;
+  }
+}
+.hero__img_right {
+  align-items: flex-end;
+}
+.hero__button {
+  display: flex;
+}
+@media (max-width: 1024px) {
+  .hero__button {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 268px) {
+  .hero__button {
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+}
+.hero__order {
+  display: flex;
+}
+.hero__title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  margin-bottom: 24px;
+  color: #2F2105;
+}
+.hero__title_color {
+  color: #FF912B;
+}
+.hero__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 32px;
+  color: #7E7D7A;
+}
+
+.coffee {
+  position: absolute;
+  max-width: 600px;
+  z-index: 1;
+}
+.coffee_left {
+  left: 0;
+  bottom: 0;
+}
+.coffee_right {
+  right: 0;
+  top: 0;
 }
 
 @font-face {
@@ -1051,7 +1050,6 @@ ul {
   position: absolute;
   justify-content: space-between;
   margin: 0;
-  padding: 0;
   padding: 0 20px 0 0;
   top: 20px;
   right: 0;
