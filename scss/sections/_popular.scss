@@ -36,7 +36,6 @@
 
     .order {
         display: flex;
-        padding: 0;
         justify-content: space-between;
 
         @media screen and (max-width: 1024px) {
@@ -120,6 +119,13 @@
                 display: flex;
                 margin: 20px auto;
             }
+
+            &:hover {
+                transition: all .4s;
+                border: 0;
+                background-color: $text-color;
+                color: $black-color;
+              }
         }
     }
 }

@@ -13,4 +13,9 @@ jQuery(document).ready(function ( $ ) {
     e.stopPropagation();
   });
 
+  // AOS init
+  AOS.init({
+    once: true
+  });
+
 });
