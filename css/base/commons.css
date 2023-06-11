@@ -149,6 +149,12 @@
   background-color: rgba(255, 211, 144, 0.6196078431);
   color: #2F2105;
 }
+@media screen and (max-width: 1024px) {
+  .button_dark-about {
+    display: block;
+    text-align: center;
+  }
+}
 .button_dark-footer {
   display: flex;
   align-items: center;
@@ -182,21 +188,18 @@
   line-height: 18px;
   color: #F4AE26;
 }
-@media (max-width: 1024px) {
-  .button_more {
-    margin: 0 auto;
-    padding-top: 30px;
-  }
-}
 .button_more:hover {
   transition: all 0.4s;
   border: 0;
   color: #2F2105;
 }
 .button_hot, .button_cold {
-  max-width: 64px;
-  max-height: 32px;
+  width: 64px;
   padding: 5px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
   border-radius: 8px;
 }
 .button_hot:hover, .button_cold:hover {
@@ -205,7 +208,6 @@
   color: #2F2105;
 }
 .button_hot {
-  margin-right: 24px;
   border: 2px solid #FF912B;
   color: #FF912B;
 }

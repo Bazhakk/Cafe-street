@@ -1,16 +1,20 @@
 jQuery(document).ready(function ( $ ) {
+  let burger = document.getElementById('burger');
+  let mobileMenu = document.getElementById('mobile-menu');
   
-  $(document).on('click', '#burger', function() {
-    $('#burger').toggleClass('burger-active');
-    $('#mobile-menu').slideToggle().css('display', 'flex');
-  });
+  burger.addEventListener('click', function() {
+    if(burger.classList.contains('burger-active')) {
+      mobileMenu.style.display = "none";
+      burger.classList.remove('burger-active');
 
-  $(document).on('click', function(e) {
-    if (!$(e.target).closest('#burger').length) {
-      $('#mobile-menu').hide();
-      $('#burger').removeClass('burger-active');
+      $("body").css("overflow", "auto");
+
+    } else {
+      mobileMenu.style.display = "flex";
+      burger.classList.add('burger-active');
+
+      $("body").css("overflow","hidden");
     }
-    e.stopPropagation();
   });
 
   // AOS init

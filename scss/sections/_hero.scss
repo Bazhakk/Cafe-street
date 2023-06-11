@@ -15,10 +15,6 @@
     align-items: center;
     padding-top: 180px;
     z-index: 2;
-
-    @media (max-width: 1024px) {
-      margin: 0 auto 100px;
-    }
   }
 
   &__enjoy {
@@ -58,6 +54,7 @@
 
     @media (max-width: 1024px) {
       display: flex;
+      align-items: center;
       margin: 0 auto;
       padding-top: 30px;
       padding-bottom: 30px;
@@ -98,7 +95,7 @@
 .coffee {
   position: absolute;
   max-width: 600px;
-  z-index: 1;
+  z-index: 0;
 
   &_left {
     left: 0;

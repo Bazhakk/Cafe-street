@@ -51,7 +51,8 @@
         max-width: 850px;
         display: flex;
         position: absolute;
-        justify-content: space-between;
+        // justify-content: space-between;
+        gap: 80px;
         margin: 0;
         padding: 0 20px 0 0;
         top: 20px;
@@ -79,20 +80,20 @@
 
         &__recall {
             position: absolute;
-            max-width: 227px;
-            max-height: 87px;
-            margin-left: 30px;
-            margin-top: -130px;
+            width: 227px;
+            height: 87px;
+            left: 30px;
+            bottom: 35px;
             overflow: hidden;
             border-radius: 8px;
-            border: 6px solid #FFD3909E;
+            border: 6px solid rgba(255, 211, 144, 0.6196078431);
             background: #FFCB7C;
 
-            @media screen and (max-width: 1024px) {
-                max-width: 120px;
-                max-height: 45px;
-                margin-top: -75px;
-            }
+            // @media screen and (max-width: 1024px) {
+            //     max-width: 120px;
+            //     max-height: 45px;
+            //     margin-top: -75px;
+            // }
         }
 
         &__name {
@@ -120,7 +121,6 @@
             color: $black-color;
 
             @media screen and (max-width: 1024px) {
-                font-weight: 400;
                 font-size: 7px;
                 line-height: 11px;
             }

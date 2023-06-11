@@ -33,15 +33,14 @@
     .order {
         display: flex;
         padding: 0;
-        justify-content: space-between;
+        gap: 40px;
 
         @media screen and (max-width: 1024px) {
-            margin: 0 auto;
             flex-direction: column;
         }
 
         &__item {
-            max-width: 345px;
+            width: 345px;
             padding: 24px 19px;
             box-sizing: border-box;
             border-radius: 12px;
@@ -51,7 +50,7 @@
             backdrop-filter: blur(2px);
 
             @media screen and (max-width: 1024px) {
-                margin: 20px auto;
+                width: 100%;
             }
         }
 
@@ -62,46 +61,35 @@
         }
 
         &__img {
-            max-width: 307px;
+            width: 307px;
             padding: 19px 18px;
 
             @media screen and (max-width: 380px) {
-                max-width: 160px;
-                margin: 0 auto;
+                width: 160px;
               }
         }
 
-        &__box {
+        &__price {
             display: flex;
             justify-content: space-between;
-            padding: 0 10px;
         }
 
         &__name {
-            font-weight: 600px;
+            font-family: 'Poppins';
+            font-weight: 600;
             font-size: 24px;
             line-height: 36px;
             letter-spacing: 0.04em;
             color: $black-color;
         }
 
-        &__price {
-            font-weight: 700;
-            letter-spacing: 0.04em;
-            color: $black-color;
-        }
-
-        &__pick {
-            padding: 0 10px;
-        }
-
         &__choice {
             display: flex;
-            margin-bottom: 5px;
+            justify-content: space-between;
         }
 
         &__text {
-            margin-right: 75px;
+            max-width: 160px;
             font-weight: 600;
             font-size: 14px;
             line-height: 21px;
@@ -110,18 +98,11 @@
         }
 
         &__cart {
-            max-width: 40px;
-            max-height: 28px;
             display: flex;
             align-items: center;
-            padding: 10px 14px;
+            padding: 10px 10px;
             border-radius: 64px;
             background: $span-color;
-
-            @media screen and (max-width: 1024px) {
-                display: flex;
-                margin: 20px auto;
-            }
 
             &:hover {
                 transition: all .4s;

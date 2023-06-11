@@ -10,7 +10,7 @@
 </head>
 <body>
     
-    <!--HEADER-->
+<!--HEADER-->
     <header class="header">
         <div class="header__container container">
             <div class="header__menu">
@@ -29,7 +29,7 @@
                 <a href="#" title="About us" class="main-menu__link_about link-anima">About us</a>
                 <a href="#" title="Our Product" class="main-menu__link link-anima">Our Product</a>
                 <a href="#" title="Delivery" class="main-menu__link link-anima">Delivery</a>
-              </nav>
+                </nav>
             </div>
 
             <div class="search header__search">
@@ -54,253 +54,66 @@
                 <a class="mobile-menu__menu" href="#" title="About us" class="mobile-menu__link link-anima">About us</a>
                 <a class="mobile-menu__menu" href="#" title="Our Product" class="mobile-menu__link link-anima">Our Product</a>
                 <a class="mobile-menu__menu" href="#" title="Delivery" class="mobile-menu__link link-anima">Delivery</a>
+                
+                <div class="mobile-menu__search">
+                    <form class="search__form" data-aos="fade-down-left" data-aos-delay="200">
+                        <svg class="search__icon" id="search-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 21L16.514 16.506L21 21ZM19 10.5C19 12.7543 18.1045 14.9163 16.5104 16.5104C14.9163 18.1045 12.7543 19 10.5 19C8.24566 19 6.08365 18.1045 4.48959 16.5104C2.89553 14.9163 2 12.7543 2 10.5C2 8.24566 2.89553 6.08365 4.48959 4.48959C6.08365 2.89553 8.24566 2 10.5 2C12.7543 2 14.9163 2.89553 16.5104 4.48959C18.1045 6.08365 19 8.24566 19 10.5V10.5Z" stroke="#1D1D1D" stroke-width="2" stroke-linecap="round"/>
+                        </svg>   
+                        <input type="search" class="search__field" id="search-field" placeholder="Cappuccino">           
+                    </form>
+                    <a href="" class="search__cart" data-aos="fade-left" data-aos-delay="100">
+                        <svg class="search__carts" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.66667 9.33333H25.0533C25.4259 9.33334 25.7943 9.41142 26.1349 9.56254C26.4754 9.71365 26.7805 9.93444 27.0305 10.2107C27.2805 10.4869 27.4698 10.8125 27.5863 11.1664C27.7027 11.5203 27.7437 11.8946 27.7067 12.2653L26.9067 20.2653C26.8409 20.9233 26.5329 21.5334 26.0426 21.9772C25.5523 22.4209 24.9146 22.6666 24.2533 22.6667H11.52C10.9033 22.6669 10.3056 22.4534 9.82859 22.0625C9.35162 21.6716 9.02487 21.1274 8.904 20.5227L6.66667 9.33333Z" stroke="#1D1D1D" stroke-width="2" stroke-linejoin="round"/>
+                            <path d="M21.3333 28H24M6.66667 9.33333L5.58667 5.00933C5.51444 4.721 5.34794 4.46508 5.11361 4.28221C4.87928 4.09934 4.59057 4.00001 4.29333 4H2.66667L6.66667 9.33333ZM10.6667 28H13.3333H10.6667Z" stroke="#1D1D1D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="27" cy="9" r="4.5" fill="#FF912B" stroke="white"/>
+                        </svg>
+                    </a>
+                </div>
             </nav>
 
         </div>
     </header>
 
     <main class="home">
-    <!--HERO-->
+        <section class="hero">
+            <img src="img/hero__hero-right.png" alt="Coffe" class="coffee coffee_right" data-aos="fade-down" data-aos-delay="50"/>
+            <img src="img/hero__hero-left.png" alt="Coffe" class="coffee coffee_left" data-aos="fade-up" data-aos-delay="100"/>
 
-    <section class="hero">
-        <img src="img/hero__hero-right.png" alt="Coffe" class="coffee coffee_right" data-aos="fade-down" data-aos-delay="50"/>
-        <img src="img/hero__hero-left.png" alt="Coffe" class="coffee coffee_left" data-aos="fade-up" data-aos-delay="100"/>
-
-        <div class="hero__container container">
-            <div class="hero__enjoy">
-                <div class="hero__box" data-aos="fade-up-left" data-aos-delay="100">
-                    <h1 class="hero__title">Enjoy your <span class="hero__title_color">coffee</span> before your activity</h1>
-                    <p class="hero__text">Boost your productivity and build your<br> mood with a glass of coffee in the morning </p>
-                    <div class="hero__button">
-                        <a href="#" title="Order" class="button button_dark">Order Now
-                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <circle cx="11" cy="11" r="11" fill="#FF912B"/>
-                                <rect x="5" y="5" width="12" height="12" fill="url(#pattern0)"/>
-                                <defs>
-                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                <use xlink:href="#image0_502_25" transform="scale(0.0166667)"/>
-                                </pattern>
-                                <image id="image0_502_25" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALZSURBVHgB7ZuBddowEIbPTMAGVSdoNqjZIJ0g7QRNJ4BMEDpByAbpBKETlE6AMgFkgusddvpoym9LwjxOjr/3ZL+cbcX/0+l0kgyRwMxTKRv+H7XdSXHUF0TMLYcxpT4AWhZRUu5ECv5FmTOS8j3i/gsRfUEZo4LnUnzEMyVlzKgoiq2cP0U884H6gLjqdWA/3lBfEDGPgaIdZcro1d9fpGwDnispU/4RLP3ZUyW6jY/UJ8Rl5y0uvaZMKQ4ZRdBYTppkOMoP7ZJLKQ/isfevLxboqTrBeJQypnzxUiZ1V90xQnfKTSs53VDeOClrabyrF0PR9oQOVZR5dkWVm2tLr0IEOzllG6T2WIrgSatgpc6ucu7LL0yC7mrIwD6TMfSdGE9570aB9fwGdnNTRXHbhZy+gctlqOAVsFudOT0Au6MQdEwGLmJ25gTel2MqQP3CkTH0ncC7rkNdWvHAbtGtHbD7GMEocL0ne8AhNEYwClwl2cMBu+9CsEWXRi381IVgDRDWsjAH7NtgwfXqpgeXrSUg74A9KkorP4E9l8X551jBufRjB+yeYpC+eokGdDIEH5tl7VU0ZoyJwNXwjrs0OMqlWwKXIxs4YPd6iO3DivUEBHnaboMhRfATsFsJXA7Yn/WQIngJ7FaGJgfsXg9durQjG3Tr0vWi9qENN42OFloZZVleDyktrKBWtiAYtbDXQ6pgNDe+ojNSr76U4HLINjCs+LIhAZnyGZZ95H+WmvFxSyYYtBB/oHJ1G60kl8X5hcSe3b53kkvXGVfM507n5u+mYGofVvRzpxXZ52Z/u/QouFoOXbNdZtQ1XIlesC10Df360PsmBS0kXE4zqnLqc4zHGle0i+mqzLyOMwMDAwMDbxMZlr5y888J9NotJXDKupPg6kOSUGZW6k6Gw7+zVqI+k+i67mMmD/ucMqvptO6uBP+IuPee4jhl3elo/+HmmdMmtY91Wfcfe0B48y7j/zUAAAAASUVORK5CYII="/>
-                                </defs>
-                            </svg>
-                        </a>
-                        <a href="#" title="More" class="button button_more">More menu</a>
-                    </div>
-                </div>
-                
-                <div class="hero__coffe">
-                    <img src="img/hero-img.png" alt="Hero image" class="hero__img" data-aos="flip-left" data-aos-delay="150"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--POPULAR-->
-
-    <section class="popular">
-        <div class="popular__container container">
-            <h2 class="popular__title" data-aos="flip-up" data-aos-delay="150" >Popular <span class="popular__title_subtitle">Now</span></h2>
-            <ul class="order">
-                <li class="order__item" data-aos="zoom-in" data-aos-delay="250">
-                    <svg class="order__icon" width="70" height="34" viewBox="0 0 70 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g filter="url(#filter0_b_12_179)">
-                        <rect width="70" height="34" rx="17" fill="url(#paint0_linear_12_179)"/>
-                        </g>
-                        <rect x="4" y="4" width="62" height="26" rx="13" fill="white"/>
-                        <path d="M14.874 20.18V18.248L19.298 11.92H21.972V18.108H23.12V20.18H21.972V22H19.578V20.18H14.874ZM19.746 14.552L17.394 18.108H19.746V14.552ZM26.2107 22.112C25.7907 22.112 25.4453 21.9907 25.1747 21.748C24.9133 21.496 24.7827 21.188 24.7827 20.824C24.7827 20.4507 24.9133 20.138 25.1747 19.886C25.4453 19.634 25.7907 19.508 26.2107 19.508C26.6213 19.508 26.9573 19.634 27.2187 19.886C27.4893 20.138 27.6247 20.4507 27.6247 20.824C27.6247 21.188 27.4893 21.496 27.2187 21.748C26.9573 21.9907 26.6213 22.112 26.2107 22.112ZM31.0438 16.512C30.1665 16.0453 29.7278 15.3127 29.7278 14.314C29.7278 13.81 29.8585 13.3527 30.1198 12.942C30.3812 12.522 30.7778 12.1907 31.3098 11.948C31.8418 11.696 32.4952 11.57 33.2698 11.57C34.0445 11.57 34.6932 11.696 35.2158 11.948C35.7478 12.1907 36.1445 12.522 36.4058 12.942C36.6672 13.3527 36.7978 13.81 36.7978 14.314C36.7978 14.818 36.6765 15.2567 36.4338 15.63C36.2005 16.0033 35.8832 16.2973 35.4818 16.512C35.9858 16.7547 36.3732 17.0907 36.6438 17.52C36.9145 17.94 37.0498 18.4347 37.0498 19.004C37.0498 19.6667 36.8818 20.2407 36.5458 20.726C36.2098 21.202 35.7525 21.566 35.1738 21.818C34.6045 22.07 33.9698 22.196 33.2698 22.196C32.5698 22.196 31.9305 22.07 31.3518 21.818C30.7825 21.566 30.3298 21.202 29.9938 20.726C29.6578 20.2407 29.4898 19.6667 29.4898 19.004C29.4898 18.4253 29.6252 17.926 29.8958 17.506C30.1665 17.0767 30.5492 16.7453 31.0438 16.512ZM34.4738 14.678C34.4738 14.2953 34.3618 14.0013 34.1378 13.796C33.9232 13.5813 33.6338 13.474 33.2698 13.474C32.9058 13.474 32.6118 13.5813 32.3878 13.796C32.1732 14.0107 32.0658 14.3093 32.0658 14.692C32.0658 15.056 32.1778 15.3453 32.4018 15.56C32.6258 15.7653 32.9152 15.868 33.2698 15.868C33.6245 15.868 33.9138 15.7607 34.1378 15.546C34.3618 15.3313 34.4738 15.042 34.4738 14.678ZM33.2698 17.548C32.8312 17.548 32.4765 17.6693 32.2058 17.912C31.9352 18.1453 31.7998 18.472 31.7998 18.892C31.7998 19.284 31.9305 19.606 32.1918 19.858C32.4625 20.11 32.8218 20.236 33.2698 20.236C33.7178 20.236 34.0678 20.11 34.3198 19.858C34.5812 19.606 34.7118 19.284 34.7118 18.892C34.7118 18.4813 34.5765 18.1547 34.3058 17.912C34.0445 17.6693 33.6992 17.548 33.2698 17.548Z" fill="#2F2105"/>
-                        <path d="M48.4599 11.5359C48.6465 11.0436 49.353 11.0436 49.5402 11.5359L50.7477 14.8807C50.7898 14.9897 50.864 15.0833 50.9605 15.1492C51.0569 15.2152 51.1711 15.2503 51.2879 15.25H54.2553C54.8036 15.25 55.0428 15.9325 54.6117 16.2667L52.5 18.1667C52.4055 18.2394 52.3363 18.3402 52.3026 18.4546C52.2688 18.5691 52.2722 18.6913 52.3122 18.8037L53.0834 22.0721C53.2712 22.5971 52.6634 23.048 52.2037 22.7248L49.3355 20.9048C49.2372 20.8358 49.1201 20.7987 49 20.7987C48.88 20.7987 48.7629 20.8358 48.6646 20.9048L45.7964 22.7248C45.3373 23.048 44.7289 22.5965 44.9167 22.0721L45.6879 18.8037C45.7279 18.6913 45.7313 18.5691 45.6975 18.4546C45.6638 18.3402 45.5946 18.2394 45.5 18.1667L43.3884 16.2667C42.9567 15.9325 43.197 15.25 43.7442 15.25H46.7116C46.8285 15.2504 46.9427 15.2153 47.0391 15.1493C47.1356 15.0834 47.2097 14.9897 47.2518 14.8807L48.4593 11.5359H48.4599Z" fill="#FFD057" stroke="#FFD057" stroke-linecap="round" stroke-linejoin="round"/>
-                        <defs>
-                        <filter id="filter0_b_12_179" x="-4" y="-4" width="78" height="42" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
-                        <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_12_179"/>
-                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_12_179" result="shape"/>
-                        </filter>
-                        <linearGradient id="paint0_linear_12_179" x1="35" y1="0" x2="35" y2="34" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="white" stop-opacity="0.7"/>
-                        <stop offset="1" stop-color="white" stop-opacity="0.4"/>
-                        </linearGradient>
-                        </defs>
-                    </svg>
-                    <img src="img/vanilla-img.png" alt="Vanilla" class="order__img"/>
-                    <div class="order__box">
-                        <p class="order__name_"><b>Vanilla Latte</b></p>
-                        <p class="order__price">21K</p>
-                    </div>
-
-                    <div class="order__choice">
-                        <div class="order__button">
-                            <a href="#" title="Order" class="button button_hot">Hot</a>
-                            <a href="#" title="Order" class="button button_cold">Cold</a>
+            <div class="hero__container container">
+                <div class="hero__enjoy">
+                    <div class="hero__box" data-aos="fade-up-left" data-aos-delay="100">
+                        <h1 class="hero__title">Enjoy your <span class="hero__title_color">coffee</span> before your activity</h1>
+                        <p class="hero__text">Boost your productivity and build your<br> mood with a glass of coffee in the morning </p>
+                        <div class="hero__button">
+                            <a href="#" title="Order" class="button button_dark">Order Now
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <circle cx="11" cy="11" r="11" fill="#FF912B"/>
+                                    <rect x="5" y="5" width="12" height="12" fill="url(#pattern0)"/>
+                                    <defs>
+                                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                    <use xlink:href="#image0_502_25" transform="scale(0.0166667)"/>
+                                    </pattern>
+                                    <image id="image0_502_25" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALZSURBVHgB7ZuBddowEIbPTMAGVSdoNqjZIJ0g7QRNJ4BMEDpByAbpBKETlE6AMgFkgusddvpoym9LwjxOjr/3ZL+cbcX/0+l0kgyRwMxTKRv+H7XdSXHUF0TMLYcxpT4AWhZRUu5ECv5FmTOS8j3i/gsRfUEZo4LnUnzEMyVlzKgoiq2cP0U884H6gLjqdWA/3lBfEDGPgaIdZcro1d9fpGwDnispU/4RLP3ZUyW6jY/UJ8Rl5y0uvaZMKQ4ZRdBYTppkOMoP7ZJLKQ/isfevLxboqTrBeJQypnzxUiZ1V90xQnfKTSs53VDeOClrabyrF0PR9oQOVZR5dkWVm2tLr0IEOzllG6T2WIrgSatgpc6ucu7LL0yC7mrIwD6TMfSdGE9570aB9fwGdnNTRXHbhZy+gctlqOAVsFudOT0Au6MQdEwGLmJ25gTel2MqQP3CkTH0ncC7rkNdWvHAbtGtHbD7GMEocL0ne8AhNEYwClwl2cMBu+9CsEWXRi381IVgDRDWsjAH7NtgwfXqpgeXrSUg74A9KkorP4E9l8X551jBufRjB+yeYpC+eokGdDIEH5tl7VU0ZoyJwNXwjrs0OMqlWwKXIxs4YPd6iO3DivUEBHnaboMhRfATsFsJXA7Yn/WQIngJ7FaGJgfsXg9durQjG3Tr0vWi9qENN42OFloZZVleDyktrKBWtiAYtbDXQ6pgNDe+ojNSr76U4HLINjCs+LIhAZnyGZZ95H+WmvFxSyYYtBB/oHJ1G60kl8X5hcSe3b53kkvXGVfM507n5u+mYGofVvRzpxXZ52Z/u/QouFoOXbNdZtQ1XIlesC10Df360PsmBS0kXE4zqnLqc4zHGle0i+mqzLyOMwMDAwMDbxMZlr5y888J9NotJXDKupPg6kOSUGZW6k6Gw7+zVqI+k+i67mMmD/ucMqvptO6uBP+IuPee4jhl3elo/+HmmdMmtY91Wfcfe0B48y7j/zUAAAAASUVORK5CYII="/>
+                                    </defs>
+                                </svg>
+                            </a>
+                            <a href="#" title="More" class="button button_more">More menu</a>
                         </div>
-                        <a href="#" title="Order" class="order__cart">
-                            <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <rect x="0.5" width="18" height="17" fill="url(#pattern0)"/>
-                                <defs>
-                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                <use xlink:href="#image0_12_126" transform="translate(0 -0.0294118) scale(0.0166667 0.0176471)"/>
-                                </pattern>
-                                <image id="image0_12_126" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALZSURBVHgB7ZuBddowEIbPTMAGVSdoNqjZIJ0g7QRNJ4BMEDpByAbpBKETlE6AMgFkgusddvpoym9LwjxOjr/3ZL+cbcX/0+l0kgyRwMxTKRv+H7XdSXHUF0TMLYcxpT4AWhZRUu5ECv5FmTOS8j3i/gsRfUEZo4LnUnzEMyVlzKgoiq2cP0U884H6gLjqdWA/3lBfEDGPgaIdZcro1d9fpGwDnispU/4RLP3ZUyW6jY/UJ8Rl5y0uvaZMKQ4ZRdBYTppkOMoP7ZJLKQ/isfevLxboqTrBeJQypnzxUiZ1V90xQnfKTSs53VDeOClrabyrF0PR9oQOVZR5dkWVm2tLr0IEOzllG6T2WIrgSatgpc6ucu7LL0yC7mrIwD6TMfSdGE9570aB9fwGdnNTRXHbhZy+gctlqOAVsFudOT0Au6MQdEwGLmJ25gTel2MqQP3CkTH0ncC7rkNdWvHAbtGtHbD7GMEocL0ne8AhNEYwClwl2cMBu+9CsEWXRi381IVgDRDWsjAH7NtgwfXqpgeXrSUg74A9KkorP4E9l8X551jBufRjB+yeYpC+eokGdDIEH5tl7VU0ZoyJwNXwjrs0OMqlWwKXIxs4YPd6iO3DivUEBHnaboMhRfATsFsJXA7Yn/WQIngJ7FaGJgfsXg9durQjG3Tr0vWi9qENN42OFloZZVleDyktrKBWtiAYtbDXQ6pgNDe+ojNSr76U4HLINjCs+LIhAZnyGZZ95H+WmvFxSyYYtBB/oHJ1G60kl8X5hcSe3b53kkvXGVfM507n5u+mYGofVvRzpxXZ52Z/u/QouFoOXbNdZtQ1XIlesC10Df360PsmBS0kXE4zqnLqc4zHGle0i+mqzLyOMwMDAwMDbxMZlr5y888J9NotJXDKupPg6kOSUGZW6k6Gw7+zVqI+k+i67mMmD/ucMqvptO6uBP+IuPee4jhl3elo/+HmmdMmtY91Wfcfe0B48y7j/zUAAAAASUVORK5CYII="/>
-                                </defs>
-                            </svg>
-                        </a>
                     </div>
-                </li>
-
-                <li class="order__item" data-aos="zoom-in" data-aos-delay="450">
-                    <svg class="order__icon" width="70" height="34" viewBox="0 0 70 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g filter="url(#filter0_b_12_179)">
-                        <rect width="70" height="34" rx="17" fill="url(#paint0_linear_12_179)"/>
-                        </g>
-                        <rect x="4" y="4" width="62" height="26" rx="13" fill="white"/>
-                        <path d="M14.874 20.18V18.248L19.298 11.92H21.972V18.108H23.12V20.18H21.972V22H19.578V20.18H14.874ZM19.746 14.552L17.394 18.108H19.746V14.552ZM26.2107 22.112C25.7907 22.112 25.4453 21.9907 25.1747 21.748C24.9133 21.496 24.7827 21.188 24.7827 20.824C24.7827 20.4507 24.9133 20.138 25.1747 19.886C25.4453 19.634 25.7907 19.508 26.2107 19.508C26.6213 19.508 26.9573 19.634 27.2187 19.886C27.4893 20.138 27.6247 20.4507 27.6247 20.824C27.6247 21.188 27.4893 21.496 27.2187 21.748C26.9573 21.9907 26.6213 22.112 26.2107 22.112ZM31.0438 16.512C30.1665 16.0453 29.7278 15.3127 29.7278 14.314C29.7278 13.81 29.8585 13.3527 30.1198 12.942C30.3812 12.522 30.7778 12.1907 31.3098 11.948C31.8418 11.696 32.4952 11.57 33.2698 11.57C34.0445 11.57 34.6932 11.696 35.2158 11.948C35.7478 12.1907 36.1445 12.522 36.4058 12.942C36.6672 13.3527 36.7978 13.81 36.7978 14.314C36.7978 14.818 36.6765 15.2567 36.4338 15.63C36.2005 16.0033 35.8832 16.2973 35.4818 16.512C35.9858 16.7547 36.3732 17.0907 36.6438 17.52C36.9145 17.94 37.0498 18.4347 37.0498 19.004C37.0498 19.6667 36.8818 20.2407 36.5458 20.726C36.2098 21.202 35.7525 21.566 35.1738 21.818C34.6045 22.07 33.9698 22.196 33.2698 22.196C32.5698 22.196 31.9305 22.07 31.3518 21.818C30.7825 21.566 30.3298 21.202 29.9938 20.726C29.6578 20.2407 29.4898 19.6667 29.4898 19.004C29.4898 18.4253 29.6252 17.926 29.8958 17.506C30.1665 17.0767 30.5492 16.7453 31.0438 16.512ZM34.4738 14.678C34.4738 14.2953 34.3618 14.0013 34.1378 13.796C33.9232 13.5813 33.6338 13.474 33.2698 13.474C32.9058 13.474 32.6118 13.5813 32.3878 13.796C32.1732 14.0107 32.0658 14.3093 32.0658 14.692C32.0658 15.056 32.1778 15.3453 32.4018 15.56C32.6258 15.7653 32.9152 15.868 33.2698 15.868C33.6245 15.868 33.9138 15.7607 34.1378 15.546C34.3618 15.3313 34.4738 15.042 34.4738 14.678ZM33.2698 17.548C32.8312 17.548 32.4765 17.6693 32.2058 17.912C31.9352 18.1453 31.7998 18.472 31.7998 18.892C31.7998 19.284 31.9305 19.606 32.1918 19.858C32.4625 20.11 32.8218 20.236 33.2698 20.236C33.7178 20.236 34.0678 20.11 34.3198 19.858C34.5812 19.606 34.7118 19.284 34.7118 18.892C34.7118 18.4813 34.5765 18.1547 34.3058 17.912C34.0445 17.6693 33.6992 17.548 33.2698 17.548Z" fill="#2F2105"/>
-                        <path d="M48.4599 11.5359C48.6465 11.0436 49.353 11.0436 49.5402 11.5359L50.7477 14.8807C50.7898 14.9897 50.864 15.0833 50.9605 15.1492C51.0569 15.2152 51.1711 15.2503 51.2879 15.25H54.2553C54.8036 15.25 55.0428 15.9325 54.6117 16.2667L52.5 18.1667C52.4055 18.2394 52.3363 18.3402 52.3026 18.4546C52.2688 18.5691 52.2722 18.6913 52.3122 18.8037L53.0834 22.0721C53.2712 22.5971 52.6634 23.048 52.2037 22.7248L49.3355 20.9048C49.2372 20.8358 49.1201 20.7987 49 20.7987C48.88 20.7987 48.7629 20.8358 48.6646 20.9048L45.7964 22.7248C45.3373 23.048 44.7289 22.5965 44.9167 22.0721L45.6879 18.8037C45.7279 18.6913 45.7313 18.5691 45.6975 18.4546C45.6638 18.3402 45.5946 18.2394 45.5 18.1667L43.3884 16.2667C42.9567 15.9325 43.197 15.25 43.7442 15.25H46.7116C46.8285 15.2504 46.9427 15.2153 47.0391 15.1493C47.1356 15.0834 47.2097 14.9897 47.2518 14.8807L48.4593 11.5359H48.4599Z" fill="#FFD057" stroke="#FFD057" stroke-linecap="round" stroke-linejoin="round"/>
-                        <defs>
-                        <filter id="filter0_b_12_179" x="-4" y="-4" width="78" height="42" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
-                        <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_12_179"/>
-                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_12_179" result="shape"/>
-                        </filter>
-                        <linearGradient id="paint0_linear_12_179" x1="35" y1="0" x2="35" y2="34" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="white" stop-opacity="0.7"/>
-                        <stop offset="1" stop-color="white" stop-opacity="0.4"/>
-                        </linearGradient>
-                        </defs>
-                    </svg>
-                    <img src="img/espresso-img.png" alt="Espresso" class="order__img"/>
                     
-                    <div class="order__box">
-                        <p class="order__name_"><b>Espresso</b></p>
-                        <p class="order__price">12K</p>
+                    <div class="hero__coffe">
+                        <img src="img/hero-img.png" alt="Hero image" class="hero__img" data-aos="flip-left" data-aos-delay="150"/>
                     </div>
-
-                    <div class="order__choice">
-                        <div class="order__button">
-                            <a href="#" title="Order" class="button button_hot">Hot</a>
-                            <a href="#" title="Order" class="button button_cold">Cold</a>
-                        </div>
-                        <a href="#" title="Order" class="order__cart">
-                            <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <rect x="0.5" width="18" height="17" fill="url(#pattern0)"/>
-                                <defs>
-                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                <use xlink:href="#image0_12_126" transform="translate(0 -0.0294118) scale(0.0166667 0.0176471)"/>
-                                </pattern>
-                                <image id="image0_12_126" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALZSURBVHgB7ZuBddowEIbPTMAGVSdoNqjZIJ0g7QRNJ4BMEDpByAbpBKETlE6AMgFkgusddvpoym9LwjxOjr/3ZL+cbcX/0+l0kgyRwMxTKRv+H7XdSXHUF0TMLYcxpT4AWhZRUu5ECv5FmTOS8j3i/gsRfUEZo4LnUnzEMyVlzKgoiq2cP0U884H6gLjqdWA/3lBfEDGPgaIdZcro1d9fpGwDnispU/4RLP3ZUyW6jY/UJ8Rl5y0uvaZMKQ4ZRdBYTppkOMoP7ZJLKQ/isfevLxboqTrBeJQypnzxUiZ1V90xQnfKTSs53VDeOClrabyrF0PR9oQOVZR5dkWVm2tLr0IEOzllG6T2WIrgSatgpc6ucu7LL0yC7mrIwD6TMfSdGE9570aB9fwGdnNTRXHbhZy+gctlqOAVsFudOT0Au6MQdEwGLmJ25gTel2MqQP3CkTH0ncC7rkNdWvHAbtGtHbD7GMEocL0ne8AhNEYwClwl2cMBu+9CsEWXRi381IVgDRDWsjAH7NtgwfXqpgeXrSUg74A9KkorP4E9l8X551jBufRjB+yeYpC+eokGdDIEH5tl7VU0ZoyJwNXwjrs0OMqlWwKXIxs4YPd6iO3DivUEBHnaboMhRfATsFsJXA7Yn/WQIngJ7FaGJgfsXg9durQjG3Tr0vWi9qENN42OFloZZVleDyktrKBWtiAYtbDXQ6pgNDe+ojNSr76U4HLINjCs+LIhAZnyGZZ95H+WmvFxSyYYtBB/oHJ1G60kl8X5hcSe3b53kkvXGVfM507n5u+mYGofVvRzpxXZ52Z/u/QouFoOXbNdZtQ1XIlesC10Df360PsmBS0kXE4zqnLqc4zHGle0i+mqzLyOMwMDAwMDbxMZlr5y888J9NotJXDKupPg6kOSUGZW6k6Gw7+zVqI+k+i67mMmD/ucMqvptO6uBP+IuPee4jhl3elo/+HmmdMmtY91Wfcfe0B48y7j/zUAAAAASUVORK5CYII="/>
-                                </defs>
-                            </svg>
-                        </a>
-                    </div>
-                </li>
-
-                <li class="order__item" data-aos="zoom-in" data-aos-delay="650">
-                    <svg class="order__icon" width="70" height="34" viewBox="0 0 70 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g filter="url(#filter0_b_12_179)">
-                        <rect width="70" height="34" rx="17" fill="url(#paint0_linear_12_179)"/>
-                        </g>
-                        <rect x="4" y="4" width="62" height="26" rx="13" fill="white"/>
-                        <path d="M14.874 20.18V18.248L19.298 11.92H21.972V18.108H23.12V20.18H21.972V22H19.578V20.18H14.874ZM19.746 14.552L17.394 18.108H19.746V14.552ZM26.2107 22.112C25.7907 22.112 25.4453 21.9907 25.1747 21.748C24.9133 21.496 24.7827 21.188 24.7827 20.824C24.7827 20.4507 24.9133 20.138 25.1747 19.886C25.4453 19.634 25.7907 19.508 26.2107 19.508C26.6213 19.508 26.9573 19.634 27.2187 19.886C27.4893 20.138 27.6247 20.4507 27.6247 20.824C27.6247 21.188 27.4893 21.496 27.2187 21.748C26.9573 21.9907 26.6213 22.112 26.2107 22.112ZM31.0438 16.512C30.1665 16.0453 29.7278 15.3127 29.7278 14.314C29.7278 13.81 29.8585 13.3527 30.1198 12.942C30.3812 12.522 30.7778 12.1907 31.3098 11.948C31.8418 11.696 32.4952 11.57 33.2698 11.57C34.0445 11.57 34.6932 11.696 35.2158 11.948C35.7478 12.1907 36.1445 12.522 36.4058 12.942C36.6672 13.3527 36.7978 13.81 36.7978 14.314C36.7978 14.818 36.6765 15.2567 36.4338 15.63C36.2005 16.0033 35.8832 16.2973 35.4818 16.512C35.9858 16.7547 36.3732 17.0907 36.6438 17.52C36.9145 17.94 37.0498 18.4347 37.0498 19.004C37.0498 19.6667 36.8818 20.2407 36.5458 20.726C36.2098 21.202 35.7525 21.566 35.1738 21.818C34.6045 22.07 33.9698 22.196 33.2698 22.196C32.5698 22.196 31.9305 22.07 31.3518 21.818C30.7825 21.566 30.3298 21.202 29.9938 20.726C29.6578 20.2407 29.4898 19.6667 29.4898 19.004C29.4898 18.4253 29.6252 17.926 29.8958 17.506C30.1665 17.0767 30.5492 16.7453 31.0438 16.512ZM34.4738 14.678C34.4738 14.2953 34.3618 14.0013 34.1378 13.796C33.9232 13.5813 33.6338 13.474 33.2698 13.474C32.9058 13.474 32.6118 13.5813 32.3878 13.796C32.1732 14.0107 32.0658 14.3093 32.0658 14.692C32.0658 15.056 32.1778 15.3453 32.4018 15.56C32.6258 15.7653 32.9152 15.868 33.2698 15.868C33.6245 15.868 33.9138 15.7607 34.1378 15.546C34.3618 15.3313 34.4738 15.042 34.4738 14.678ZM33.2698 17.548C32.8312 17.548 32.4765 17.6693 32.2058 17.912C31.9352 18.1453 31.7998 18.472 31.7998 18.892C31.7998 19.284 31.9305 19.606 32.1918 19.858C32.4625 20.11 32.8218 20.236 33.2698 20.236C33.7178 20.236 34.0678 20.11 34.3198 19.858C34.5812 19.606 34.7118 19.284 34.7118 18.892C34.7118 18.4813 34.5765 18.1547 34.3058 17.912C34.0445 17.6693 33.6992 17.548 33.2698 17.548Z" fill="#2F2105"/>
-                        <path d="M48.4599 11.5359C48.6465 11.0436 49.353 11.0436 49.5402 11.5359L50.7477 14.8807C50.7898 14.9897 50.864 15.0833 50.9605 15.1492C51.0569 15.2152 51.1711 15.2503 51.2879 15.25H54.2553C54.8036 15.25 55.0428 15.9325 54.6117 16.2667L52.5 18.1667C52.4055 18.2394 52.3363 18.3402 52.3026 18.4546C52.2688 18.5691 52.2722 18.6913 52.3122 18.8037L53.0834 22.0721C53.2712 22.5971 52.6634 23.048 52.2037 22.7248L49.3355 20.9048C49.2372 20.8358 49.1201 20.7987 49 20.7987C48.88 20.7987 48.7629 20.8358 48.6646 20.9048L45.7964 22.7248C45.3373 23.048 44.7289 22.5965 44.9167 22.0721L45.6879 18.8037C45.7279 18.6913 45.7313 18.5691 45.6975 18.4546C45.6638 18.3402 45.5946 18.2394 45.5 18.1667L43.3884 16.2667C42.9567 15.9325 43.197 15.25 43.7442 15.25H46.7116C46.8285 15.2504 46.9427 15.2153 47.0391 15.1493C47.1356 15.0834 47.2097 14.9897 47.2518 14.8807L48.4593 11.5359H48.4599Z" fill="#FFD057" stroke="#FFD057" stroke-linecap="round" stroke-linejoin="round"/>
-                        <defs>
-                        <filter id="filter0_b_12_179" x="-4" y="-4" width="78" height="42" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
-                        <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_12_179"/>
-                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_12_179" result="shape"/>
-                        </filter>
-                        <linearGradient id="paint0_linear_12_179" x1="35" y1="0" x2="35" y2="34" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="white" stop-opacity="0.7"/>
-                        <stop offset="1" stop-color="white" stop-opacity="0.4"/>
-                        </linearGradient>
-                        </defs>
-                    </svg>
-                    <img src="img/latte-img.png" alt="Latte" class="order__img"/>
-                    <div class="order__box">
-                        <p class="order__name_"><b>Hazelnut Latte</b></p>
-                        <p class="order__price">23K</p>
-                    </div>
-                    <div class="order__choice">
-                        <div class="order__button">
-                            <a href="#" title="Order" class="button button_hot">Hot</a>
-                            <a href="#" title="Order" class="button button_cold">Cold</a>
-                        </div>
-                        <a href="#" title="Order" class="order__cart">
-                            <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <rect x="0.5" width="18" height="17" fill="url(#pattern0)"/>
-                                <defs>
-                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                <use xlink:href="#image0_12_126" transform="translate(0 -0.0294118) scale(0.0166667 0.0176471)"/>
-                                </pattern>
-                                <image id="image0_12_126" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALZSURBVHgB7ZuBddowEIbPTMAGVSdoNqjZIJ0g7QRNJ4BMEDpByAbpBKETlE6AMgFkgusddvpoym9LwjxOjr/3ZL+cbcX/0+l0kgyRwMxTKRv+H7XdSXHUF0TMLYcxpT4AWhZRUu5ECv5FmTOS8j3i/gsRfUEZo4LnUnzEMyVlzKgoiq2cP0U884H6gLjqdWA/3lBfEDGPgaIdZcro1d9fpGwDnispU/4RLP3ZUyW6jY/UJ8Rl5y0uvaZMKQ4ZRdBYTppkOMoP7ZJLKQ/isfevLxboqTrBeJQypnzxUiZ1V90xQnfKTSs53VDeOClrabyrF0PR9oQOVZR5dkWVm2tLr0IEOzllG6T2WIrgSatgpc6ucu7LL0yC7mrIwD6TMfSdGE9570aB9fwGdnNTRXHbhZy+gctlqOAVsFudOT0Au6MQdEwGLmJ25gTel2MqQP3CkTH0ncC7rkNdWvHAbtGtHbD7GMEocL0ne8AhNEYwClwl2cMBu+9CsEWXRi381IVgDRDWsjAH7NtgwfXqpgeXrSUg74A9KkorP4E9l8X551jBufRjB+yeYpC+eokGdDIEH5tl7VU0ZoyJwNXwjrs0OMqlWwKXIxs4YPd6iO3DivUEBHnaboMhRfATsFsJXA7Yn/WQIngJ7FaGJgfsXg9durQjG3Tr0vWi9qENN42OFloZZVleDyktrKBWtiAYtbDXQ6pgNDe+ojNSr76U4HLINjCs+LIhAZnyGZZ95H+WmvFxSyYYtBB/oHJ1G60kl8X5hcSe3b53kkvXGVfM507n5u+mYGofVvRzpxXZ52Z/u/QouFoOXbNdZtQ1XIlesC10Df360PsmBS0kXE4zqnLqc4zHGle0i+mqzLyOMwMDAwMDbxMZlr5y888J9NotJXDKupPg6kOSUGZW6k6Gw7+zVqI+k+i67mMmD/ucMqvptO6uBP+IuPee4jhl3elo/+HmmdMmtY91Wfcfe0B48y7j/zUAAAAASUVORK5CYII="/>
-                                </defs>
-                            </svg>
-                        </a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-
-    <!--DELIVERY-->
-
-    <section class="delivery">
-        <div class="delivery__container container">
-            <h2 class="delivery__title" data-aos="flip-up" data-aos-delay="250">How to use delivery <span class="delivery__title_subtitle">service</span></h2>
-            
-            <ul class="box">
-                <li class="box__item" data-aos="zoom-in" data-aos-delay="350">
-                    <img src="img/delivery-choose.png" alt="Delivery" class="box__img"/>
-                    <div class="box__info">
-                        <p class="delivery__subtitle"><b>choose your coffee</b></p>
-                        <p class="delivery__text">there are 20+ coffees for you</p>
-                    </div>
-                </li>
-
-                <li class="box__item" data-aos="zoom-in" data-aos-delay="550">
-                    <img src="img/delivery-card.png" alt="Delivery" class="box__img"/>
-                    <div class="box__info">
-                        <p class="delivery__subtitle"><b>we delivery it to you</b></p>
-                        <p class="delivery__text">Choose delivery service</p>
-                    </div>
-                </li>
-
-                <li class="box__item" data-aos="zoom-in" data-aos-delay="750">
-                    <img src="img/delivery-enjoy.png" alt="Delivery" class="box__img"/>
-                    <div class="box__info">
-                        <p class="delivery__subtitle"><b>choose your coffee</b></p>
-                        <p class="delivery__text">there are 20+ coffees for you</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-
-    <!--About-->
-
-    <section class="about">
-        <div class="about__container container">
-            <img src="img/about-img.png" alt="About" class="about__img" data-aos="fade-up" data-aos-duration="3000"/>
-            <div class="about__info" data-aos="zoom-out-left" data-aos-delay="550">
-                <h2 class="about__title">About <span class="about__title_span">us</span></h2>
-                <h3 class="about__subtitle">We provide quality coffee,<br> and ready to deliver.</h3>
-                <p class="about__text">We are a company that makes and distributes delicious drinks. our main product is made with a secret recipe and available in stores worldwide.</p>
-                <a href="#" title="About" class="button button_dark-about">Get your coffee</a>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!--Menu-->
-
-    <section class="menu">
-        <div class="menu__container container">
-            <h2 class="menu__title" data-aos="flip-up" data-aos-delay="350">Special menu <span class="menu__title_span">for you</span></h2>
-           
-            <div class="menu__top">
+        <section class="popular">
+            <div class="popular__container container">
+                <h2 class="popular__title" data-aos="flip-up" data-aos-delay="150" >Popular <span class="popular__title_subtitle">Now</span></h2>
                 <ul class="order">
-                    <li class="order__item" data-aos="zoom-in" data-aos-delay="550">
+                    <li class="order__item" data-aos="zoom-in" data-aos-delay="250">
                         <svg class="order__icon" width="70" height="34" viewBox="0 0 70 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g filter="url(#filter0_b_12_179)">
                             <rect width="70" height="34" rx="17" fill="url(#paint0_linear_12_179)"/>
@@ -321,31 +134,36 @@
                             </linearGradient>
                             </defs>
                         </svg>
-                        <img src="img/Sandwich.png" alt="Sandwich" class="list-menu__img"/>
+                        <img src="img/vanilla-img.png" alt="Vanilla" class="order__img"/>
+                        
+                        
                         <div class="order__box">
-                            <p class="order__name_"><b>Sandwich</b></p>
-                            <p class="order__price"><b>21K</b></p>
-                        </div>
-
-                        <div class="order__choice">
-                            <div class="order__pick">
-                                <p class="order__text">bread with meat and vegetables</p>
+                            <div class="order__price">
+                                <p class="order__name"><b>Vanilla Latte</b></p>
+                                <p class="order__name order__name-price">21K</p>
                             </div>
-                            <a href="#" title="Order" class="order__cart">
-                                <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <rect x="0.5" width="18" height="17" fill="url(#pattern0)"/>
-                                    <defs>
-                                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                    <use xlink:href="#image0_12_126" transform="translate(0 -0.0294118) scale(0.0166667 0.0176471)"/>
-                                    </pattern>
-                                    <image id="image0_12_126" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALZSURBVHgB7ZuBddowEIbPTMAGVSdoNqjZIJ0g7QRNJ4BMEDpByAbpBKETlE6AMgFkgusddvpoym9LwjxOjr/3ZL+cbcX/0+l0kgyRwMxTKRv+H7XdSXHUF0TMLYcxpT4AWhZRUu5ECv5FmTOS8j3i/gsRfUEZo4LnUnzEMyVlzKgoiq2cP0U884H6gLjqdWA/3lBfEDGPgaIdZcro1d9fpGwDnispU/4RLP3ZUyW6jY/UJ8Rl5y0uvaZMKQ4ZRdBYTppkOMoP7ZJLKQ/isfevLxboqTrBeJQypnzxUiZ1V90xQnfKTSs53VDeOClrabyrF0PR9oQOVZR5dkWVm2tLr0IEOzllG6T2WIrgSatgpc6ucu7LL0yC7mrIwD6TMfSdGE9570aB9fwGdnNTRXHbhZy+gctlqOAVsFudOT0Au6MQdEwGLmJ25gTel2MqQP3CkTH0ncC7rkNdWvHAbtGtHbD7GMEocL0ne8AhNEYwClwl2cMBu+9CsEWXRi381IVgDRDWsjAH7NtgwfXqpgeXrSUg74A9KkorP4E9l8X551jBufRjB+yeYpC+eokGdDIEH5tl7VU0ZoyJwNXwjrs0OMqlWwKXIxs4YPd6iO3DivUEBHnaboMhRfATsFsJXA7Yn/WQIngJ7FaGJgfsXg9durQjG3Tr0vWi9qENN42OFloZZVleDyktrKBWtiAYtbDXQ6pgNDe+ojNSr76U4HLINjCs+LIhAZnyGZZ95H+WmvFxSyYYtBB/oHJ1G60kl8X5hcSe3b53kkvXGVfM507n5u+mYGofVvRzpxXZ52Z/u/QouFoOXbNdZtQ1XIlesC10Df360PsmBS0kXE4zqnLqc4zHGle0i+mqzLyOMwMDAwMDbxMZlr5y888J9NotJXDKupPg6kOSUGZW6k6Gw7+zVqI+k+i67mMmD/ucMqvptO6uBP+IuPee4jhl3elo/+HmmdMmtY91Wfcfe0B48y7j/zUAAAAASUVORK5CYII="/>
-                                    </defs>
-                                </svg>
-                            </a>
+
+                            <div class="order__choice">
+                                <div class="order__button">
+                                    <a href="#" title="Order" class="button button_hot">Hot</a>
+                                    <a href="#" title="Order" class="button button_cold">Cold</a>
+                                </div>
+                                <a href="#" title="Order" class="order__cart">
+                                    <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <rect x="0.5" width="18" height="17" fill="url(#pattern0)"/>
+                                        <defs>
+                                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                        <use xlink:href="#image0_12_126" transform="translate(0 -0.0294118) scale(0.0166667 0.0176471)"/>
+                                        </pattern>
+                                        <image id="image0_12_126" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALZSURBVHgB7ZuBddowEIbPTMAGVSdoNqjZIJ0g7QRNJ4BMEDpByAbpBKETlE6AMgFkgusddvpoym9LwjxOjr/3ZL+cbcX/0+l0kgyRwMxTKRv+H7XdSXHUF0TMLYcxpT4AWhZRUu5ECv5FmTOS8j3i/gsRfUEZo4LnUnzEMyVlzKgoiq2cP0U884H6gLjqdWA/3lBfEDGPgaIdZcro1d9fpGwDnispU/4RLP3ZUyW6jY/UJ8Rl5y0uvaZMKQ4ZRdBYTppkOMoP7ZJLKQ/isfevLxboqTrBeJQypnzxUiZ1V90xQnfKTSs53VDeOClrabyrF0PR9oQOVZR5dkWVm2tLr0IEOzllG6T2WIrgSatgpc6ucu7LL0yC7mrIwD6TMfSdGE9570aB9fwGdnNTRXHbhZy+gctlqOAVsFudOT0Au6MQdEwGLmJ25gTel2MqQP3CkTH0ncC7rkNdWvHAbtGtHbD7GMEocL0ne8AhNEYwClwl2cMBu+9CsEWXRi381IVgDRDWsjAH7NtgwfXqpgeXrSUg74A9KkorP4E9l8X551jBufRjB+yeYpC+eokGdDIEH5tl7VU0ZoyJwNXwjrs0OMqlWwKXIxs4YPd6iO3DivUEBHnaboMhRfATsFsJXA7Yn/WQIngJ7FaGJgfsXg9durQjG3Tr0vWi9qENN42OFloZZVleDyktrKBWtiAYtbDXQ6pgNDe+ojNSr76U4HLINjCs+LIhAZnyGZZ95H+WmvFxSyYYtBB/oHJ1G60kl8X5hcSe3b53kkvXGVfM507n5u+mYGofVvRzpxXZ52Z/u/QouFoOXbNdZtQ1XIlesC10Df360PsmBS0kXE4zqnLqc4zHGle0i+mqzLyOMwMDAwMDbxMZlr5y888J9NotJXDKupPg6kOSUGZW6k6Gw7+zVqI+k+i67mMmD/ucMqvptO6uBP+IuPee4jhl3elo/+HmmdMmtY91Wfcfe0B48y7j/zUAAAAASUVORK5CYII="/>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
                     </li>
 
-                    <li class="order__item" data-aos="zoom-in" data-aos-delay="750">
+                    <li class="order__item" data-aos="zoom-in" data-aos-delay="450">
                         <svg class="order__icon" width="70" height="34" viewBox="0 0 70 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g filter="url(#filter0_b_12_179)">
                             <rect width="70" height="34" rx="17" fill="url(#paint0_linear_12_179)"/>
@@ -366,31 +184,35 @@
                             </linearGradient>
                             </defs>
                         </svg>
-                        <img src="img/Hot -Milk.png" alt="Sandwich" class="list-menu__img"/>
+                        <img src="img/espresso-img.png" alt="Espresso" class="order__img"/>
+                        
                         <div class="order__box">
-                            <p class="order__name_"><b>Sandwich</b></p>
-                            <p class="order__price"><b>21K</b></p>
-                        </div>
-
-                        <div class="order__choice">
-                            <div class="order__pick">
-                                <p class="order__text">bread with meat and vegetables</p>
+                            <div class="order__price">
+                                <p class="order__name"><b>Vanilla Latte</b></p>
+                                <p class="order__name order__name-price">21K</p>
                             </div>
-                            <a href="#" title="Order" class="order__cart">
-                                <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <rect x="0.5" width="18" height="17" fill="url(#pattern0)"/>
-                                    <defs>
-                                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                    <use xlink:href="#image0_12_126" transform="translate(0 -0.0294118) scale(0.0166667 0.0176471)"/>
-                                    </pattern>
-                                    <image id="image0_12_126" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALZSURBVHgB7ZuBddowEIbPTMAGVSdoNqjZIJ0g7QRNJ4BMEDpByAbpBKETlE6AMgFkgusddvpoym9LwjxOjr/3ZL+cbcX/0+l0kgyRwMxTKRv+H7XdSXHUF0TMLYcxpT4AWhZRUu5ECv5FmTOS8j3i/gsRfUEZo4LnUnzEMyVlzKgoiq2cP0U884H6gLjqdWA/3lBfEDGPgaIdZcro1d9fpGwDnispU/4RLP3ZUyW6jY/UJ8Rl5y0uvaZMKQ4ZRdBYTppkOMoP7ZJLKQ/isfevLxboqTrBeJQypnzxUiZ1V90xQnfKTSs53VDeOClrabyrF0PR9oQOVZR5dkWVm2tLr0IEOzllG6T2WIrgSatgpc6ucu7LL0yC7mrIwD6TMfSdGE9570aB9fwGdnNTRXHbhZy+gctlqOAVsFudOT0Au6MQdEwGLmJ25gTel2MqQP3CkTH0ncC7rkNdWvHAbtGtHbD7GMEocL0ne8AhNEYwClwl2cMBu+9CsEWXRi381IVgDRDWsjAH7NtgwfXqpgeXrSUg74A9KkorP4E9l8X551jBufRjB+yeYpC+eokGdDIEH5tl7VU0ZoyJwNXwjrs0OMqlWwKXIxs4YPd6iO3DivUEBHnaboMhRfATsFsJXA7Yn/WQIngJ7FaGJgfsXg9durQjG3Tr0vWi9qENN42OFloZZVleDyktrKBWtiAYtbDXQ6pgNDe+ojNSr76U4HLINjCs+LIhAZnyGZZ95H+WmvFxSyYYtBB/oHJ1G60kl8X5hcSe3b53kkvXGVfM507n5u+mYGofVvRzpxXZ52Z/u/QouFoOXbNdZtQ1XIlesC10Df360PsmBS0kXE4zqnLqc4zHGle0i+mqzLyOMwMDAwMDbxMZlr5y888J9NotJXDKupPg6kOSUGZW6k6Gw7+zVqI+k+i67mMmD/ucMqvptO6uBP+IuPee4jhl3elo/+HmmdMmtY91Wfcfe0B48y7j/zUAAAAASUVORK5CYII="/>
-                                    </defs>
-                                </svg>
-                            </a>
+
+                            <div class="order__choice">
+                                <div class="order__button">
+                                    <a href="#" title="Order" class="button button_hot">Hot</a>
+                                    <a href="#" title="Order" class="button button_cold">Cold</a>
+                                </div>
+                                <a href="#" title="Order" class="order__cart">
+                                    <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <rect x="0.5" width="18" height="17" fill="url(#pattern0)"/>
+                                        <defs>
+                                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                        <use xlink:href="#image0_12_126" transform="translate(0 -0.0294118) scale(0.0166667 0.0176471)"/>
+                                        </pattern>
+                                        <image id="image0_12_126" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALZSURBVHgB7ZuBddowEIbPTMAGVSdoNqjZIJ0g7QRNJ4BMEDpByAbpBKETlE6AMgFkgusddvpoym9LwjxOjr/3ZL+cbcX/0+l0kgyRwMxTKRv+H7XdSXHUF0TMLYcxpT4AWhZRUu5ECv5FmTOS8j3i/gsRfUEZo4LnUnzEMyVlzKgoiq2cP0U884H6gLjqdWA/3lBfEDGPgaIdZcro1d9fpGwDnispU/4RLP3ZUyW6jY/UJ8Rl5y0uvaZMKQ4ZRdBYTppkOMoP7ZJLKQ/isfevLxboqTrBeJQypnzxUiZ1V90xQnfKTSs53VDeOClrabyrF0PR9oQOVZR5dkWVm2tLr0IEOzllG6T2WIrgSatgpc6ucu7LL0yC7mrIwD6TMfSdGE9570aB9fwGdnNTRXHbhZy+gctlqOAVsFudOT0Au6MQdEwGLmJ25gTel2MqQP3CkTH0ncC7rkNdWvHAbtGtHbD7GMEocL0ne8AhNEYwClwl2cMBu+9CsEWXRi381IVgDRDWsjAH7NtgwfXqpgeXrSUg74A9KkorP4E9l8X551jBufRjB+yeYpC+eokGdDIEH5tl7VU0ZoyJwNXwjrs0OMqlWwKXIxs4YPd6iO3DivUEBHnaboMhRfATsFsJXA7Yn/WQIngJ7FaGJgfsXg9durQjG3Tr0vWi9qENN42OFloZZVleDyktrKBWtiAYtbDXQ6pgNDe+ojNSr76U4HLINjCs+LIhAZnyGZZ95H+WmvFxSyYYtBB/oHJ1G60kl8X5hcSe3b53kkvXGVfM507n5u+mYGofVvRzpxXZ52Z/u/QouFoOXbNdZtQ1XIlesC10Df360PsmBS0kXE4zqnLqc4zHGle0i+mqzLyOMwMDAwMDbxMZlr5y888J9NotJXDKupPg6kOSUGZW6k6Gw7+zVqI+k+i67mMmD/ucMqvptO6uBP+IuPee4jhl3elo/+HmmdMmtY91Wfcfe0B48y7j/zUAAAAASUVORK5CYII="/>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
                     </li>
 
-                    <li class="order__item" data-aos="zoom-in" data-aos-delay="950">
+                    <li class="order__item" data-aos="zoom-in" data-aos-delay="650">
                         <svg class="order__icon" width="70" height="34" viewBox="0 0 70 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g filter="url(#filter0_b_12_179)">
                             <rect width="70" height="34" rx="17" fill="url(#paint0_linear_12_179)"/>
@@ -411,217 +233,404 @@
                             </linearGradient>
                             </defs>
                         </svg>
-                        <img src="img/Coffe -Ice- Cream.png" alt="Sandwich" class="list-menu__img"/>
+                        <img src="img/latte-img.png" alt="Latte" class="order__img"/>
                         <div class="order__box">
-                            <p class="order__name_"><b>Sandwich</b></p>
-                            <p class="order__price"><b>21K</b></p>
-                        </div>
-
-                        <div class="order__choice">
-                            <div class="order__pick">
-                                <p class="order__text">bread with meat and vegetables</p>
+                            <div class="order__price">
+                                <p class="order__name"><b>Vanilla Latte</b></p>
+                                <p class="order__name order__name-price">21K</p>
                             </div>
-                            <a href="#" title="Order" class="order__cart">
-                                <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <rect x="0.5" width="18" height="17" fill="url(#pattern0)"/>
-                                    <defs>
-                                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                    <use xlink:href="#image0_12_126" transform="translate(0 -0.0294118) scale(0.0166667 0.0176471)"/>
-                                    </pattern>
-                                    <image id="image0_12_126" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALZSURBVHgB7ZuBddowEIbPTMAGVSdoNqjZIJ0g7QRNJ4BMEDpByAbpBKETlE6AMgFkgusddvpoym9LwjxOjr/3ZL+cbcX/0+l0kgyRwMxTKRv+H7XdSXHUF0TMLYcxpT4AWhZRUu5ECv5FmTOS8j3i/gsRfUEZo4LnUnzEMyVlzKgoiq2cP0U884H6gLjqdWA/3lBfEDGPgaIdZcro1d9fpGwDnispU/4RLP3ZUyW6jY/UJ8Rl5y0uvaZMKQ4ZRdBYTppkOMoP7ZJLKQ/isfevLxboqTrBeJQypnzxUiZ1V90xQnfKTSs53VDeOClrabyrF0PR9oQOVZR5dkWVm2tLr0IEOzllG6T2WIrgSatgpc6ucu7LL0yC7mrIwD6TMfSdGE9570aB9fwGdnNTRXHbhZy+gctlqOAVsFudOT0Au6MQdEwGLmJ25gTel2MqQP3CkTH0ncC7rkNdWvHAbtGtHbD7GMEocL0ne8AhNEYwClwl2cMBu+9CsEWXRi381IVgDRDWsjAH7NtgwfXqpgeXrSUg74A9KkorP4E9l8X551jBufRjB+yeYpC+eokGdDIEH5tl7VU0ZoyJwNXwjrs0OMqlWwKXIxs4YPd6iO3DivUEBHnaboMhRfATsFsJXA7Yn/WQIngJ7FaGJgfsXg9durQjG3Tr0vWi9qENN42OFloZZVleDyktrKBWtiAYtbDXQ6pgNDe+ojNSr76U4HLINjCs+LIhAZnyGZZ95H+WmvFxSyYYtBB/oHJ1G60kl8X5hcSe3b53kkvXGVfM507n5u+mYGofVvRzpxXZ52Z/u/QouFoOXbNdZtQ1XIlesC10Df360PsmBS0kXE4zqnLqc4zHGle0i+mqzLyOMwMDAwMDbxMZlr5y888J9NotJXDKupPg6kOSUGZW6k6Gw7+zVqI+k+i67mMmD/ucMqvptO6uBP+IuPee4jhl3elo/+HmmdMmtY91Wfcfe0B48y7j/zUAAAAASUVORK5CYII="/>
-                                    </defs>
-                                </svg>
-                            </a>
+
+                            <div class="order__choice">
+                                <div class="order__button">
+                                    <a href="#" title="Order" class="button button_hot">Hot</a>
+                                    <a href="#" title="Order" class="button button_cold">Cold</a>
+                                </div>
+                                <a href="#" title="Order" class="order__cart">
+                                    <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <rect x="0.5" width="18" height="17" fill="url(#pattern0)"/>
+                                        <defs>
+                                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                        <use xlink:href="#image0_12_126" transform="translate(0 -0.0294118) scale(0.0166667 0.0176471)"/>
+                                        </pattern>
+                                        <image id="image0_12_126" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALZSURBVHgB7ZuBddowEIbPTMAGVSdoNqjZIJ0g7QRNJ4BMEDpByAbpBKETlE6AMgFkgusddvpoym9LwjxOjr/3ZL+cbcX/0+l0kgyRwMxTKRv+H7XdSXHUF0TMLYcxpT4AWhZRUu5ECv5FmTOS8j3i/gsRfUEZo4LnUnzEMyVlzKgoiq2cP0U884H6gLjqdWA/3lBfEDGPgaIdZcro1d9fpGwDnispU/4RLP3ZUyW6jY/UJ8Rl5y0uvaZMKQ4ZRdBYTppkOMoP7ZJLKQ/isfevLxboqTrBeJQypnzxUiZ1V90xQnfKTSs53VDeOClrabyrF0PR9oQOVZR5dkWVm2tLr0IEOzllG6T2WIrgSatgpc6ucu7LL0yC7mrIwD6TMfSdGE9570aB9fwGdnNTRXHbhZy+gctlqOAVsFudOT0Au6MQdEwGLmJ25gTel2MqQP3CkTH0ncC7rkNdWvHAbtGtHbD7GMEocL0ne8AhNEYwClwl2cMBu+9CsEWXRi381IVgDRDWsjAH7NtgwfXqpgeXrSUg74A9KkorP4E9l8X551jBufRjB+yeYpC+eokGdDIEH5tl7VU0ZoyJwNXwjrs0OMqlWwKXIxs4YPd6iO3DivUEBHnaboMhRfATsFsJXA7Yn/WQIngJ7FaGJgfsXg9durQjG3Tr0vWi9qENN42OFloZZVleDyktrKBWtiAYtbDXQ6pgNDe+ojNSr76U4HLINjCs+LIhAZnyGZZ95H+WmvFxSyYYtBB/oHJ1G60kl8X5hcSe3b53kkvXGVfM507n5u+mYGofVvRzpxXZ52Z/u/QouFoOXbNdZtQ1XIlesC10Df360PsmBS0kXE4zqnLqc4zHGle0i+mqzLyOMwMDAwMDbxMZlr5y888J9NotJXDKupPg6kOSUGZW6k6Gw7+zVqI+k+i67mMmD/ucMqvptO6uBP+IuPee4jhl3elo/+HmmdMmtY91Wfcfe0B48y7j/zUAAAAASUVORK5CYII="/>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="delivery">
+            <div class="delivery__container container">
+                <h2 class="delivery__title" data-aos="flip-up" data-aos-delay="250">How to use delivery <span class="delivery__title_subtitle">service</span></h2>
+                
+                <ul class="box">
+                    <li class="box__item" data-aos="zoom-in" data-aos-delay="350">
+                        <img src="img/delivery-choose.png" alt="Delivery" class="box__img"/>
+                        <div class="box__info">
+                            <p class="delivery__subtitle"><b>choose your coffee</b></p>
+                            <p class="delivery__text">there are 20+ coffees for you</p>
+                        </div>
+                    </li>
+
+                    <li class="box__item" data-aos="zoom-in" data-aos-delay="550">
+                        <img src="img/delivery-card.png" alt="Delivery" class="box__img"/>
+                        <div class="box__info">
+                            <p class="delivery__subtitle"><b>we delivery it to you</b></p>
+                            <p class="delivery__text">Choose delivery service</p>
+                        </div>
+                    </li>
+
+                    <li class="box__item" data-aos="zoom-in" data-aos-delay="750">
+                        <img src="img/delivery-enjoy.png" alt="Delivery" class="box__img"/>
+                        <div class="box__info">
+                            <p class="delivery__subtitle"><b>choose your coffee</b></p>
+                            <p class="delivery__text">there are 20+ coffees for you</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="about__container container">
+                <img src="img/about-img.png" alt="About" class="about__img" data-aos="fade-up" data-aos-duration="3000"/>
+                <div class="about__info" data-aos="zoom-out-left" data-aos-delay="550">
+                    <h2 class="about__title">About <span class="about__title_span">us</span></h2>
+                    <h3 class="about__subtitle">We provide quality coffee,<br> and ready to deliver.</h3>
+                    <p class="about__text">We are a company that makes and distributes delicious drinks. our main product is made with a secret recipe and available in stores worldwide.</p>
+                    <a href="#" title="About" class="button button_dark-about">Get your coffee</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu">
+            <div class="menu__container container">
+                <h2 class="menu__title" data-aos="flip-up" data-aos-delay="350">Special menu <span class="menu__title_span">for you</span></h2>
+            
+                <div class="menu__top">
+                    <ul class="order">
+                        <li class="order__item" data-aos="zoom-in" data-aos-delay="550">
+                            <svg class="order__icon" width="70" height="34" viewBox="0 0 70 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_b_12_179)">
+                                <rect width="70" height="34" rx="17" fill="url(#paint0_linear_12_179)"/>
+                                </g>
+                                <rect x="4" y="4" width="62" height="26" rx="13" fill="white"/>
+                                <path d="M14.874 20.18V18.248L19.298 11.92H21.972V18.108H23.12V20.18H21.972V22H19.578V20.18H14.874ZM19.746 14.552L17.394 18.108H19.746V14.552ZM26.2107 22.112C25.7907 22.112 25.4453 21.9907 25.1747 21.748C24.9133 21.496 24.7827 21.188 24.7827 20.824C24.7827 20.4507 24.9133 20.138 25.1747 19.886C25.4453 19.634 25.7907 19.508 26.2107 19.508C26.6213 19.508 26.9573 19.634 27.2187 19.886C27.4893 20.138 27.6247 20.4507 27.6247 20.824C27.6247 21.188 27.4893 21.496 27.2187 21.748C26.9573 21.9907 26.6213 22.112 26.2107 22.112ZM31.0438 16.512C30.1665 16.0453 29.7278 15.3127 29.7278 14.314C29.7278 13.81 29.8585 13.3527 30.1198 12.942C30.3812 12.522 30.7778 12.1907 31.3098 11.948C31.8418 11.696 32.4952 11.57 33.2698 11.57C34.0445 11.57 34.6932 11.696 35.2158 11.948C35.7478 12.1907 36.1445 12.522 36.4058 12.942C36.6672 13.3527 36.7978 13.81 36.7978 14.314C36.7978 14.818 36.6765 15.2567 36.4338 15.63C36.2005 16.0033 35.8832 16.2973 35.4818 16.512C35.9858 16.7547 36.3732 17.0907 36.6438 17.52C36.9145 17.94 37.0498 18.4347 37.0498 19.004C37.0498 19.6667 36.8818 20.2407 36.5458 20.726C36.2098 21.202 35.7525 21.566 35.1738 21.818C34.6045 22.07 33.9698 22.196 33.2698 22.196C32.5698 22.196 31.9305 22.07 31.3518 21.818C30.7825 21.566 30.3298 21.202 29.9938 20.726C29.6578 20.2407 29.4898 19.6667 29.4898 19.004C29.4898 18.4253 29.6252 17.926 29.8958 17.506C30.1665 17.0767 30.5492 16.7453 31.0438 16.512ZM34.4738 14.678C34.4738 14.2953 34.3618 14.0013 34.1378 13.796C33.9232 13.5813 33.6338 13.474 33.2698 13.474C32.9058 13.474 32.6118 13.5813 32.3878 13.796C32.1732 14.0107 32.0658 14.3093 32.0658 14.692C32.0658 15.056 32.1778 15.3453 32.4018 15.56C32.6258 15.7653 32.9152 15.868 33.2698 15.868C33.6245 15.868 33.9138 15.7607 34.1378 15.546C34.3618 15.3313 34.4738 15.042 34.4738 14.678ZM33.2698 17.548C32.8312 17.548 32.4765 17.6693 32.2058 17.912C31.9352 18.1453 31.7998 18.472 31.7998 18.892C31.7998 19.284 31.9305 19.606 32.1918 19.858C32.4625 20.11 32.8218 20.236 33.2698 20.236C33.7178 20.236 34.0678 20.11 34.3198 19.858C34.5812 19.606 34.7118 19.284 34.7118 18.892C34.7118 18.4813 34.5765 18.1547 34.3058 17.912C34.0445 17.6693 33.6992 17.548 33.2698 17.548Z" fill="#2F2105"/>
+                                <path d="M48.4599 11.5359C48.6465 11.0436 49.353 11.0436 49.5402 11.5359L50.7477 14.8807C50.7898 14.9897 50.864 15.0833 50.9605 15.1492C51.0569 15.2152 51.1711 15.2503 51.2879 15.25H54.2553C54.8036 15.25 55.0428 15.9325 54.6117 16.2667L52.5 18.1667C52.4055 18.2394 52.3363 18.3402 52.3026 18.4546C52.2688 18.5691 52.2722 18.6913 52.3122 18.8037L53.0834 22.0721C53.2712 22.5971 52.6634 23.048 52.2037 22.7248L49.3355 20.9048C49.2372 20.8358 49.1201 20.7987 49 20.7987C48.88 20.7987 48.7629 20.8358 48.6646 20.9048L45.7964 22.7248C45.3373 23.048 44.7289 22.5965 44.9167 22.0721L45.6879 18.8037C45.7279 18.6913 45.7313 18.5691 45.6975 18.4546C45.6638 18.3402 45.5946 18.2394 45.5 18.1667L43.3884 16.2667C42.9567 15.9325 43.197 15.25 43.7442 15.25H46.7116C46.8285 15.2504 46.9427 15.2153 47.0391 15.1493C47.1356 15.0834 47.2097 14.9897 47.2518 14.8807L48.4593 11.5359H48.4599Z" fill="#FFD057" stroke="#FFD057" stroke-linecap="round" stroke-linejoin="round"/>
+                                <defs>
+                                <filter id="filter0_b_12_179" x="-4" y="-4" width="78" height="42" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+                                <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_12_179"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_12_179" result="shape"/>
+                                </filter>
+                                <linearGradient id="paint0_linear_12_179" x1="35" y1="0" x2="35" y2="34" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="white" stop-opacity="0.7"/>
+                                <stop offset="1" stop-color="white" stop-opacity="0.4"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                            <img src="img/Sandwich.png" alt="Sandwich" class="list-menu__img"/>
+
+                            <div class="order__box">
+                                <div class="order__price">
+                                    <p class="order__name">Sandwich</p>
+                                    <p class="order__name order__name-price">21K</p>
+                                </div>
+    
+                                <div class="order__choice">
+                                    <span class="order__text">bread with meat and vegetables</span>
+                                    <a href="#" title="Order" class="order__cart">
+                                        <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <rect x="0.5" width="18" height="17" fill="url(#pattern0)"/>
+                                            <defs>
+                                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                            <use xlink:href="#image0_12_126" transform="translate(0 -0.0294118) scale(0.0166667 0.0176471)"/>
+                                            </pattern>
+                                            <image id="image0_12_126" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALZSURBVHgB7ZuBddowEIbPTMAGVSdoNqjZIJ0g7QRNJ4BMEDpByAbpBKETlE6AMgFkgusddvpoym9LwjxOjr/3ZL+cbcX/0+l0kgyRwMxTKRv+H7XdSXHUF0TMLYcxpT4AWhZRUu5ECv5FmTOS8j3i/gsRfUEZo4LnUnzEMyVlzKgoiq2cP0U884H6gLjqdWA/3lBfEDGPgaIdZcro1d9fpGwDnispU/4RLP3ZUyW6jY/UJ8Rl5y0uvaZMKQ4ZRdBYTppkOMoP7ZJLKQ/isfevLxboqTrBeJQypnzxUiZ1V90xQnfKTSs53VDeOClrabyrF0PR9oQOVZR5dkWVm2tLr0IEOzllG6T2WIrgSatgpc6ucu7LL0yC7mrIwD6TMfSdGE9570aB9fwGdnNTRXHbhZy+gctlqOAVsFudOT0Au6MQdEwGLmJ25gTel2MqQP3CkTH0ncC7rkNdWvHAbtGtHbD7GMEocL0ne8AhNEYwClwl2cMBu+9CsEWXRi381IVgDRDWsjAH7NtgwfXqpgeXrSUg74A9KkorP4E9l8X551jBufRjB+yeYpC+eokGdDIEH5tl7VU0ZoyJwNXwjrs0OMqlWwKXIxs4YPd6iO3DivUEBHnaboMhRfATsFsJXA7Yn/WQIngJ7FaGJgfsXg9durQjG3Tr0vWi9qENN42OFloZZVleDyktrKBWtiAYtbDXQ6pgNDe+ojNSr76U4HLINjCs+LIhAZnyGZZ95H+WmvFxSyYYtBB/oHJ1G60kl8X5hcSe3b53kkvXGVfM507n5u+mYGofVvRzpxXZ52Z/u/QouFoOXbNdZtQ1XIlesC10Df360PsmBS0kXE4zqnLqc4zHGle0i+mqzLyOMwMDAwMDbxMZlr5y888J9NotJXDKupPg6kOSUGZW6k6Gw7+zVqI+k+i67mMmD/ucMqvptO6uBP+IuPee4jhl3elo/+HmmdMmtY91Wfcfe0B48y7j/zUAAAAASUVORK5CYII="/>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="order__item" data-aos="zoom-in" data-aos-delay="750">
+                            <svg class="order__icon" width="70" height="34" viewBox="0 0 70 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_b_12_179)">
+                                <rect width="70" height="34" rx="17" fill="url(#paint0_linear_12_179)"/>
+                                </g>
+                                <rect x="4" y="4" width="62" height="26" rx="13" fill="white"/>
+                                <path d="M14.874 20.18V18.248L19.298 11.92H21.972V18.108H23.12V20.18H21.972V22H19.578V20.18H14.874ZM19.746 14.552L17.394 18.108H19.746V14.552ZM26.2107 22.112C25.7907 22.112 25.4453 21.9907 25.1747 21.748C24.9133 21.496 24.7827 21.188 24.7827 20.824C24.7827 20.4507 24.9133 20.138 25.1747 19.886C25.4453 19.634 25.7907 19.508 26.2107 19.508C26.6213 19.508 26.9573 19.634 27.2187 19.886C27.4893 20.138 27.6247 20.4507 27.6247 20.824C27.6247 21.188 27.4893 21.496 27.2187 21.748C26.9573 21.9907 26.6213 22.112 26.2107 22.112ZM31.0438 16.512C30.1665 16.0453 29.7278 15.3127 29.7278 14.314C29.7278 13.81 29.8585 13.3527 30.1198 12.942C30.3812 12.522 30.7778 12.1907 31.3098 11.948C31.8418 11.696 32.4952 11.57 33.2698 11.57C34.0445 11.57 34.6932 11.696 35.2158 11.948C35.7478 12.1907 36.1445 12.522 36.4058 12.942C36.6672 13.3527 36.7978 13.81 36.7978 14.314C36.7978 14.818 36.6765 15.2567 36.4338 15.63C36.2005 16.0033 35.8832 16.2973 35.4818 16.512C35.9858 16.7547 36.3732 17.0907 36.6438 17.52C36.9145 17.94 37.0498 18.4347 37.0498 19.004C37.0498 19.6667 36.8818 20.2407 36.5458 20.726C36.2098 21.202 35.7525 21.566 35.1738 21.818C34.6045 22.07 33.9698 22.196 33.2698 22.196C32.5698 22.196 31.9305 22.07 31.3518 21.818C30.7825 21.566 30.3298 21.202 29.9938 20.726C29.6578 20.2407 29.4898 19.6667 29.4898 19.004C29.4898 18.4253 29.6252 17.926 29.8958 17.506C30.1665 17.0767 30.5492 16.7453 31.0438 16.512ZM34.4738 14.678C34.4738 14.2953 34.3618 14.0013 34.1378 13.796C33.9232 13.5813 33.6338 13.474 33.2698 13.474C32.9058 13.474 32.6118 13.5813 32.3878 13.796C32.1732 14.0107 32.0658 14.3093 32.0658 14.692C32.0658 15.056 32.1778 15.3453 32.4018 15.56C32.6258 15.7653 32.9152 15.868 33.2698 15.868C33.6245 15.868 33.9138 15.7607 34.1378 15.546C34.3618 15.3313 34.4738 15.042 34.4738 14.678ZM33.2698 17.548C32.8312 17.548 32.4765 17.6693 32.2058 17.912C31.9352 18.1453 31.7998 18.472 31.7998 18.892C31.7998 19.284 31.9305 19.606 32.1918 19.858C32.4625 20.11 32.8218 20.236 33.2698 20.236C33.7178 20.236 34.0678 20.11 34.3198 19.858C34.5812 19.606 34.7118 19.284 34.7118 18.892C34.7118 18.4813 34.5765 18.1547 34.3058 17.912C34.0445 17.6693 33.6992 17.548 33.2698 17.548Z" fill="#2F2105"/>
+                                <path d="M48.4599 11.5359C48.6465 11.0436 49.353 11.0436 49.5402 11.5359L50.7477 14.8807C50.7898 14.9897 50.864 15.0833 50.9605 15.1492C51.0569 15.2152 51.1711 15.2503 51.2879 15.25H54.2553C54.8036 15.25 55.0428 15.9325 54.6117 16.2667L52.5 18.1667C52.4055 18.2394 52.3363 18.3402 52.3026 18.4546C52.2688 18.5691 52.2722 18.6913 52.3122 18.8037L53.0834 22.0721C53.2712 22.5971 52.6634 23.048 52.2037 22.7248L49.3355 20.9048C49.2372 20.8358 49.1201 20.7987 49 20.7987C48.88 20.7987 48.7629 20.8358 48.6646 20.9048L45.7964 22.7248C45.3373 23.048 44.7289 22.5965 44.9167 22.0721L45.6879 18.8037C45.7279 18.6913 45.7313 18.5691 45.6975 18.4546C45.6638 18.3402 45.5946 18.2394 45.5 18.1667L43.3884 16.2667C42.9567 15.9325 43.197 15.25 43.7442 15.25H46.7116C46.8285 15.2504 46.9427 15.2153 47.0391 15.1493C47.1356 15.0834 47.2097 14.9897 47.2518 14.8807L48.4593 11.5359H48.4599Z" fill="#FFD057" stroke="#FFD057" stroke-linecap="round" stroke-linejoin="round"/>
+                                <defs>
+                                <filter id="filter0_b_12_179" x="-4" y="-4" width="78" height="42" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+                                <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_12_179"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_12_179" result="shape"/>
+                                </filter>
+                                <linearGradient id="paint0_linear_12_179" x1="35" y1="0" x2="35" y2="34" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="white" stop-opacity="0.7"/>
+                                <stop offset="1" stop-color="white" stop-opacity="0.4"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                            <img src="img/Hot -Milk.png" alt="Sandwich" class="list-menu__img"/>
+                            
+                            <div class="order__box">
+                                <div class="order__price">
+                                    <p class="order__name">Hot Milk</p>
+                                    <p class="order__name order__name-price">12K</p>
+                                </div>
+    
+                                <div class="order__choice">
+                                    <span class="order__text">Hot Milk with less sugar</span>
+                                    <a href="#" title="Order" class="order__cart">
+                                        <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <rect x="0.5" width="18" height="17" fill="url(#pattern0)"/>
+                                            <defs>
+                                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                            <use xlink:href="#image0_12_126" transform="translate(0 -0.0294118) scale(0.0166667 0.0176471)"/>
+                                            </pattern>
+                                            <image id="image0_12_126" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALZSURBVHgB7ZuBddowEIbPTMAGVSdoNqjZIJ0g7QRNJ4BMEDpByAbpBKETlE6AMgFkgusddvpoym9LwjxOjr/3ZL+cbcX/0+l0kgyRwMxTKRv+H7XdSXHUF0TMLYcxpT4AWhZRUu5ECv5FmTOS8j3i/gsRfUEZo4LnUnzEMyVlzKgoiq2cP0U884H6gLjqdWA/3lBfEDGPgaIdZcro1d9fpGwDnispU/4RLP3ZUyW6jY/UJ8Rl5y0uvaZMKQ4ZRdBYTppkOMoP7ZJLKQ/isfevLxboqTrBeJQypnzxUiZ1V90xQnfKTSs53VDeOClrabyrF0PR9oQOVZR5dkWVm2tLr0IEOzllG6T2WIrgSatgpc6ucu7LL0yC7mrIwD6TMfSdGE9570aB9fwGdnNTRXHbhZy+gctlqOAVsFudOT0Au6MQdEwGLmJ25gTel2MqQP3CkTH0ncC7rkNdWvHAbtGtHbD7GMEocL0ne8AhNEYwClwl2cMBu+9CsEWXRi381IVgDRDWsjAH7NtgwfXqpgeXrSUg74A9KkorP4E9l8X551jBufRjB+yeYpC+eokGdDIEH5tl7VU0ZoyJwNXwjrs0OMqlWwKXIxs4YPd6iO3DivUEBHnaboMhRfATsFsJXA7Yn/WQIngJ7FaGJgfsXg9durQjG3Tr0vWi9qENN42OFloZZVleDyktrKBWtiAYtbDXQ6pgNDe+ojNSr76U4HLINjCs+LIhAZnyGZZ95H+WmvFxSyYYtBB/oHJ1G60kl8X5hcSe3b53kkvXGVfM507n5u+mYGofVvRzpxXZ52Z/u/QouFoOXbNdZtQ1XIlesC10Df360PsmBS0kXE4zqnLqc4zHGle0i+mqzLyOMwMDAwMDbxMZlr5y888J9NotJXDKupPg6kOSUGZW6k6Gw7+zVqI+k+i67mMmD/ucMqvptO6uBP+IuPee4jhl3elo/+HmmdMmtY91Wfcfe0B48y7j/zUAAAAASUVORK5CYII="/>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="order__item" data-aos="zoom-in" data-aos-delay="950">
+                            <svg class="order__icon" width="70" height="34" viewBox="0 0 70 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_b_12_179)">
+                                <rect width="70" height="34" rx="17" fill="url(#paint0_linear_12_179)"/>
+                                </g>
+                                <rect x="4" y="4" width="62" height="26" rx="13" fill="white"/>
+                                <path d="M14.874 20.18V18.248L19.298 11.92H21.972V18.108H23.12V20.18H21.972V22H19.578V20.18H14.874ZM19.746 14.552L17.394 18.108H19.746V14.552ZM26.2107 22.112C25.7907 22.112 25.4453 21.9907 25.1747 21.748C24.9133 21.496 24.7827 21.188 24.7827 20.824C24.7827 20.4507 24.9133 20.138 25.1747 19.886C25.4453 19.634 25.7907 19.508 26.2107 19.508C26.6213 19.508 26.9573 19.634 27.2187 19.886C27.4893 20.138 27.6247 20.4507 27.6247 20.824C27.6247 21.188 27.4893 21.496 27.2187 21.748C26.9573 21.9907 26.6213 22.112 26.2107 22.112ZM31.0438 16.512C30.1665 16.0453 29.7278 15.3127 29.7278 14.314C29.7278 13.81 29.8585 13.3527 30.1198 12.942C30.3812 12.522 30.7778 12.1907 31.3098 11.948C31.8418 11.696 32.4952 11.57 33.2698 11.57C34.0445 11.57 34.6932 11.696 35.2158 11.948C35.7478 12.1907 36.1445 12.522 36.4058 12.942C36.6672 13.3527 36.7978 13.81 36.7978 14.314C36.7978 14.818 36.6765 15.2567 36.4338 15.63C36.2005 16.0033 35.8832 16.2973 35.4818 16.512C35.9858 16.7547 36.3732 17.0907 36.6438 17.52C36.9145 17.94 37.0498 18.4347 37.0498 19.004C37.0498 19.6667 36.8818 20.2407 36.5458 20.726C36.2098 21.202 35.7525 21.566 35.1738 21.818C34.6045 22.07 33.9698 22.196 33.2698 22.196C32.5698 22.196 31.9305 22.07 31.3518 21.818C30.7825 21.566 30.3298 21.202 29.9938 20.726C29.6578 20.2407 29.4898 19.6667 29.4898 19.004C29.4898 18.4253 29.6252 17.926 29.8958 17.506C30.1665 17.0767 30.5492 16.7453 31.0438 16.512ZM34.4738 14.678C34.4738 14.2953 34.3618 14.0013 34.1378 13.796C33.9232 13.5813 33.6338 13.474 33.2698 13.474C32.9058 13.474 32.6118 13.5813 32.3878 13.796C32.1732 14.0107 32.0658 14.3093 32.0658 14.692C32.0658 15.056 32.1778 15.3453 32.4018 15.56C32.6258 15.7653 32.9152 15.868 33.2698 15.868C33.6245 15.868 33.9138 15.7607 34.1378 15.546C34.3618 15.3313 34.4738 15.042 34.4738 14.678ZM33.2698 17.548C32.8312 17.548 32.4765 17.6693 32.2058 17.912C31.9352 18.1453 31.7998 18.472 31.7998 18.892C31.7998 19.284 31.9305 19.606 32.1918 19.858C32.4625 20.11 32.8218 20.236 33.2698 20.236C33.7178 20.236 34.0678 20.11 34.3198 19.858C34.5812 19.606 34.7118 19.284 34.7118 18.892C34.7118 18.4813 34.5765 18.1547 34.3058 17.912C34.0445 17.6693 33.6992 17.548 33.2698 17.548Z" fill="#2F2105"/>
+                                <path d="M48.4599 11.5359C48.6465 11.0436 49.353 11.0436 49.5402 11.5359L50.7477 14.8807C50.7898 14.9897 50.864 15.0833 50.9605 15.1492C51.0569 15.2152 51.1711 15.2503 51.2879 15.25H54.2553C54.8036 15.25 55.0428 15.9325 54.6117 16.2667L52.5 18.1667C52.4055 18.2394 52.3363 18.3402 52.3026 18.4546C52.2688 18.5691 52.2722 18.6913 52.3122 18.8037L53.0834 22.0721C53.2712 22.5971 52.6634 23.048 52.2037 22.7248L49.3355 20.9048C49.2372 20.8358 49.1201 20.7987 49 20.7987C48.88 20.7987 48.7629 20.8358 48.6646 20.9048L45.7964 22.7248C45.3373 23.048 44.7289 22.5965 44.9167 22.0721L45.6879 18.8037C45.7279 18.6913 45.7313 18.5691 45.6975 18.4546C45.6638 18.3402 45.5946 18.2394 45.5 18.1667L43.3884 16.2667C42.9567 15.9325 43.197 15.25 43.7442 15.25H46.7116C46.8285 15.2504 46.9427 15.2153 47.0391 15.1493C47.1356 15.0834 47.2097 14.9897 47.2518 14.8807L48.4593 11.5359H48.4599Z" fill="#FFD057" stroke="#FFD057" stroke-linecap="round" stroke-linejoin="round"/>
+                                <defs>
+                                <filter id="filter0_b_12_179" x="-4" y="-4" width="78" height="42" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+                                <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_12_179"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_12_179" result="shape"/>
+                                </filter>
+                                <linearGradient id="paint0_linear_12_179" x1="35" y1="0" x2="35" y2="34" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="white" stop-opacity="0.7"/>
+                                <stop offset="1" stop-color="white" stop-opacity="0.4"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                            <img src="img/Coffe -Ice- Cream.png" alt="Sandwich" class="list-menu__img"/>
+                            <div class="order__box">
+                                <div class="order__price">
+                                    <p class="order__name">Coffe Ice Cream</p>
+                                    <p class="order__name order__name-price">12K</p>
+                                </div>
+    
+                                <div class="order__choice">
+                                    <span class="order__text">Coffe with ice cream vanilla</span>
+                                    <a href="#" title="Order" class="order__cart">
+                                        <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <rect x="0.5" width="18" height="17" fill="url(#pattern0)"/>
+                                            <defs>
+                                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                            <use xlink:href="#image0_12_126" transform="translate(0 -0.0294118) scale(0.0166667 0.0176471)"/>
+                                            </pattern>
+                                            <image id="image0_12_126" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALZSURBVHgB7ZuBddowEIbPTMAGVSdoNqjZIJ0g7QRNJ4BMEDpByAbpBKETlE6AMgFkgusddvpoym9LwjxOjr/3ZL+cbcX/0+l0kgyRwMxTKRv+H7XdSXHUF0TMLYcxpT4AWhZRUu5ECv5FmTOS8j3i/gsRfUEZo4LnUnzEMyVlzKgoiq2cP0U884H6gLjqdWA/3lBfEDGPgaIdZcro1d9fpGwDnispU/4RLP3ZUyW6jY/UJ8Rl5y0uvaZMKQ4ZRdBYTppkOMoP7ZJLKQ/isfevLxboqTrBeJQypnzxUiZ1V90xQnfKTSs53VDeOClrabyrF0PR9oQOVZR5dkWVm2tLr0IEOzllG6T2WIrgSatgpc6ucu7LL0yC7mrIwD6TMfSdGE9570aB9fwGdnNTRXHbhZy+gctlqOAVsFudOT0Au6MQdEwGLmJ25gTel2MqQP3CkTH0ncC7rkNdWvHAbtGtHbD7GMEocL0ne8AhNEYwClwl2cMBu+9CsEWXRi381IVgDRDWsjAH7NtgwfXqpgeXrSUg74A9KkorP4E9l8X551jBufRjB+yeYpC+eokGdDIEH5tl7VU0ZoyJwNXwjrs0OMqlWwKXIxs4YPd6iO3DivUEBHnaboMhRfATsFsJXA7Yn/WQIngJ7FaGJgfsXg9durQjG3Tr0vWi9qENN42OFloZZVleDyktrKBWtiAYtbDXQ6pgNDe+ojNSr76U4HLINjCs+LIhAZnyGZZ95H+WmvFxSyYYtBB/oHJ1G60kl8X5hcSe3b53kkvXGVfM507n5u+mYGofVvRzpxXZ52Z/u/QouFoOXbNdZtQ1XIlesC10Df360PsmBS0kXE4zqnLqc4zHGle0i+mqzLyOMwMDAwMDbxMZlr5y888J9NotJXDKupPg6kOSUGZW6k6Gw7+zVqI+k+i67mMmD/ucMqvptO6uBP+IuPee4jhl3elo/+HmmdMmtY91Wfcfe0B48y7j/zUAAAAASUVORK5CYII="/>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+            <div class="menu__bottom">
+                <ul class="order">
+                    <li class="order__item" data-aos="zoom-in" data-aos-delay="1150">
+                        <svg class="order__icon" width="70" height="34" viewBox="0 0 70 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_b_12_179)">
+                            <rect width="70" height="34" rx="17" fill="url(#paint0_linear_12_179)"/>
+                            </g>
+                            <rect x="4" y="4" width="62" height="26" rx="13" fill="white"/>
+                            <path d="M14.874 20.18V18.248L19.298 11.92H21.972V18.108H23.12V20.18H21.972V22H19.578V20.18H14.874ZM19.746 14.552L17.394 18.108H19.746V14.552ZM26.2107 22.112C25.7907 22.112 25.4453 21.9907 25.1747 21.748C24.9133 21.496 24.7827 21.188 24.7827 20.824C24.7827 20.4507 24.9133 20.138 25.1747 19.886C25.4453 19.634 25.7907 19.508 26.2107 19.508C26.6213 19.508 26.9573 19.634 27.2187 19.886C27.4893 20.138 27.6247 20.4507 27.6247 20.824C27.6247 21.188 27.4893 21.496 27.2187 21.748C26.9573 21.9907 26.6213 22.112 26.2107 22.112ZM31.0438 16.512C30.1665 16.0453 29.7278 15.3127 29.7278 14.314C29.7278 13.81 29.8585 13.3527 30.1198 12.942C30.3812 12.522 30.7778 12.1907 31.3098 11.948C31.8418 11.696 32.4952 11.57 33.2698 11.57C34.0445 11.57 34.6932 11.696 35.2158 11.948C35.7478 12.1907 36.1445 12.522 36.4058 12.942C36.6672 13.3527 36.7978 13.81 36.7978 14.314C36.7978 14.818 36.6765 15.2567 36.4338 15.63C36.2005 16.0033 35.8832 16.2973 35.4818 16.512C35.9858 16.7547 36.3732 17.0907 36.6438 17.52C36.9145 17.94 37.0498 18.4347 37.0498 19.004C37.0498 19.6667 36.8818 20.2407 36.5458 20.726C36.2098 21.202 35.7525 21.566 35.1738 21.818C34.6045 22.07 33.9698 22.196 33.2698 22.196C32.5698 22.196 31.9305 22.07 31.3518 21.818C30.7825 21.566 30.3298 21.202 29.9938 20.726C29.6578 20.2407 29.4898 19.6667 29.4898 19.004C29.4898 18.4253 29.6252 17.926 29.8958 17.506C30.1665 17.0767 30.5492 16.7453 31.0438 16.512ZM34.4738 14.678C34.4738 14.2953 34.3618 14.0013 34.1378 13.796C33.9232 13.5813 33.6338 13.474 33.2698 13.474C32.9058 13.474 32.6118 13.5813 32.3878 13.796C32.1732 14.0107 32.0658 14.3093 32.0658 14.692C32.0658 15.056 32.1778 15.3453 32.4018 15.56C32.6258 15.7653 32.9152 15.868 33.2698 15.868C33.6245 15.868 33.9138 15.7607 34.1378 15.546C34.3618 15.3313 34.4738 15.042 34.4738 14.678ZM33.2698 17.548C32.8312 17.548 32.4765 17.6693 32.2058 17.912C31.9352 18.1453 31.7998 18.472 31.7998 18.892C31.7998 19.284 31.9305 19.606 32.1918 19.858C32.4625 20.11 32.8218 20.236 33.2698 20.236C33.7178 20.236 34.0678 20.11 34.3198 19.858C34.5812 19.606 34.7118 19.284 34.7118 18.892C34.7118 18.4813 34.5765 18.1547 34.3058 17.912C34.0445 17.6693 33.6992 17.548 33.2698 17.548Z" fill="#2F2105"/>
+                            <path d="M48.4599 11.5359C48.6465 11.0436 49.353 11.0436 49.5402 11.5359L50.7477 14.8807C50.7898 14.9897 50.864 15.0833 50.9605 15.1492C51.0569 15.2152 51.1711 15.2503 51.2879 15.25H54.2553C54.8036 15.25 55.0428 15.9325 54.6117 16.2667L52.5 18.1667C52.4055 18.2394 52.3363 18.3402 52.3026 18.4546C52.2688 18.5691 52.2722 18.6913 52.3122 18.8037L53.0834 22.0721C53.2712 22.5971 52.6634 23.048 52.2037 22.7248L49.3355 20.9048C49.2372 20.8358 49.1201 20.7987 49 20.7987C48.88 20.7987 48.7629 20.8358 48.6646 20.9048L45.7964 22.7248C45.3373 23.048 44.7289 22.5965 44.9167 22.0721L45.6879 18.8037C45.7279 18.6913 45.7313 18.5691 45.6975 18.4546C45.6638 18.3402 45.5946 18.2394 45.5 18.1667L43.3884 16.2667C42.9567 15.9325 43.197 15.25 43.7442 15.25H46.7116C46.8285 15.2504 46.9427 15.2153 47.0391 15.1493C47.1356 15.0834 47.2097 14.9897 47.2518 14.8807L48.4593 11.5359H48.4599Z" fill="#FFD057" stroke="#FFD057" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs>
+                            <filter id="filter0_b_12_179" x="-4" y="-4" width="78" height="42" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+                            <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_12_179"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_12_179" result="shape"/>
+                            </filter>
+                            <linearGradient id="paint0_linear_12_179" x1="35" y1="0" x2="35" y2="34" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.7"/>
+                            <stop offset="1" stop-color="white" stop-opacity="0.4"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>
+                        <img src="img/cappucino.png" alt="Sandwich" class="list-menu__img"/>
+                        <div class="order__box">
+                            <div class="order__price">
+                                <p class="order__name">Cappucino</p>
+                                <p class="order__name order__name-price">12K</p>
+                            </div>
+
+                            <div class="order__choice">
+                                <span class="order__text">Hot Cappucino</span>
+                                <a href="#" title="Order" class="order__cart">
+                                    <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <rect x="0.5" width="18" height="17" fill="url(#pattern0)"/>
+                                        <defs>
+                                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                        <use xlink:href="#image0_12_126" transform="translate(0 -0.0294118) scale(0.0166667 0.0176471)"/>
+                                        </pattern>
+                                        <image id="image0_12_126" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALZSURBVHgB7ZuBddowEIbPTMAGVSdoNqjZIJ0g7QRNJ4BMEDpByAbpBKETlE6AMgFkgusddvpoym9LwjxOjr/3ZL+cbcX/0+l0kgyRwMxTKRv+H7XdSXHUF0TMLYcxpT4AWhZRUu5ECv5FmTOS8j3i/gsRfUEZo4LnUnzEMyVlzKgoiq2cP0U884H6gLjqdWA/3lBfEDGPgaIdZcro1d9fpGwDnispU/4RLP3ZUyW6jY/UJ8Rl5y0uvaZMKQ4ZRdBYTppkOMoP7ZJLKQ/isfevLxboqTrBeJQypnzxUiZ1V90xQnfKTSs53VDeOClrabyrF0PR9oQOVZR5dkWVm2tLr0IEOzllG6T2WIrgSatgpc6ucu7LL0yC7mrIwD6TMfSdGE9570aB9fwGdnNTRXHbhZy+gctlqOAVsFudOT0Au6MQdEwGLmJ25gTel2MqQP3CkTH0ncC7rkNdWvHAbtGtHbD7GMEocL0ne8AhNEYwClwl2cMBu+9CsEWXRi381IVgDRDWsjAH7NtgwfXqpgeXrSUg74A9KkorP4E9l8X551jBufRjB+yeYpC+eokGdDIEH5tl7VU0ZoyJwNXwjrs0OMqlWwKXIxs4YPd6iO3DivUEBHnaboMhRfATsFsJXA7Yn/WQIngJ7FaGJgfsXg9durQjG3Tr0vWi9qENN42OFloZZVleDyktrKBWtiAYtbDXQ6pgNDe+ojNSr76U4HLINjCs+LIhAZnyGZZ95H+WmvFxSyYYtBB/oHJ1G60kl8X5hcSe3b53kkvXGVfM507n5u+mYGofVvRzpxXZ52Z/u/QouFoOXbNdZtQ1XIlesC10Df360PsmBS0kXE4zqnLqc4zHGle0i+mqzLyOMwMDAwMDbxMZlr5y888J9NotJXDKupPg6kOSUGZW6k6Gw7+zVqI+k+i67mMmD/ucMqvptO6uBP+IuPee4jhl3elo/+HmmdMmtY91Wfcfe0B48y7j/zUAAAAASUVORK5CYII="/>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="order__item" data-aos="zoom-in" data-aos-delay="1450">
+                        <svg class="order__icon" width="70" height="34" viewBox="0 0 70 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_b_12_179)">
+                            <rect width="70" height="34" rx="17" fill="url(#paint0_linear_12_179)"/>
+                            </g>
+                            <rect x="4" y="4" width="62" height="26" rx="13" fill="white"/>
+                            <path d="M14.874 20.18V18.248L19.298 11.92H21.972V18.108H23.12V20.18H21.972V22H19.578V20.18H14.874ZM19.746 14.552L17.394 18.108H19.746V14.552ZM26.2107 22.112C25.7907 22.112 25.4453 21.9907 25.1747 21.748C24.9133 21.496 24.7827 21.188 24.7827 20.824C24.7827 20.4507 24.9133 20.138 25.1747 19.886C25.4453 19.634 25.7907 19.508 26.2107 19.508C26.6213 19.508 26.9573 19.634 27.2187 19.886C27.4893 20.138 27.6247 20.4507 27.6247 20.824C27.6247 21.188 27.4893 21.496 27.2187 21.748C26.9573 21.9907 26.6213 22.112 26.2107 22.112ZM31.0438 16.512C30.1665 16.0453 29.7278 15.3127 29.7278 14.314C29.7278 13.81 29.8585 13.3527 30.1198 12.942C30.3812 12.522 30.7778 12.1907 31.3098 11.948C31.8418 11.696 32.4952 11.57 33.2698 11.57C34.0445 11.57 34.6932 11.696 35.2158 11.948C35.7478 12.1907 36.1445 12.522 36.4058 12.942C36.6672 13.3527 36.7978 13.81 36.7978 14.314C36.7978 14.818 36.6765 15.2567 36.4338 15.63C36.2005 16.0033 35.8832 16.2973 35.4818 16.512C35.9858 16.7547 36.3732 17.0907 36.6438 17.52C36.9145 17.94 37.0498 18.4347 37.0498 19.004C37.0498 19.6667 36.8818 20.2407 36.5458 20.726C36.2098 21.202 35.7525 21.566 35.1738 21.818C34.6045 22.07 33.9698 22.196 33.2698 22.196C32.5698 22.196 31.9305 22.07 31.3518 21.818C30.7825 21.566 30.3298 21.202 29.9938 20.726C29.6578 20.2407 29.4898 19.6667 29.4898 19.004C29.4898 18.4253 29.6252 17.926 29.8958 17.506C30.1665 17.0767 30.5492 16.7453 31.0438 16.512ZM34.4738 14.678C34.4738 14.2953 34.3618 14.0013 34.1378 13.796C33.9232 13.5813 33.6338 13.474 33.2698 13.474C32.9058 13.474 32.6118 13.5813 32.3878 13.796C32.1732 14.0107 32.0658 14.3093 32.0658 14.692C32.0658 15.056 32.1778 15.3453 32.4018 15.56C32.6258 15.7653 32.9152 15.868 33.2698 15.868C33.6245 15.868 33.9138 15.7607 34.1378 15.546C34.3618 15.3313 34.4738 15.042 34.4738 14.678ZM33.2698 17.548C32.8312 17.548 32.4765 17.6693 32.2058 17.912C31.9352 18.1453 31.7998 18.472 31.7998 18.892C31.7998 19.284 31.9305 19.606 32.1918 19.858C32.4625 20.11 32.8218 20.236 33.2698 20.236C33.7178 20.236 34.0678 20.11 34.3198 19.858C34.5812 19.606 34.7118 19.284 34.7118 18.892C34.7118 18.4813 34.5765 18.1547 34.3058 17.912C34.0445 17.6693 33.6992 17.548 33.2698 17.548Z" fill="#2F2105"/>
+                            <path d="M48.4599 11.5359C48.6465 11.0436 49.353 11.0436 49.5402 11.5359L50.7477 14.8807C50.7898 14.9897 50.864 15.0833 50.9605 15.1492C51.0569 15.2152 51.1711 15.2503 51.2879 15.25H54.2553C54.8036 15.25 55.0428 15.9325 54.6117 16.2667L52.5 18.1667C52.4055 18.2394 52.3363 18.3402 52.3026 18.4546C52.2688 18.5691 52.2722 18.6913 52.3122 18.8037L53.0834 22.0721C53.2712 22.5971 52.6634 23.048 52.2037 22.7248L49.3355 20.9048C49.2372 20.8358 49.1201 20.7987 49 20.7987C48.88 20.7987 48.7629 20.8358 48.6646 20.9048L45.7964 22.7248C45.3373 23.048 44.7289 22.5965 44.9167 22.0721L45.6879 18.8037C45.7279 18.6913 45.7313 18.5691 45.6975 18.4546C45.6638 18.3402 45.5946 18.2394 45.5 18.1667L43.3884 16.2667C42.9567 15.9325 43.197 15.25 43.7442 15.25H46.7116C46.8285 15.2504 46.9427 15.2153 47.0391 15.1493C47.1356 15.0834 47.2097 14.9897 47.2518 14.8807L48.4593 11.5359H48.4599Z" fill="#FFD057" stroke="#FFD057" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs>
+                            <filter id="filter0_b_12_179" x="-4" y="-4" width="78" height="42" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+                            <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_12_179"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_12_179" result="shape"/>
+                            </filter>
+                            <linearGradient id="paint0_linear_12_179" x1="35" y1="0" x2="35" y2="34" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.7"/>
+                            <stop offset="1" stop-color="white" stop-opacity="0.4"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>
+                        <img src="img/Coffe.png" alt="Sandwich" class="list-menu__img"/>
+                        <div class="order__box">
+                            <div class="order__price">
+                                <p class="order__name">Moccacinno</p>
+                                <p class="order__name order__name-price">12K</p>
+                            </div>
+
+                            <div class="order__choice">
+                                <span class="order__text">Hot Moccacino </span>
+                                <a href="#" title="Order" class="order__cart">
+                                    <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <rect x="0.5" width="18" height="17" fill="url(#pattern0)"/>
+                                        <defs>
+                                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                        <use xlink:href="#image0_12_126" transform="translate(0 -0.0294118) scale(0.0166667 0.0176471)"/>
+                                        </pattern>
+                                        <image id="image0_12_126" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALZSURBVHgB7ZuBddowEIbPTMAGVSdoNqjZIJ0g7QRNJ4BMEDpByAbpBKETlE6AMgFkgusddvpoym9LwjxOjr/3ZL+cbcX/0+l0kgyRwMxTKRv+H7XdSXHUF0TMLYcxpT4AWhZRUu5ECv5FmTOS8j3i/gsRfUEZo4LnUnzEMyVlzKgoiq2cP0U884H6gLjqdWA/3lBfEDGPgaIdZcro1d9fpGwDnispU/4RLP3ZUyW6jY/UJ8Rl5y0uvaZMKQ4ZRdBYTppkOMoP7ZJLKQ/isfevLxboqTrBeJQypnzxUiZ1V90xQnfKTSs53VDeOClrabyrF0PR9oQOVZR5dkWVm2tLr0IEOzllG6T2WIrgSatgpc6ucu7LL0yC7mrIwD6TMfSdGE9570aB9fwGdnNTRXHbhZy+gctlqOAVsFudOT0Au6MQdEwGLmJ25gTel2MqQP3CkTH0ncC7rkNdWvHAbtGtHbD7GMEocL0ne8AhNEYwClwl2cMBu+9CsEWXRi381IVgDRDWsjAH7NtgwfXqpgeXrSUg74A9KkorP4E9l8X551jBufRjB+yeYpC+eokGdDIEH5tl7VU0ZoyJwNXwjrs0OMqlWwKXIxs4YPd6iO3DivUEBHnaboMhRfATsFsJXA7Yn/WQIngJ7FaGJgfsXg9durQjG3Tr0vWi9qENN42OFloZZVleDyktrKBWtiAYtbDXQ6pgNDe+ojNSr76U4HLINjCs+LIhAZnyGZZ95H+WmvFxSyYYtBB/oHJ1G60kl8X5hcSe3b53kkvXGVfM507n5u+mYGofVvRzpxXZ52Z/u/QouFoOXbNdZtQ1XIlesC10Df360PsmBS0kXE4zqnLqc4zHGle0i+mqzLyOMwMDAwMDbxMZlr5y888J9NotJXDKupPg6kOSUGZW6k6Gw7+zVqI+k+i67mMmD/ucMqvptO6uBP+IuPee4jhl3elo/+HmmdMmtY91Wfcfe0B48y7j/zUAAAAASUVORK5CYII="/>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="order__item" data-aos="zoom-in" data-aos-delay="1750">
+                        <svg class="order__icon" width="70" height="34" viewBox="0 0 70 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_b_12_179)">
+                            <rect width="70" height="34" rx="17" fill="url(#paint0_linear_12_179)"/>
+                            </g>
+                            <rect x="4" y="4" width="62" height="26" rx="13" fill="white"/>
+                            <path d="M14.874 20.18V18.248L19.298 11.92H21.972V18.108H23.12V20.18H21.972V22H19.578V20.18H14.874ZM19.746 14.552L17.394 18.108H19.746V14.552ZM26.2107 22.112C25.7907 22.112 25.4453 21.9907 25.1747 21.748C24.9133 21.496 24.7827 21.188 24.7827 20.824C24.7827 20.4507 24.9133 20.138 25.1747 19.886C25.4453 19.634 25.7907 19.508 26.2107 19.508C26.6213 19.508 26.9573 19.634 27.2187 19.886C27.4893 20.138 27.6247 20.4507 27.6247 20.824C27.6247 21.188 27.4893 21.496 27.2187 21.748C26.9573 21.9907 26.6213 22.112 26.2107 22.112ZM31.0438 16.512C30.1665 16.0453 29.7278 15.3127 29.7278 14.314C29.7278 13.81 29.8585 13.3527 30.1198 12.942C30.3812 12.522 30.7778 12.1907 31.3098 11.948C31.8418 11.696 32.4952 11.57 33.2698 11.57C34.0445 11.57 34.6932 11.696 35.2158 11.948C35.7478 12.1907 36.1445 12.522 36.4058 12.942C36.6672 13.3527 36.7978 13.81 36.7978 14.314C36.7978 14.818 36.6765 15.2567 36.4338 15.63C36.2005 16.0033 35.8832 16.2973 35.4818 16.512C35.9858 16.7547 36.3732 17.0907 36.6438 17.52C36.9145 17.94 37.0498 18.4347 37.0498 19.004C37.0498 19.6667 36.8818 20.2407 36.5458 20.726C36.2098 21.202 35.7525 21.566 35.1738 21.818C34.6045 22.07 33.9698 22.196 33.2698 22.196C32.5698 22.196 31.9305 22.07 31.3518 21.818C30.7825 21.566 30.3298 21.202 29.9938 20.726C29.6578 20.2407 29.4898 19.6667 29.4898 19.004C29.4898 18.4253 29.6252 17.926 29.8958 17.506C30.1665 17.0767 30.5492 16.7453 31.0438 16.512ZM34.4738 14.678C34.4738 14.2953 34.3618 14.0013 34.1378 13.796C33.9232 13.5813 33.6338 13.474 33.2698 13.474C32.9058 13.474 32.6118 13.5813 32.3878 13.796C32.1732 14.0107 32.0658 14.3093 32.0658 14.692C32.0658 15.056 32.1778 15.3453 32.4018 15.56C32.6258 15.7653 32.9152 15.868 33.2698 15.868C33.6245 15.868 33.9138 15.7607 34.1378 15.546C34.3618 15.3313 34.4738 15.042 34.4738 14.678ZM33.2698 17.548C32.8312 17.548 32.4765 17.6693 32.2058 17.912C31.9352 18.1453 31.7998 18.472 31.7998 18.892C31.7998 19.284 31.9305 19.606 32.1918 19.858C32.4625 20.11 32.8218 20.236 33.2698 20.236C33.7178 20.236 34.0678 20.11 34.3198 19.858C34.5812 19.606 34.7118 19.284 34.7118 18.892C34.7118 18.4813 34.5765 18.1547 34.3058 17.912C34.0445 17.6693 33.6992 17.548 33.2698 17.548Z" fill="#2F2105"/>
+                            <path d="M48.4599 11.5359C48.6465 11.0436 49.353 11.0436 49.5402 11.5359L50.7477 14.8807C50.7898 14.9897 50.864 15.0833 50.9605 15.1492C51.0569 15.2152 51.1711 15.2503 51.2879 15.25H54.2553C54.8036 15.25 55.0428 15.9325 54.6117 16.2667L52.5 18.1667C52.4055 18.2394 52.3363 18.3402 52.3026 18.4546C52.2688 18.5691 52.2722 18.6913 52.3122 18.8037L53.0834 22.0721C53.2712 22.5971 52.6634 23.048 52.2037 22.7248L49.3355 20.9048C49.2372 20.8358 49.1201 20.7987 49 20.7987C48.88 20.7987 48.7629 20.8358 48.6646 20.9048L45.7964 22.7248C45.3373 23.048 44.7289 22.5965 44.9167 22.0721L45.6879 18.8037C45.7279 18.6913 45.7313 18.5691 45.6975 18.4546C45.6638 18.3402 45.5946 18.2394 45.5 18.1667L43.3884 16.2667C42.9567 15.9325 43.197 15.25 43.7442 15.25H46.7116C46.8285 15.2504 46.9427 15.2153 47.0391 15.1493C47.1356 15.0834 47.2097 14.9897 47.2518 14.8807L48.4593 11.5359H48.4599Z" fill="#FFD057" stroke="#FFD057" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs>
+                            <filter id="filter0_b_12_179" x="-4" y="-4" width="78" height="42" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+                            <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_12_179"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_12_179" result="shape"/>
+                            </filter>
+                            <linearGradient id="paint0_linear_12_179" x1="35" y1="0" x2="35" y2="34" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.7"/>
+                            <stop offset="1" stop-color="white" stop-opacity="0.4"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>
+                        <img src="img/waffle.png" alt="Sandwich" class="list-menu__img"/>
+                        <div class="order__box">
+                            <div class="order__price">
+                                <p class="order__name">Waffle Ice Crem</p>
+                                <p class="order__name order__name-price">12K</p>
+                            </div>
+
+                            <div class="order__choice">
+                                <span class="order__text">Wafle with Ice cream</span>
+                                <a href="#" title="Order" class="order__cart">
+                                    <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <rect x="0.5" width="18" height="17" fill="url(#pattern0)"/>
+                                        <defs>
+                                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                        <use xlink:href="#image0_12_126" transform="translate(0 -0.0294118) scale(0.0166667 0.0176471)"/>
+                                        </pattern>
+                                        <image id="image0_12_126" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALZSURBVHgB7ZuBddowEIbPTMAGVSdoNqjZIJ0g7QRNJ4BMEDpByAbpBKETlE6AMgFkgusddvpoym9LwjxOjr/3ZL+cbcX/0+l0kgyRwMxTKRv+H7XdSXHUF0TMLYcxpT4AWhZRUu5ECv5FmTOS8j3i/gsRfUEZo4LnUnzEMyVlzKgoiq2cP0U884H6gLjqdWA/3lBfEDGPgaIdZcro1d9fpGwDnispU/4RLP3ZUyW6jY/UJ8Rl5y0uvaZMKQ4ZRdBYTppkOMoP7ZJLKQ/isfevLxboqTrBeJQypnzxUiZ1V90xQnfKTSs53VDeOClrabyrF0PR9oQOVZR5dkWVm2tLr0IEOzllG6T2WIrgSatgpc6ucu7LL0yC7mrIwD6TMfSdGE9570aB9fwGdnNTRXHbhZy+gctlqOAVsFudOT0Au6MQdEwGLmJ25gTel2MqQP3CkTH0ncC7rkNdWvHAbtGtHbD7GMEocL0ne8AhNEYwClwl2cMBu+9CsEWXRi381IVgDRDWsjAH7NtgwfXqpgeXrSUg74A9KkorP4E9l8X551jBufRjB+yeYpC+eokGdDIEH5tl7VU0ZoyJwNXwjrs0OMqlWwKXIxs4YPd6iO3DivUEBHnaboMhRfATsFsJXA7Yn/WQIngJ7FaGJgfsXg9durQjG3Tr0vWi9qENN42OFloZZVleDyktrKBWtiAYtbDXQ6pgNDe+ojNSr76U4HLINjCs+LIhAZnyGZZ95H+WmvFxSyYYtBB/oHJ1G60kl8X5hcSe3b53kkvXGVfM507n5u+mYGofVvRzpxXZ52Z/u/QouFoOXbNdZtQ1XIlesC10Df360PsmBS0kXE4zqnLqc4zHGle0i+mqzLyOMwMDAwMDbxMZlr5y888J9NotJXDKupPg6kOSUGZW6k6Gw7+zVqI+k+i67mMmD/ucMqvptO6uBP+IuPee4jhl3elo/+HmmdMmtY91Wfcfe0B48y7j/zUAAAAASUVORK5CYII="/>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
                     </li>
 
                 </ul>
-           </div>
-
-
-           
-           <div class="menu__bottom">
-
-            <ul class="order">
-                <li class="order__item" data-aos="zoom-in" data-aos-delay="1150">
-                    <svg class="order__icon" width="70" height="34" viewBox="0 0 70 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g filter="url(#filter0_b_12_179)">
-                        <rect width="70" height="34" rx="17" fill="url(#paint0_linear_12_179)"/>
-                        </g>
-                        <rect x="4" y="4" width="62" height="26" rx="13" fill="white"/>
-                        <path d="M14.874 20.18V18.248L19.298 11.92H21.972V18.108H23.12V20.18H21.972V22H19.578V20.18H14.874ZM19.746 14.552L17.394 18.108H19.746V14.552ZM26.2107 22.112C25.7907 22.112 25.4453 21.9907 25.1747 21.748C24.9133 21.496 24.7827 21.188 24.7827 20.824C24.7827 20.4507 24.9133 20.138 25.1747 19.886C25.4453 19.634 25.7907 19.508 26.2107 19.508C26.6213 19.508 26.9573 19.634 27.2187 19.886C27.4893 20.138 27.6247 20.4507 27.6247 20.824C27.6247 21.188 27.4893 21.496 27.2187 21.748C26.9573 21.9907 26.6213 22.112 26.2107 22.112ZM31.0438 16.512C30.1665 16.0453 29.7278 15.3127 29.7278 14.314C29.7278 13.81 29.8585 13.3527 30.1198 12.942C30.3812 12.522 30.7778 12.1907 31.3098 11.948C31.8418 11.696 32.4952 11.57 33.2698 11.57C34.0445 11.57 34.6932 11.696 35.2158 11.948C35.7478 12.1907 36.1445 12.522 36.4058 12.942C36.6672 13.3527 36.7978 13.81 36.7978 14.314C36.7978 14.818 36.6765 15.2567 36.4338 15.63C36.2005 16.0033 35.8832 16.2973 35.4818 16.512C35.9858 16.7547 36.3732 17.0907 36.6438 17.52C36.9145 17.94 37.0498 18.4347 37.0498 19.004C37.0498 19.6667 36.8818 20.2407 36.5458 20.726C36.2098 21.202 35.7525 21.566 35.1738 21.818C34.6045 22.07 33.9698 22.196 33.2698 22.196C32.5698 22.196 31.9305 22.07 31.3518 21.818C30.7825 21.566 30.3298 21.202 29.9938 20.726C29.6578 20.2407 29.4898 19.6667 29.4898 19.004C29.4898 18.4253 29.6252 17.926 29.8958 17.506C30.1665 17.0767 30.5492 16.7453 31.0438 16.512ZM34.4738 14.678C34.4738 14.2953 34.3618 14.0013 34.1378 13.796C33.9232 13.5813 33.6338 13.474 33.2698 13.474C32.9058 13.474 32.6118 13.5813 32.3878 13.796C32.1732 14.0107 32.0658 14.3093 32.0658 14.692C32.0658 15.056 32.1778 15.3453 32.4018 15.56C32.6258 15.7653 32.9152 15.868 33.2698 15.868C33.6245 15.868 33.9138 15.7607 34.1378 15.546C34.3618 15.3313 34.4738 15.042 34.4738 14.678ZM33.2698 17.548C32.8312 17.548 32.4765 17.6693 32.2058 17.912C31.9352 18.1453 31.7998 18.472 31.7998 18.892C31.7998 19.284 31.9305 19.606 32.1918 19.858C32.4625 20.11 32.8218 20.236 33.2698 20.236C33.7178 20.236 34.0678 20.11 34.3198 19.858C34.5812 19.606 34.7118 19.284 34.7118 18.892C34.7118 18.4813 34.5765 18.1547 34.3058 17.912C34.0445 17.6693 33.6992 17.548 33.2698 17.548Z" fill="#2F2105"/>
-                        <path d="M48.4599 11.5359C48.6465 11.0436 49.353 11.0436 49.5402 11.5359L50.7477 14.8807C50.7898 14.9897 50.864 15.0833 50.9605 15.1492C51.0569 15.2152 51.1711 15.2503 51.2879 15.25H54.2553C54.8036 15.25 55.0428 15.9325 54.6117 16.2667L52.5 18.1667C52.4055 18.2394 52.3363 18.3402 52.3026 18.4546C52.2688 18.5691 52.2722 18.6913 52.3122 18.8037L53.0834 22.0721C53.2712 22.5971 52.6634 23.048 52.2037 22.7248L49.3355 20.9048C49.2372 20.8358 49.1201 20.7987 49 20.7987C48.88 20.7987 48.7629 20.8358 48.6646 20.9048L45.7964 22.7248C45.3373 23.048 44.7289 22.5965 44.9167 22.0721L45.6879 18.8037C45.7279 18.6913 45.7313 18.5691 45.6975 18.4546C45.6638 18.3402 45.5946 18.2394 45.5 18.1667L43.3884 16.2667C42.9567 15.9325 43.197 15.25 43.7442 15.25H46.7116C46.8285 15.2504 46.9427 15.2153 47.0391 15.1493C47.1356 15.0834 47.2097 14.9897 47.2518 14.8807L48.4593 11.5359H48.4599Z" fill="#FFD057" stroke="#FFD057" stroke-linecap="round" stroke-linejoin="round"/>
-                        <defs>
-                        <filter id="filter0_b_12_179" x="-4" y="-4" width="78" height="42" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
-                        <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_12_179"/>
-                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_12_179" result="shape"/>
-                        </filter>
-                        <linearGradient id="paint0_linear_12_179" x1="35" y1="0" x2="35" y2="34" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="white" stop-opacity="0.7"/>
-                        <stop offset="1" stop-color="white" stop-opacity="0.4"/>
-                        </linearGradient>
-                        </defs>
-                    </svg>
-                    <img src="img/Sandwich.png" alt="Sandwich" class="list-menu__img"/>
-                    <div class="order__box">
-                        <p class="order__name_"><b>Sandwich</b></p>
-                        <p class="order__price"><b>21K</b></p>
-                    </div>
-
-                    <div class="order__choice">
-                        <div class="order__pick">
-                            <p class="order__text">bread with meat and vegetables</p>
-                        </div>
-                        <a href="#" title="Order" class="order__cart">
-                            <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <rect x="0.5" width="18" height="17" fill="url(#pattern0)"/>
-                                <defs>
-                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                <use xlink:href="#image0_12_126" transform="translate(0 -0.0294118) scale(0.0166667 0.0176471)"/>
-                                </pattern>
-                                <image id="image0_12_126" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALZSURBVHgB7ZuBddowEIbPTMAGVSdoNqjZIJ0g7QRNJ4BMEDpByAbpBKETlE6AMgFkgusddvpoym9LwjxOjr/3ZL+cbcX/0+l0kgyRwMxTKRv+H7XdSXHUF0TMLYcxpT4AWhZRUu5ECv5FmTOS8j3i/gsRfUEZo4LnUnzEMyVlzKgoiq2cP0U884H6gLjqdWA/3lBfEDGPgaIdZcro1d9fpGwDnispU/4RLP3ZUyW6jY/UJ8Rl5y0uvaZMKQ4ZRdBYTppkOMoP7ZJLKQ/isfevLxboqTrBeJQypnzxUiZ1V90xQnfKTSs53VDeOClrabyrF0PR9oQOVZR5dkWVm2tLr0IEOzllG6T2WIrgSatgpc6ucu7LL0yC7mrIwD6TMfSdGE9570aB9fwGdnNTRXHbhZy+gctlqOAVsFudOT0Au6MQdEwGLmJ25gTel2MqQP3CkTH0ncC7rkNdWvHAbtGtHbD7GMEocL0ne8AhNEYwClwl2cMBu+9CsEWXRi381IVgDRDWsjAH7NtgwfXqpgeXrSUg74A9KkorP4E9l8X551jBufRjB+yeYpC+eokGdDIEH5tl7VU0ZoyJwNXwjrs0OMqlWwKXIxs4YPd6iO3DivUEBHnaboMhRfATsFsJXA7Yn/WQIngJ7FaGJgfsXg9durQjG3Tr0vWi9qENN42OFloZZVleDyktrKBWtiAYtbDXQ6pgNDe+ojNSr76U4HLINjCs+LIhAZnyGZZ95H+WmvFxSyYYtBB/oHJ1G60kl8X5hcSe3b53kkvXGVfM507n5u+mYGofVvRzpxXZ52Z/u/QouFoOXbNdZtQ1XIlesC10Df360PsmBS0kXE4zqnLqc4zHGle0i+mqzLyOMwMDAwMDbxMZlr5y888J9NotJXDKupPg6kOSUGZW6k6Gw7+zVqI+k+i67mMmD/ucMqvptO6uBP+IuPee4jhl3elo/+HmmdMmtY91Wfcfe0B48y7j/zUAAAAASUVORK5CYII="/>
-                                </defs>
-                            </svg>
-                        </a>
-                    </div>
-                </li>
-
-                <li class="order__item" data-aos="zoom-in" data-aos-delay="1450">
-                    <svg class="order__icon" width="70" height="34" viewBox="0 0 70 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g filter="url(#filter0_b_12_179)">
-                        <rect width="70" height="34" rx="17" fill="url(#paint0_linear_12_179)"/>
-                        </g>
-                        <rect x="4" y="4" width="62" height="26" rx="13" fill="white"/>
-                        <path d="M14.874 20.18V18.248L19.298 11.92H21.972V18.108H23.12V20.18H21.972V22H19.578V20.18H14.874ZM19.746 14.552L17.394 18.108H19.746V14.552ZM26.2107 22.112C25.7907 22.112 25.4453 21.9907 25.1747 21.748C24.9133 21.496 24.7827 21.188 24.7827 20.824C24.7827 20.4507 24.9133 20.138 25.1747 19.886C25.4453 19.634 25.7907 19.508 26.2107 19.508C26.6213 19.508 26.9573 19.634 27.2187 19.886C27.4893 20.138 27.6247 20.4507 27.6247 20.824C27.6247 21.188 27.4893 21.496 27.2187 21.748C26.9573 21.9907 26.6213 22.112 26.2107 22.112ZM31.0438 16.512C30.1665 16.0453 29.7278 15.3127 29.7278 14.314C29.7278 13.81 29.8585 13.3527 30.1198 12.942C30.3812 12.522 30.7778 12.1907 31.3098 11.948C31.8418 11.696 32.4952 11.57 33.2698 11.57C34.0445 11.57 34.6932 11.696 35.2158 11.948C35.7478 12.1907 36.1445 12.522 36.4058 12.942C36.6672 13.3527 36.7978 13.81 36.7978 14.314C36.7978 14.818 36.6765 15.2567 36.4338 15.63C36.2005 16.0033 35.8832 16.2973 35.4818 16.512C35.9858 16.7547 36.3732 17.0907 36.6438 17.52C36.9145 17.94 37.0498 18.4347 37.0498 19.004C37.0498 19.6667 36.8818 20.2407 36.5458 20.726C36.2098 21.202 35.7525 21.566 35.1738 21.818C34.6045 22.07 33.9698 22.196 33.2698 22.196C32.5698 22.196 31.9305 22.07 31.3518 21.818C30.7825 21.566 30.3298 21.202 29.9938 20.726C29.6578 20.2407 29.4898 19.6667 29.4898 19.004C29.4898 18.4253 29.6252 17.926 29.8958 17.506C30.1665 17.0767 30.5492 16.7453 31.0438 16.512ZM34.4738 14.678C34.4738 14.2953 34.3618 14.0013 34.1378 13.796C33.9232 13.5813 33.6338 13.474 33.2698 13.474C32.9058 13.474 32.6118 13.5813 32.3878 13.796C32.1732 14.0107 32.0658 14.3093 32.0658 14.692C32.0658 15.056 32.1778 15.3453 32.4018 15.56C32.6258 15.7653 32.9152 15.868 33.2698 15.868C33.6245 15.868 33.9138 15.7607 34.1378 15.546C34.3618 15.3313 34.4738 15.042 34.4738 14.678ZM33.2698 17.548C32.8312 17.548 32.4765 17.6693 32.2058 17.912C31.9352 18.1453 31.7998 18.472 31.7998 18.892C31.7998 19.284 31.9305 19.606 32.1918 19.858C32.4625 20.11 32.8218 20.236 33.2698 20.236C33.7178 20.236 34.0678 20.11 34.3198 19.858C34.5812 19.606 34.7118 19.284 34.7118 18.892C34.7118 18.4813 34.5765 18.1547 34.3058 17.912C34.0445 17.6693 33.6992 17.548 33.2698 17.548Z" fill="#2F2105"/>
-                        <path d="M48.4599 11.5359C48.6465 11.0436 49.353 11.0436 49.5402 11.5359L50.7477 14.8807C50.7898 14.9897 50.864 15.0833 50.9605 15.1492C51.0569 15.2152 51.1711 15.2503 51.2879 15.25H54.2553C54.8036 15.25 55.0428 15.9325 54.6117 16.2667L52.5 18.1667C52.4055 18.2394 52.3363 18.3402 52.3026 18.4546C52.2688 18.5691 52.2722 18.6913 52.3122 18.8037L53.0834 22.0721C53.2712 22.5971 52.6634 23.048 52.2037 22.7248L49.3355 20.9048C49.2372 20.8358 49.1201 20.7987 49 20.7987C48.88 20.7987 48.7629 20.8358 48.6646 20.9048L45.7964 22.7248C45.3373 23.048 44.7289 22.5965 44.9167 22.0721L45.6879 18.8037C45.7279 18.6913 45.7313 18.5691 45.6975 18.4546C45.6638 18.3402 45.5946 18.2394 45.5 18.1667L43.3884 16.2667C42.9567 15.9325 43.197 15.25 43.7442 15.25H46.7116C46.8285 15.2504 46.9427 15.2153 47.0391 15.1493C47.1356 15.0834 47.2097 14.9897 47.2518 14.8807L48.4593 11.5359H48.4599Z" fill="#FFD057" stroke="#FFD057" stroke-linecap="round" stroke-linejoin="round"/>
-                        <defs>
-                        <filter id="filter0_b_12_179" x="-4" y="-4" width="78" height="42" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
-                        <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_12_179"/>
-                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_12_179" result="shape"/>
-                        </filter>
-                        <linearGradient id="paint0_linear_12_179" x1="35" y1="0" x2="35" y2="34" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="white" stop-opacity="0.7"/>
-                        <stop offset="1" stop-color="white" stop-opacity="0.4"/>
-                        </linearGradient>
-                        </defs>
-                    </svg>
-                    <img src="img/Hot -Milk.png" alt="Sandwich" class="list-menu__img"/>
-                    <div class="order__box">
-                        <p class="order__name_"><b>Sandwich</b></p>
-                        <p class="order__price"><b>21K</b></p>
-                    </div>
-
-                    <div class="order__choice">
-                        <div class="order__pick">
-                            <p class="order__text">bread with meat and vegetables</p>
-                        </div>
-                        <a href="#" title="Order" class="order__cart">
-                            <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <rect x="0.5" width="18" height="17" fill="url(#pattern0)"/>
-                                <defs>
-                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                <use xlink:href="#image0_12_126" transform="translate(0 -0.0294118) scale(0.0166667 0.0176471)"/>
-                                </pattern>
-                                <image id="image0_12_126" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALZSURBVHgB7ZuBddowEIbPTMAGVSdoNqjZIJ0g7QRNJ4BMEDpByAbpBKETlE6AMgFkgusddvpoym9LwjxOjr/3ZL+cbcX/0+l0kgyRwMxTKRv+H7XdSXHUF0TMLYcxpT4AWhZRUu5ECv5FmTOS8j3i/gsRfUEZo4LnUnzEMyVlzKgoiq2cP0U884H6gLjqdWA/3lBfEDGPgaIdZcro1d9fpGwDnispU/4RLP3ZUyW6jY/UJ8Rl5y0uvaZMKQ4ZRdBYTppkOMoP7ZJLKQ/isfevLxboqTrBeJQypnzxUiZ1V90xQnfKTSs53VDeOClrabyrF0PR9oQOVZR5dkWVm2tLr0IEOzllG6T2WIrgSatgpc6ucu7LL0yC7mrIwD6TMfSdGE9570aB9fwGdnNTRXHbhZy+gctlqOAVsFudOT0Au6MQdEwGLmJ25gTel2MqQP3CkTH0ncC7rkNdWvHAbtGtHbD7GMEocL0ne8AhNEYwClwl2cMBu+9CsEWXRi381IVgDRDWsjAH7NtgwfXqpgeXrSUg74A9KkorP4E9l8X551jBufRjB+yeYpC+eokGdDIEH5tl7VU0ZoyJwNXwjrs0OMqlWwKXIxs4YPd6iO3DivUEBHnaboMhRfATsFsJXA7Yn/WQIngJ7FaGJgfsXg9durQjG3Tr0vWi9qENN42OFloZZVleDyktrKBWtiAYtbDXQ6pgNDe+ojNSr76U4HLINjCs+LIhAZnyGZZ95H+WmvFxSyYYtBB/oHJ1G60kl8X5hcSe3b53kkvXGVfM507n5u+mYGofVvRzpxXZ52Z/u/QouFoOXbNdZtQ1XIlesC10Df360PsmBS0kXE4zqnLqc4zHGle0i+mqzLyOMwMDAwMDbxMZlr5y888J9NotJXDKupPg6kOSUGZW6k6Gw7+zVqI+k+i67mMmD/ucMqvptO6uBP+IuPee4jhl3elo/+HmmdMmtY91Wfcfe0B48y7j/zUAAAAASUVORK5CYII="/>
-                                </defs>
-                            </svg>
-                        </a>
-                    </div>
-                </li>
-
-                <li class="order__item" data-aos="zoom-in" data-aos-delay="1750">
-                    <svg class="order__icon" width="70" height="34" viewBox="0 0 70 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g filter="url(#filter0_b_12_179)">
-                        <rect width="70" height="34" rx="17" fill="url(#paint0_linear_12_179)"/>
-                        </g>
-                        <rect x="4" y="4" width="62" height="26" rx="13" fill="white"/>
-                        <path d="M14.874 20.18V18.248L19.298 11.92H21.972V18.108H23.12V20.18H21.972V22H19.578V20.18H14.874ZM19.746 14.552L17.394 18.108H19.746V14.552ZM26.2107 22.112C25.7907 22.112 25.4453 21.9907 25.1747 21.748C24.9133 21.496 24.7827 21.188 24.7827 20.824C24.7827 20.4507 24.9133 20.138 25.1747 19.886C25.4453 19.634 25.7907 19.508 26.2107 19.508C26.6213 19.508 26.9573 19.634 27.2187 19.886C27.4893 20.138 27.6247 20.4507 27.6247 20.824C27.6247 21.188 27.4893 21.496 27.2187 21.748C26.9573 21.9907 26.6213 22.112 26.2107 22.112ZM31.0438 16.512C30.1665 16.0453 29.7278 15.3127 29.7278 14.314C29.7278 13.81 29.8585 13.3527 30.1198 12.942C30.3812 12.522 30.7778 12.1907 31.3098 11.948C31.8418 11.696 32.4952 11.57 33.2698 11.57C34.0445 11.57 34.6932 11.696 35.2158 11.948C35.7478 12.1907 36.1445 12.522 36.4058 12.942C36.6672 13.3527 36.7978 13.81 36.7978 14.314C36.7978 14.818 36.6765 15.2567 36.4338 15.63C36.2005 16.0033 35.8832 16.2973 35.4818 16.512C35.9858 16.7547 36.3732 17.0907 36.6438 17.52C36.9145 17.94 37.0498 18.4347 37.0498 19.004C37.0498 19.6667 36.8818 20.2407 36.5458 20.726C36.2098 21.202 35.7525 21.566 35.1738 21.818C34.6045 22.07 33.9698 22.196 33.2698 22.196C32.5698 22.196 31.9305 22.07 31.3518 21.818C30.7825 21.566 30.3298 21.202 29.9938 20.726C29.6578 20.2407 29.4898 19.6667 29.4898 19.004C29.4898 18.4253 29.6252 17.926 29.8958 17.506C30.1665 17.0767 30.5492 16.7453 31.0438 16.512ZM34.4738 14.678C34.4738 14.2953 34.3618 14.0013 34.1378 13.796C33.9232 13.5813 33.6338 13.474 33.2698 13.474C32.9058 13.474 32.6118 13.5813 32.3878 13.796C32.1732 14.0107 32.0658 14.3093 32.0658 14.692C32.0658 15.056 32.1778 15.3453 32.4018 15.56C32.6258 15.7653 32.9152 15.868 33.2698 15.868C33.6245 15.868 33.9138 15.7607 34.1378 15.546C34.3618 15.3313 34.4738 15.042 34.4738 14.678ZM33.2698 17.548C32.8312 17.548 32.4765 17.6693 32.2058 17.912C31.9352 18.1453 31.7998 18.472 31.7998 18.892C31.7998 19.284 31.9305 19.606 32.1918 19.858C32.4625 20.11 32.8218 20.236 33.2698 20.236C33.7178 20.236 34.0678 20.11 34.3198 19.858C34.5812 19.606 34.7118 19.284 34.7118 18.892C34.7118 18.4813 34.5765 18.1547 34.3058 17.912C34.0445 17.6693 33.6992 17.548 33.2698 17.548Z" fill="#2F2105"/>
-                        <path d="M48.4599 11.5359C48.6465 11.0436 49.353 11.0436 49.5402 11.5359L50.7477 14.8807C50.7898 14.9897 50.864 15.0833 50.9605 15.1492C51.0569 15.2152 51.1711 15.2503 51.2879 15.25H54.2553C54.8036 15.25 55.0428 15.9325 54.6117 16.2667L52.5 18.1667C52.4055 18.2394 52.3363 18.3402 52.3026 18.4546C52.2688 18.5691 52.2722 18.6913 52.3122 18.8037L53.0834 22.0721C53.2712 22.5971 52.6634 23.048 52.2037 22.7248L49.3355 20.9048C49.2372 20.8358 49.1201 20.7987 49 20.7987C48.88 20.7987 48.7629 20.8358 48.6646 20.9048L45.7964 22.7248C45.3373 23.048 44.7289 22.5965 44.9167 22.0721L45.6879 18.8037C45.7279 18.6913 45.7313 18.5691 45.6975 18.4546C45.6638 18.3402 45.5946 18.2394 45.5 18.1667L43.3884 16.2667C42.9567 15.9325 43.197 15.25 43.7442 15.25H46.7116C46.8285 15.2504 46.9427 15.2153 47.0391 15.1493C47.1356 15.0834 47.2097 14.9897 47.2518 14.8807L48.4593 11.5359H48.4599Z" fill="#FFD057" stroke="#FFD057" stroke-linecap="round" stroke-linejoin="round"/>
-                        <defs>
-                        <filter id="filter0_b_12_179" x="-4" y="-4" width="78" height="42" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
-                        <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_12_179"/>
-                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_12_179" result="shape"/>
-                        </filter>
-                        <linearGradient id="paint0_linear_12_179" x1="35" y1="0" x2="35" y2="34" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="white" stop-opacity="0.7"/>
-                        <stop offset="1" stop-color="white" stop-opacity="0.4"/>
-                        </linearGradient>
-                        </defs>
-                    </svg>
-                    <img src="img/Coffe -Ice- Cream.png" alt="Sandwich" class="list-menu__img"/>
-                    <div class="order__box">
-                        <p class="order__name_"><b>Sandwich</b></p>
-                        <p class="order__price"><b>21K</b></p>
-                    </div>
-
-                    <div class="order__choice">
-                        <div class="order__pick">
-                            <p class="order__text">bread with meat and vegetables</p>
-                        </div>
-                        <a href="#" title="Order" class="order__cart">
-                            <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <rect x="0.5" width="18" height="17" fill="url(#pattern0)"/>
-                                <defs>
-                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                <use xlink:href="#image0_12_126" transform="translate(0 -0.0294118) scale(0.0166667 0.0176471)"/>
-                                </pattern>
-                                <image id="image0_12_126" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALZSURBVHgB7ZuBddowEIbPTMAGVSdoNqjZIJ0g7QRNJ4BMEDpByAbpBKETlE6AMgFkgusddvpoym9LwjxOjr/3ZL+cbcX/0+l0kgyRwMxTKRv+H7XdSXHUF0TMLYcxpT4AWhZRUu5ECv5FmTOS8j3i/gsRfUEZo4LnUnzEMyVlzKgoiq2cP0U884H6gLjqdWA/3lBfEDGPgaIdZcro1d9fpGwDnispU/4RLP3ZUyW6jY/UJ8Rl5y0uvaZMKQ4ZRdBYTppkOMoP7ZJLKQ/isfevLxboqTrBeJQypnzxUiZ1V90xQnfKTSs53VDeOClrabyrF0PR9oQOVZR5dkWVm2tLr0IEOzllG6T2WIrgSatgpc6ucu7LL0yC7mrIwD6TMfSdGE9570aB9fwGdnNTRXHbhZy+gctlqOAVsFudOT0Au6MQdEwGLmJ25gTel2MqQP3CkTH0ncC7rkNdWvHAbtGtHbD7GMEocL0ne8AhNEYwClwl2cMBu+9CsEWXRi381IVgDRDWsjAH7NtgwfXqpgeXrSUg74A9KkorP4E9l8X551jBufRjB+yeYpC+eokGdDIEH5tl7VU0ZoyJwNXwjrs0OMqlWwKXIxs4YPd6iO3DivUEBHnaboMhRfATsFsJXA7Yn/WQIngJ7FaGJgfsXg9durQjG3Tr0vWi9qENN42OFloZZVleDyktrKBWtiAYtbDXQ6pgNDe+ojNSr76U4HLINjCs+LIhAZnyGZZ95H+WmvFxSyYYtBB/oHJ1G60kl8X5hcSe3b53kkvXGVfM507n5u+mYGofVvRzpxXZ52Z/u/QouFoOXbNdZtQ1XIlesC10Df360PsmBS0kXE4zqnLqc4zHGle0i+mqzLyOMwMDAwMDbxMZlr5y888J9NotJXDKupPg6kOSUGZW6k6Gw7+zVqI+k+i67mMmD/ucMqvptO6uBP+IuPee4jhl3elo/+HmmdMmtY91Wfcfe0B48y7j/zUAAAAASUVORK5CYII="/>
-                                </defs>
-                            </svg>
-                        </a>
-                    </div>
-                </li>
-
-            </ul>
-       </div>
-        </div>
-    </section>
-
-    <!--TAGLINE-->
-    <section class="tagline">
-        <div class="tagline__container container">
-            <div class="tagline__block" data-aos="fade-right" data-aos-delay="550">
-                <h2 class="tagline__title">What they say about us</h2>
-                <p class="tagline__subtitle">We always provide the best service and always maintain the quality of coffee</p>
             </div>
+            </div>
+        </section>
 
-            <ul class="clients">
-                <li class="clients__item" data-aos="fade-left" data-aos-delay="750">
-                    <img src="img/tagline-img_1.png" alt="Clients" class="clients__img"/>
-                    <div class="clients__recall">
-                        <p class="clients__name">Naura <br>
-                        <span class="clients__text">I really love the cappucino, the coffee was very smooth</span></p>
-                    </div>
-                </li>
+        <section class="tagline">
+            <div class="tagline__container container">
+                <div class="tagline__block" data-aos="fade-right" data-aos-delay="550">
+                    <h2 class="tagline__title">What they say about us</h2>
+                    <p class="tagline__subtitle">We always provide the best service and always maintain the quality of coffee</p>
+                </div>
 
-                <li class="clients__item" data-aos="fade-right" data-aos-delay="950">
-                    <img src="img/tagline-img_2.png" alt="Clients" class="clients__img"/>
-                    <div class="clients__recall">
-                        <p class="clients__name">John <br>
-                        <span class="clients__text">this coffee shop is very convenient</span></p>
-                    </div>
-                </li>
+                <ul class="clients">
+                    <li class="clients__item" data-aos="fade-left" data-aos-delay="750">
+                        <img src="img/tagline-img_1.png" alt="Clients" class="clients__img"/>
+                        <div class="clients__recall">
+                            <span class="clients__name">Naura</span>
+                            <span class="clients__text">I really love the cappucino, the coffee was very smooth</span>
+                        </div>
+                    </li>
 
-                <li class="clients__item" data-aos="fade-right" data-aos-delay="1150">
-                    <img src="img/tagline-img_3.png" alt="Clients" class="clients__img"/>
-                    <div class="clients__recall">
-                        <p class="clients__name">Azura <br>
-                        <span class="clients__text">the coffee menu here is very much</span></p>
-                    </div>
-                </li>
-            </ul>
-        
-        </div>
-    </section>
+                    <li class="clients__item" data-aos="fade-right" data-aos-delay="950">
+                        <img src="img/tagline-img_2.png" alt="Clients" class="clients__img"/>
+                        <div class="clients__recall">
+                            <p class="clients__name">John <br>
+                            <span class="clients__text">this coffee shop is very convenient</span></p>
+                        </div>
+                    </li>
 
+                    <li class="clients__item" data-aos="fade-right" data-aos-delay="1150">
+                        <img src="img/tagline-img_3.png" alt="Clients" class="clients__img"/>
+                        <div class="clients__recall">
+                            <p class="clients__name">Azura <br>
+                            <span class="clients__text">the coffee menu here is very much</span></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
 
-    <!--FOOTER-->
     <section class="footer">
         <h3 class="footer__title" data-aos="fade-down" data-aos-delay="550">Subscribe to get 50% discount price</h3>
         <div class="search footer__search" data-aos="fade-up" data-aos-delay="850">
@@ -631,9 +640,6 @@
             </form>
         </div>
     </section>
-
-
-</main>
 
 <script src="js/jquery.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
