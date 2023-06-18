@@ -106,123 +106,123 @@
   }
 
   //BUTTON
-    .button {
+  .button {
 
-      &_dark {
-        display: flex;
-        padding: 12px 32px;
-        margin-right: 26px;
-        align-items: center;
-        text-align: center;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 21px;
-        border-radius: 33px;
-        color: $white-color;
-        background: $black-color;
-        box-shadow: 0 4px 32px rgba(223, 195, 124, 0.25);
+    &_dark {
+      display: flex;
+      padding: 12px 32px;
+      margin-right: 26px;
+      align-items: center;
+      text-align: center;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+      border-radius: 33px;
+      color: $white-color;
+      background: $black-color;
+      box-shadow: 0 4px 32px rgba(223, 195, 124, 0.25);
 
-        svg {
-          margin: 10px;
-        }
-
-        &:hover {
-          transition: all .4s;
-          border: 0;
-          background-color: $box-color;
-          color: $black-color;
-        }
+      svg {
+        margin: 10px;
       }
 
-      &_dark-about {
-        padding: 10px 24px;
-        border-radius: 33px;
-        font-weight: 700;
-        font-size: 12px;
-        line-height: 18px;
-        background: $black-color;
-        color: $menu-color;
-
-        &:hover {
-          transition: all .4s;
-          border: 0;
-          background-color: $box-color;
-          color: $black-color;
-        }
-
-        @media screen and (max-width: 1024px) {
-          display: block;
-          text-align: center;
-       }
-      }
-
-      &_dark-footer {
-        display: flex;
-        align-items: center;
-        padding: 12px 32px;
-        border-radius: 33px;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 21px;
-        color: $white-color;
-        background: $black-color;
-        box-shadow: 0 4px 32px rgba(223, 195, 124, 0.25);
-
-        @media screen and (max-width: 1024px) {
-          display: block;
-          margin-top: 16px;
-          text-align: center;
-        }
-
-        &:hover {
-          transition: all .4s;
-          border: 0;
-          background-color: $text-color;
-          color: $white-color;
-        }
-      }
-
-      &_more {
-        max-width: 70px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        font-weight: 700;
-        font-size: 12px;
-        line-height: 18px;
-        color: $menu-color;
-
-        &:hover {
-          transition: all .4s;
-          border: 0;
-          color: $black-color;
-        }
-      }
-
-      &_hot,
-      &_cold {
-        width: 64px;
-        padding: 5px;
-        text-align: center;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 24px;
-        border-radius: 8px;
-
-        &:hover {
-          transition: all .4s;
-          border-color: $black-color;
-          color: $black-color;
-        }
-      }
-
-      &_hot {
-        border: 2px solid $span-color;
-        color: $span-color;
-      }
-
-      &_cold {
-        border: 2px solid $cold-color;
-        color: $cold-color;
+      &:hover {
+        transition: all .4s;
+        border: 0;
+        background-color: $box-color;
+        color: $black-color;
       }
     }
+
+    &_dark-about {
+      padding: 10px 24px;
+      border-radius: 33px;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 18px;
+      background: $black-color;
+      color: $menu-color;
+
+      &:hover {
+        transition: all .4s;
+        border: 0;
+        background-color: $box-color;
+        color: $black-color;
+      }
+
+      @media screen and (max-width: 1024px) {
+        display: block;
+        text-align: center;
+      }
+    }
+
+    &_dark-footer {
+      display: flex;
+      align-items: center;
+      padding: 12px 32px;
+      border-radius: 33px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+      color: $white-color;
+      background: $black-color;
+      box-shadow: 0 4px 32px rgba(223, 195, 124, 0.25);
+
+      @media screen and (max-width: 1024px) {
+        display: block;
+        margin-top: 16px;
+        text-align: center;
+      }
+
+      &:hover {
+        transition: all .4s;
+        border: 0;
+        background-color: $text-color;
+        color: $white-color;
+      }
+    }
+
+    &_more {
+      max-width: 70px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 18px;
+      color: $menu-color;
+
+      &:hover {
+        transition: all .4s;
+        border: 0;
+        color: $black-color;
+      }
+    }
+
+    &_hot,
+    &_cold {
+      width: 64px;
+      padding: 5px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      border-radius: 8px;
+
+      &:hover {
+        transition: all .4s;
+        border-color: $black-color;
+        color: $black-color;
+      }
+    }
+
+    &_hot {
+      border: 2px solid $span-color;
+      color: $span-color;
+    }
+
+    &_cold {
+      border: 2px solid $cold-color;
+      color: $cold-color;
+    }
+  }

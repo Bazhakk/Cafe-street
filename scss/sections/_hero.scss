@@ -44,7 +44,13 @@
       margin: 0 auto;
     }
 
+    &__left {
+      // max-width: 400px;
+      align-items: flex-start;
+    }
+
     &_right {
+      // max-width: 400px;
       align-items: flex-end;
     }
   }
@@ -93,16 +99,17 @@
 }
 
 .coffee {
-  position: absolute;
-  max-width: 600px;
+  width: 500px;
   z-index: 0;
 
   &_left {
+    position: absolute;
     left: 0;
     bottom: 0;
   }
 
   &_right {
+    position: absolute;
     right: 0;
     top: 0;
   }
